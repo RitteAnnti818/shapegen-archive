@@ -1,0 +1,51 @@
+name: Monthly metadata enrichment
+
+on:
+  schedule:
+    # 1st of every month, 04:00 UTC (one hour after the weekly crawl)
+    - cron: '0 4 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Enrich venues, project pages, code URLs
+        env:
+          # Optional: set this repo secret to raise Semantic Scholar rate limits.
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+        run: npm run enrich
+
+      - name: Commit & push if papers.json changed
+        id: commit
+        run: |
+          git config user.name "RitteAnnti818"
+          git config user.email "heeyun29@icloud.com"
+          if git diff --quiet -- src/data/papers.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes; nothing to commit."
+          else
+            git add src/data/papers.json
+            git commit -m "chore(data): enrich venue / project / code links"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main

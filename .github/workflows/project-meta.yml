@@ -1,0 +1,48 @@
+name: Monthly project-page metadata scrape
+
+on:
+  schedule:
+    # 1st of every month 05:30 UTC (after figures at 05:00).
+    - cron: '30 5 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  project-meta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Scrape venue + code URL from project pages
+        run: npm run project-meta
+
+      - name: Commit & push if papers.json changed
+        id: commit
+        run: |
+          git config user.name "RitteAnnti818"
+          git config user.email "heeyun29@icloud.com"
+          if git diff --quiet -- src/data/papers.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes; nothing to commit."
+          else
+            git add src/data/papers.json
+            git commit -m "chore(data): scrape venue + code from project pages"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref main
