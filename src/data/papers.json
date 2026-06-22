@@ -148,7 +148,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2606.13652",
-    "project": "",
+    "project": "https://haoz19.github.io/world-tracing-page/",
     "figure": "First generative pixel-aligned geometry representation for 3D point prediction via diffusion.",
     "abstract": "World Tracing introduces a generative pixel-aligned geometry representation that predicts 3D points aligned with input pixels while generating geometry beyond the visible surface. It employs a diffusion transformer, WT-DiT, to achieve strong performance in visible-surface reconstruction and complete geometry generation, enabling various applications including text-driven 3D scene editing."
   },
@@ -549,7 +549,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2606.05162",
-    "project": "",
+    "project": "https://cvlab-kaist.github.io/T2Mo/",
     "figure": "First controllable dynamic 3D shape generation via 3D trajectories and text.",
     "abstract": "T2Mo is a feed-forward framework for generating dynamic 3D shapes based on 3D trajectories and text. It addresses the challenges of language ambiguity by using trajectories for spatial guidance, ensuring object motions adhere to specified paths while reflecting text semantics. The method includes a shape-grounded trajectory embedding for robust handling of various trajectory configurations, demons"
   },
@@ -609,7 +609,8 @@
     "arxiv": "https://arxiv.org/abs/2606.04621",
     "project": "https://mesh-flow.github.io/",
     "figure": "First efficient artistic mesh generation method via MeshVAE and Flow-based diffusion.",
-    "abstract": "MeshFlow introduces a novel method for generating artistic 3D meshes, overcoming limitations of existing auto-regressive models. By utilizing a Variational Autoencoder for continuous vertex representation and a Rectified Flow transformer for parallel generation, it achieves significant speed and accuracy improvements. The method is 18x faster than previous approaches and maintains high quality in "
+    "abstract": "MeshFlow introduces a novel method for generating artistic 3D meshes, overcoming limitations of existing auto-regressive models. By utilizing a Variational Autoencoder for continuous vertex representation and a Rectified Flow transformer for parallel generation, it achieves significant speed and accuracy improvements. The method is 18x faster than previous approaches and maintains high quality in ",
+    "codeUrl": "https://github.com/facebookresearch/meshflow"
   },
   {
     "id": "symtrellis",
@@ -732,7 +733,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2606.02491",
-    "project": "",
+    "project": "https://cvlab-kaist.github.io/MORPHOS/",
     "figure": "First autoregressive framework that generates dynamic 3D assets from videos using Temporal Structured Latents.",
     "abstract": "MORPHOS is an autoregressive framework that generates dynamic 3D assets from videos using diverse representations like meshes and 3D Gaussians. It introduces Temporal Structured Latents to ensure temporal consistency and handle evolving topologies, achieving state-of-the-art performance in appearance and competitive results in geometry."
   },
@@ -780,7 +781,7 @@
     ],
     "year": 2026,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Implicit",
@@ -993,7 +994,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2605.26109",
-    "project": "",
+    "project": "https://snap-research.github.io/helix4d/",
     "figure": "First dynamic mesh generation framework for video-conditioned 4D generation via Trellis2 adaptation",
     "abstract": "Helix4D is a dynamic mesh generation framework that enhances the Trellis2 model for video-conditioned 4D generation. It addresses challenges in complex topology changes and transparent materials by implementing a sliding-window cross-frame attention mechanism and a novel 4D temporal encoding. Extensive experiments demonstrate its effectiveness in generating high-quality dynamic meshes."
   },
@@ -1197,7 +1198,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2605.23888",
-    "project": "",
+    "project": "https://kasothaphie.github.io/GenRecon/",
     "figure": "First approach that combines generative priors with multi-view 3D scene reconstruction via conditional generation.",
     "abstract": "GenRecon presents a novel method for high-fidelity 3D scene reconstruction from multi-view RGB images by integrating generative 3D priors. It enables conditional 3D generation over overlapping scene chunks, leveraging the fidelity of existing generative models like Trellis.2. The method produces editable PBR mesh reconstructions, achieving superior results compared to traditional reconstruction te"
   },
@@ -1269,7 +1270,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2605.21572",
-    "project": "",
+    "project": "https://physx-omni.github.io/",
     "figure": "First unified framework for simulation-ready physical 3D generation across diverse asset types.",
     "abstract": "PhysX-Omni introduces a unified framework for generating simulation-ready physical 3D assets, addressing limitations of existing methods. It features a novel geometry representation for Vision-Language Models and the PhysXVerse dataset for diverse asset types. The framework shows strong performance in generation and understanding, with potential applications in embodied AI and physics-based simula"
   },
@@ -1518,7 +1519,8 @@
     "arxiv": "https://arxiv.org/abs/2605.14984",
     "project": "https://github.com/qianmingduowan/Sat3DGen",
     "figure": "First geometry-first methodology for street-level 3D scene generation from satellite images via feed-forward models",
-    "abstract": "Sat3DGen addresses the challenges of generating street-level 3D scenes from satellite images by introducing a geometry-first methodology. This approach integrates geometric constraints with perspective-view training, significantly improving both 3D accuracy and photorealism. The method demonstrates versatility in various applications, including semantic-map-to-3D synthesis and large-scale meshing."
+    "abstract": "Sat3DGen addresses the challenges of generating street-level 3D scenes from satellite images by introducing a geometry-first methodology. This approach integrates geometric constraints with perspective-view training, significantly improving both 3D accuracy and photorealism. The method demonstrates versatility in various applications, including semantic-map-to-3D synthesis and large-scale meshing.",
+    "codeUrl": "https://github.com/qianmingduowan/Sat3DGen"
   },
   {
     "id": "topos",
@@ -1577,11 +1579,12 @@
       "Animation"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2605.13838",
-    "project": "",
+    "project": "https://r-dmesh.github.io/",
     "figure": "First framework that generates high-fidelity 4D meshes rectified to align with video context via a novel VAE.",
-    "abstract": "R-DMesh addresses the pose misalignment issue in video-guided 3D animation by generating high-fidelity 4D meshes that align with video context. It introduces a VAE that disentangles input into a base mesh, motion trajectories, and a rectification offset, ensuring physical consistency during animation. The method employs a Rectified Flow-based Diffusion Transformer, leveraging a large dataset of dy"
+    "abstract": "R-DMesh addresses the pose misalignment issue in video-guided 3D animation by generating high-fidelity 4D meshes that align with video context. It introduces a VAE that disentangles input into a base mesh, motion trajectories, and a rectification offset, ensuring physical consistency during animation. The method employs a Rectified Flow-based Diffusion Transformer, leveraging a large dataset of dy",
+    "codeUrl": "https://github.com/Tencent-Hunyuan/R-DMesh"
   },
   {
     "id": "synva",
