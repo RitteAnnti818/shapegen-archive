@@ -1005,6 +1005,192 @@
     "abstract": "PhyScene3D addresses the challenge of generating physically consistent 3D tabletop scenes for interactive robotic learning. It reformulates scene generation into a sequential process using a Cognitive Topological Reasoning Chain and integrates a differentiable Signed Distance Field with Test-Time Optimization to ensure physical feasibility while maintaining semantic intent. The method shows signif"
   },
   {
+    "id": "home3d",
+    "title": "Home3D 1.0: A High-Fidelity Image-to-3D Asset Generation System for Interior Design",
+    "short": "Home3D",
+    "authors": [
+      "Fei",
+      "Li",
+      "Song",
+      "Wu",
+      "Wu",
+      "Wu",
+      "Zeng",
+      "Chen",
+      "Kong",
+      "Li",
+      "Wu",
+      "Zhang"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "VAE",
+      "Image",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.27923",
+    "project": "",
+    "figure": "First modular image-to-3D system for high-fidelity interior design assets via latent SDF modeling.",
+    "abstract": "Home3D 1.0 is a modular system that generates high-quality 3D assets from a single image, focusing on interior design. It outputs a mesh with PBR materials and includes modules for geometry reconstruction, texture prediction, material processing, and part generation, each evaluated with specific metrics."
+  },
+  {
+    "id": "handmade",
+    "title": "HandMade: Spatial Prompting for Generative 3D Creation with Part-Labeled VR Sketches",
+    "short": "HandMade",
+    "authors": [
+      "Huang",
+      "Hanocka",
+      "Shamir",
+      "Gingold"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "PointCloud",
+      "Diffusion",
+      "Text",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.27738",
+    "project": "",
+    "figure": "First spatial prompting method for generative 3D creation using part-labeled VR sketches.",
+    "abstract": "HandMade is a workflow that integrates VR 3D sketching with language to enhance text-to-3D generation. It allows users to create open-domain 3D assets by using part-labeled sketches as spatial prompts, improving the specification of object layout and relationships. The method shows better preservation of user-authored spatial structures compared to traditional approaches."
+  },
+  {
+    "id": "subdivar",
+    "title": "SubdivAR: Autoregressive Next-Scale Prediction for Neural Mesh Subdivision",
+    "short": "SubdivAR",
+    "authors": [
+      "Guo",
+      "Song",
+      "Long",
+      "Zhang",
+      "Li",
+      "Lin",
+      "Zhao",
+      "Zhang",
+      "Guo",
+      "Yang"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Autoregressive",
+      "Generation",
+      "Editing",
+      "Hybrid"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.27088",
+    "project": "",
+    "figure": "First neural mesh subdivision framework that reformulates subdivision as autoregressive next-scale prediction.",
+    "abstract": "SubdivAR is a neural mesh subdivision framework that improves detail synthesis by predicting vertex offsets at each refinement stage. It utilizes a Hybrid Topology-Aware Transformer for better feature aggregation and is trained on a dataset of 40,000 high-quality meshes. The method shows significant improvements over existing techniques in preserving topology and recovering geometric details."
+  },
+  {
+    "id": "radarpointcloudgen",
+    "title": "Depth-Semantic Alignment and Affinity-Guided Fusion for Structured Radar Point Cloud Generation",
+    "short": "RadarPointCloudGen",
+    "authors": [
+      "Hussain",
+      "Qiu",
+      "Ai",
+      "Tan",
+      "Li",
+      "Song",
+      "Liu"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "PointCloud",
+      "Generation",
+      "Image",
+      "Completion"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.26743",
+    "project": "",
+    "figure": "First multimodal point cloud generation method that fuses vision and radar data.",
+    "abstract": "This paper presents a method for generating high-quality radar point clouds by integrating image semantic information to improve structural completeness and point density. The approach enhances the performance of object detection and tracking in complex environments, demonstrating its effectiveness in multisensor systems."
+  },
+  {
+    "id": "hifive",
+    "title": "HiFiVe: High-Fidelity Vehicle Generation Leveraging Auto-Regressive 2D Generative Priors",
+    "short": "HiFiVe",
+    "authors": [
+      "Xiao",
+      "Zhang",
+      "Zheng",
+      "Hu",
+      "Jin",
+      "Ren",
+      "Yang",
+      "Lan"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Autoregressive",
+      "Image",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.25300",
+    "project": "",
+    "figure": "First high-fidelity vehicle generation method leveraging auto-regressive 2D generative priors.",
+    "abstract": "HiFiVe introduces a training-free framework for high-fidelity vehicle modeling that enhances both texture and geometry. By imposing 3D geometric constraints and utilizing an auto-regressive texture refinement pipeline, it synthesizes high-resolution textures from arbitrary viewpoints while ensuring cross-view consistency. The method significantly improves geometric detail and texture quality over "
+  },
+  {
+    "id": "orbitforge",
+    "title": "OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis",
+    "short": "OrbitForge",
+    "authors": [
+      "Fan",
+      "Favaro"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "SDF",
+      "Diffusion",
+      "Text",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.24799",
+    "project": "",
+    "figure": "First text-to-3D scene generation that uses reconstruction-anchored video synthesis via Gaussian Splatting.",
+    "abstract": "OrbitForge is a novel method that converts text-generated videos into 3D Gaussian Splatting scenes by leveraging 3D reconstruction for improved consistency. It addresses challenges in camera motion control and view coverage, using a unique approach to complete missing viewpoints without task-specific fine-tuning."
+  },
+  {
     "id": "hyperdiffusion-4d",
     "title": "Learning Neural Deformation Representation for 4D Dynamic Shape Generation",
     "short": "HyperDiffusion-4D",
