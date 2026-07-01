@@ -89,7 +89,8 @@
     "project": "https://github.com/HongliXiao/MM-TRELLIS",
     "figure": "First multi-modal 3D vehicle generation that integrates LiDAR and image sensors via native 3D generative models",
     "abstract": "MM-TRELLIS is a multi-modal approach for generating realistic 3D vehicle models from autonomous driving scenes. It utilizes both multi-view images and LiDAR point clouds to enhance geometric accuracy and cross-view consistency. The method outperforms existing techniques in high-fidelity vehicle generation, with code available for public use.",
-    "figureUrl": "https://opengraph.githubassets.com/221c8fab098d069f698a81ddc057d8f4a75a4749455c5670812e2c6edf461300/HongliXiao/MM-TRELLIS"
+    "figureUrl": "https://opengraph.githubassets.com/221c8fab098d069f698a81ddc057d8f4a75a4749455c5670812e2c6edf461300/HongliXiao/MM-TRELLIS",
+    "codeUrl": "https://github.com/HongliXiao/MM-TRELLIS"
   },
   {
     "id": "3dcargen",
@@ -232,7 +233,7 @@
     ],
     "year": 2026,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH",
     "venueYear": 2026,
     "tags": [
       "Mesh",
@@ -246,7 +247,8 @@
     "arxiv": "https://arxiv.org/abs/2606.23489",
     "project": "https://qiisun.github.io/MeshFlow/",
     "figure": "First mesh generation method that respects symmetries via equivariant flow matching.",
-    "abstract": "MeshFlow directly generates triangle meshes as triangle soups, addressing the challenges of mesh representation symmetries. It employs equivariant optimal-transport flow matching models and modifies the Diffusion Transformer architecture for efficient mesh generation. The method achieves high-quality meshes with significant speed improvements during inference. Project page is available."
+    "abstract": "MeshFlow directly generates triangle meshes as triangle soups, addressing the challenges of mesh representation symmetries. It employs equivariant optimal-transport flow matching models and modifies the Diffusion Transformer architecture for efficient mesh generation. The method achieves high-quality meshes with significant speed improvements during inference. Project page is available.",
+    "codeUrl": "https://github.com/qiisun/MeshFlow"
   },
   {
     "id": "janusmesh",
@@ -260,7 +262,7 @@
     ],
     "year": 2026,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Voxel",
@@ -270,12 +272,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2606.20563",
     "project": "https://siang1105.github.io/JanusMesh.github.io/",
     "figure": "First fast and zero-shot framework for generating text-driven 3D visual illusions via cross-space denoising.",
     "abstract": "JanusMesh introduces a novel framework for generating 3D visual illusions that change semantics based on viewing angles. It employs a two-stage process involving cross-space denoising for voxel alignment and view-conditioned texture synthesis. The method achieves high realism and efficiency, outperforming existing techniques in geometric integrity and semantic recognizability.",
-    "figureUrl": "https://siang1105.github.io/JanusMesh.github.io/static/images/teaser.png"
+    "figureUrl": "https://siang1105.github.io/JanusMesh.github.io/static/images/teaser.png",
+    "codeUrl": "https://github.com/siang1105/JanusMesh"
   },
   {
     "id": "triflow",
@@ -668,8 +671,8 @@
     ],
     "year": 2026,
     "month": 6,
-    "venue": "arXiv",
-    "venueYear": 2026,
+    "venue": "3DV",
+    "venueYear": 2025,
     "tags": [
       "PointCloud",
       "Flow",
@@ -743,7 +746,8 @@
     "project": "https://github.com/mskimS2/GuideCAD",
     "figure": "First lightweight multimodal framework for 3D CAD model generation via prefix embedding.",
     "abstract": "GuideCAD is a multimodal framework designed for efficient 3D CAD model generation, utilizing a mapping network to convert image embeddings into prefix embeddings. This allows a pretrained language model to integrate visual and textual information, enabling a transformer-based decoder to predict construction sequences for generating 3D CAD models. The method shows improved efficiency and quality co",
-    "figureUrl": "https://opengraph.githubassets.com/333f8d94f939fec4112128321f492b6b8bb63f26d135c7eef94fd97ace29b8ef/mskimS2/GuideCAD"
+    "figureUrl": "https://opengraph.githubassets.com/333f8d94f939fec4112128321f492b6b8bb63f26d135c7eef94fd97ace29b8ef/mskimS2/GuideCAD",
+    "codeUrl": "https://github.com/mskimS2/GuideCAD"
   },
   {
     "id": "arapdiffusion",
@@ -788,7 +792,7 @@
     ],
     "year": 2026,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Representation",
@@ -803,7 +807,8 @@
     "project": "https://kairos-homeworld.github.io/",
     "figure": "First unified framework for generating controllable whole-home scenes via hierarchical decomposition",
     "abstract": "HomeWorld introduces a hierarchical framework for generating indoor scenes, addressing challenges in layout coherence and realism. It utilizes a large dataset for floorplan generation and employs image generation models for furniture and object layout, enhancing diversity and design appeal. The method includes a 3D generative model for asset replacement and aims to support embodied AI applications",
-    "figureUrl": "https://kairos-homeworld.github.io/assets/images/teaser-right.webp"
+    "figureUrl": "https://kairos-homeworld.github.io/assets/images/teaser-right.webp",
+    "codeUrl": "https://github.com/Kairos-HomeWorld/HomeWorld"
   },
   {
     "id": "global-local-mcts",
@@ -918,7 +923,8 @@
     "project": "https://mesh-flow.github.io/",
     "figure": "First efficient artistic mesh generator via VAE and flow-based diffusion.",
     "abstract": "MeshFlow introduces a novel method for generating artistic 3D meshes, overcoming the limitations of traditional auto-regressive methods. By utilizing a Variational Autoencoder for continuous vertex representation and a Rectified Flow transformer for parallel generation, it achieves significant speed and accuracy improvements in mesh generation.",
-    "figureUrl": "https://mesh-flow.github.io/assets/images/method_overview.png"
+    "figureUrl": "https://mesh-flow.github.io/assets/images/method_overview.png",
+    "codeUrl": "https://github.com/facebookresearch/meshflow"
   },
   {
     "id": "symtrellis",
@@ -1817,7 +1823,8 @@
     "project": "https://github.com/qianmingduowan/Sat3DGen",
     "figure": "First geometry-first methodology for street-level 3D scene generation from satellite images via feed-forward framework",
     "abstract": "Sat3DGen addresses the challenges of generating street-level 3D scenes from satellite images by integrating geometric constraints with a perspective-view training strategy. This approach significantly improves both 3D accuracy and photorealism, as validated by a new benchmark. The method shows versatility in various applications, including semantic-map-to-3D synthesis and large-scale meshing. Code",
-    "figureUrl": "https://opengraph.githubassets.com/b2315bf0b77a86b5d106d2b86a6533252f06e0eed9bbf85e1205a04044093c1e/qianmingduowan/Sat3DGen"
+    "figureUrl": "https://opengraph.githubassets.com/b2315bf0b77a86b5d106d2b86a6533252f06e0eed9bbf85e1205a04044093c1e/qianmingduowan/Sat3DGen",
+    "codeUrl": "https://github.com/qianmingduowan/Sat3DGen"
   },
   {
     "id": "real2sim",
@@ -1920,7 +1927,7 @@
     ],
     "year": 2026,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH",
     "venueYear": 2026,
     "tags": [
       "Implicit",
@@ -1930,12 +1937,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2605.10922",
     "project": "https://ldyang694.github.io/projects/pixal3d/",
     "figure": "First pixel-aligned 3D generation from images via a new conditioning scheme",
     "abstract": "Pixal3D introduces a pixel-aligned 3D generation paradigm that enhances fidelity in image-to-3D synthesis by establishing direct pixel-to-3D correspondence. It generates 3D assets in a way that is consistent with the input view, improving quality and scalability. The method also extends to multi-view generation, enabling high-fidelity, object-separated 3D scenes from images.",
-    "figureUrl": "https://ldyang694.github.io/projects/pixal3d/assets/pipeline.png"
+    "figureUrl": "https://ldyang694.github.io/projects/pixal3d/assets/pipeline.png",
+    "codeUrl": "https://github.com/TencentARC/Pixal3D"
   },
   {
     "id": "c2lt-3d",
@@ -1989,7 +1997,8 @@
     "project": "https://github.com/xmw666/AdaptSplat",
     "figure": "First lightweight adapter for feed-forward 3D Gaussian Splatting that improves geometric fidelity.",
     "abstract": "AdaptSplat introduces a lightweight adapter for feed-forward 3D Gaussian Splatting, enhancing performance without complex designs. It effectively integrates high-frequency structural priors from vision models, improving the accuracy of Gaussian primitives on complex surfaces. The method achieves state-of-the-art reconstruction performance and generalizes well across domains.",
-    "figureUrl": "https://opengraph.githubassets.com/27c66dac41586607cfc405ba20d26fd3ffbae9eaf515acbb5173ccf42c8a6d07/xmw666/AdaptSplat"
+    "figureUrl": "https://opengraph.githubassets.com/27c66dac41586607cfc405ba20d26fd3ffbae9eaf515acbb5173ccf42c8a6d07/xmw666/AdaptSplat",
+    "codeUrl": "https://github.com/xmw666/AdaptSplat"
   },
   {
     "id": "probability-flow-distillation",
@@ -2106,7 +2115,8 @@
     "project": "https://github.com/TeCai/DVD",
     "figure": "First discrete voxel diffusion framework for 3D generation and editing.",
     "abstract": "DVD introduces a discrete diffusion framework for generating and editing sparse voxels in 3D generative pipelines. It treats voxel occupancy as a discrete variable, enhancing interpretability and quality in voxel generation. The method includes uncertainty estimation and a fine-tuning strategy for efficient voxel inpainting and editing. Code is available at the provided GitHub link.",
-    "figureUrl": "https://opengraph.githubassets.com/64173e3d9a59123e91e907bdab97693cf02a4abdba33aefbda7c8269b4616392/TeCai/DVD"
+    "figureUrl": "https://opengraph.githubassets.com/64173e3d9a59123e91e907bdab97693cf02a4abdba33aefbda7c8269b4616392/TeCai/DVD",
+    "codeUrl": "https://github.com/TeCai/DVD"
   },
   {
     "id": "dilast",
@@ -2263,7 +2273,8 @@
     "project": "https://github.com/princeton-vl/procfunc",
     "figure": "First library for procedural 3D generation in Python with easy-to-use functions",
     "abstract": "ProcFunc is a library designed for Blender-based procedural 3D generation in Python, facilitating the creation and execution of procedural generation code. It enables the generation of diverse training data and includes a procedural generator for indoor rooms, showcasing efficiency and diversity in 3D synthetic data generation.",
-    "figureUrl": "https://opengraph.githubassets.com/fdaa55767dea412f91f2ad5c4cb17e7073b229f542389570f4c41ec746a70399/princeton-vl/procfunc"
+    "figureUrl": "https://opengraph.githubassets.com/fdaa55767dea412f91f2ad5c4cb17e7073b229f542389570f4c41ec746a70399/princeton-vl/procfunc",
+    "codeUrl": "https://github.com/princeton-vl/procfunc"
   },
   {
     "id": "prox-e",
@@ -2530,7 +2541,8 @@
     "project": "https://github.com/AIGeeksGroup/UniMesh",
     "figure": "First unified framework for 3D mesh understanding and generation via diffusion.",
     "abstract": "UniMesh proposes a unified framework that integrates 3D generation and understanding in a single architecture. It features a novel Mesh Head for bridging image generation with implicit shape decoders and introduces Chain of Mesh for user-driven semantic mesh editing. The framework also includes a self-reflection mechanism for diagnosing high-level task failures. Experimental results show competiti",
-    "figureUrl": "https://opengraph.githubassets.com/20ab975822835d2529a85f139901b2854f58128f48178b141f1ad2f53db0a660/AIGeeksGroup/UniMesh"
+    "figureUrl": "https://opengraph.githubassets.com/20ab975822835d2529a85f139901b2854f58128f48178b141f1ad2f53db0a660/AIGeeksGroup/UniMesh",
+    "codeUrl": "https://github.com/AIGeeksGroup/UniMesh"
   },
   {
     "id": "lavigen",
@@ -2562,7 +2574,8 @@
     "project": "https://github.com/fenghora/LaviGen",
     "figure": "First framework that repurposes 3D generative models for autoregressive layout generation in native 3D space.",
     "abstract": "LaviGen is a framework that generates 3D layouts directly in 3D space using an autoregressive process. It models geometric relations and physical constraints among objects, producing coherent 3D scenes. The adapted 3D diffusion model enhances efficiency and spatial accuracy, achieving superior performance on the LayoutVLM benchmark.",
-    "figureUrl": "https://opengraph.githubassets.com/167920cbce8d1768b357dc2b1a6192150b7fd925b6c6319160ceaece29f87cf2/fenghora/LaviGen"
+    "figureUrl": "https://opengraph.githubassets.com/167920cbce8d1768b357dc2b1a6192150b7fd925b6c6319160ceaece29f87cf2/fenghora/LaviGen",
+    "codeUrl": "https://github.com/fenghora/LaviGen"
   },
   {
     "id": "unconditional-3d-inversion",
@@ -2719,7 +2732,8 @@
     "project": "https://mauk95.github.io/ReConText3D/",
     "figure": "First continual learning framework for text-to-3D generation via replay-based methods",
     "abstract": "ReConText3D introduces a continual learning framework for text-to-3D generation, addressing catastrophic forgetting in existing models. It allows generative models to learn new 3D categories incrementally while preserving previously learned assets. The method uses a compact replay memory for effective knowledge retention and is evaluated on the Toys4K-CL benchmark, showing superior performance acr",
-    "figureUrl": "https://mauk95.github.io/ReConText3D/assets/teaser.png"
+    "figureUrl": "https://mauk95.github.io/ReConText3D/assets/teaser.png",
+    "codeUrl": "https://github.com/mauk95/ReConText3D"
   },
   {
     "id": "bve",
@@ -2833,7 +2847,7 @@
     ],
     "year": 2026,
     "month": 4,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH",
     "venueYear": 2026,
     "tags": [
       "Mesh",
@@ -2843,11 +2857,12 @@
       "Completion"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2604.09132",
     "project": "https://ruixu.me/html/SATO/index.html",
     "figure": "First mesh generation method using a token ordering strategy inspired by triangle strips via autoregressive transformers",
-    "abstract": "The paper introduces Strips as Tokens (SATO), a framework for generating artist-quality meshes with a novel token ordering strategy that preserves edge flow and semantic layout. It allows for decoding into both triangle and quadrilateral meshes, enhancing geometric regularity and structural coherence. Experiments show SATO outperforms previous methods in quality and segmentation."
+    "abstract": "The paper introduces Strips as Tokens (SATO), a framework for generating artist-quality meshes with a novel token ordering strategy that preserves edge flow and semantic layout. It allows for decoding into both triangle and quadrilateral meshes, enhancing geometric regularity and structural coherence. Experiments show SATO outperforms previous methods in quality and segmentation.",
+    "codeUrl": "https://github.com/Xrvitd/SATO"
   },
   {
     "id": "sic3d",
@@ -2966,7 +2981,8 @@
     "project": "https://weiqi-zhang.github.io/GaussianGrow",
     "figure": "First method to generate 3D Gaussians from point clouds using text guidance via a multi-view diffusion model",
     "abstract": "GaussianGrow introduces a novel approach for generating 3D Gaussians from point clouds while ensuring geometric accuracy. It employs a text-guided scheme and a multi-view diffusion model to synthesize consistent appearances, addressing challenges in generating reliable geometries. The method iteratively detects camera poses to inpaint hard-to-observe regions, demonstrating effectiveness on both sy",
-    "figureUrl": "https://weiqi-zhang.github.io/resources/teaser.png"
+    "figureUrl": "https://weiqi-zhang.github.io/resources/teaser.png",
+    "codeUrl": "https://github.com/weiqi-zhang/GaussianGrow"
   },
   {
     "id": "3d-geoflow",
@@ -3093,7 +3109,8 @@
     "project": "https://zx-yin.github.io/3dfixer",
     "figure": "First in-place completion method for 3D scenes from a single image via coarse-to-fine generation.",
     "abstract": "3D-Fixer introduces a novel in-place completion paradigm for compositional 3D scene generation from a single view. It generates complete 3D assets based on partially visible point clouds, using a coarse-to-fine scheme to resolve occlusion ambiguities. The method leverages a dual-branch conditioning network and introduces the ARSG-110K dataset for improved training. Extensive experiments demonstrat",
-    "figureUrl": "https://zx-yin.github.io/assets/teaser.png"
+    "figureUrl": "https://zx-yin.github.io/assets/teaser.png",
+    "codeUrl": "https://github.com/HorizonRobotics/3D-Fixer"
   },
   {
     "id": "sparsesplat",
@@ -3120,7 +3137,8 @@
     "project": "https://victkk.github.io/SparseSplat-page/",
     "figure": "First feed-forward 3DGS model that adaptively adjusts Gaussian density according to scene structure.",
     "abstract": "SparseSplat introduces a novel feed-forward 3D Gaussian Splatting model that optimizes Gaussian density based on local scene information, resulting in compact 3DGS maps. It employs entropy-based probabilistic sampling to generate sparse Gaussians in textureless areas and dense Gaussians in rich information regions, achieving high rendering quality with significantly fewer Gaussians.",
-    "figureUrl": "https://victkk.github.io/SparseSplat/static/images/cover.png"
+    "figureUrl": "https://victkk.github.io/SparseSplat/static/images/cover.png",
+    "codeUrl": "https://github.com/victkk/SparseSplat-page"
   },
   {
     "id": "adaptive-local-frequency-filtering",
@@ -3279,7 +3297,7 @@
     ],
     "year": 2026,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Implicit",
@@ -3294,7 +3312,8 @@
     "project": "https://light.princeton.edu/worldflow3d",
     "figure": "First method for unbounded 3D world generation via flow matching.",
     "abstract": "WorldFlow3D introduces a novel approach for generating unbounded 3D worlds by modeling the task as flowing through 3D data distributions. This method allows for controllability over geometric structure and visual texture, demonstrating high-quality generation across various scene types. The approach shows rapid convergence and generalizability, outperforming existing methods in scene fidelity.",
-    "figureUrl": "https://light.princeton.edu/assets/images/teaser_figure_one_street-1.webp"
+    "figureUrl": "https://light.princeton.edu/assets/images/teaser_figure_one_street-1.webp",
+    "codeUrl": "https://github.com/princeton-computational-imaging/WorldFlow3D"
   },
   {
     "id": "seen2scene",
@@ -3536,7 +3555,8 @@
     "project": "https://jumpat.github.io/tigon-page",
     "figure": "First 3D generation model that combines text and image conditioning for improved asset creation.",
     "abstract": "TIGON introduces a novel approach to 3D generation by combining text and image conditioning, addressing limitations of single-modality models. The method shows that joint reasoning over visual and textual inputs enhances the quality and flexibility of generated 3D assets, outperforming existing models. Extensive experiments validate the effectiveness of this cross-modal approach.",
-    "figureUrl": "https://jumpat.github.io/static/images/tigon-teaser.png"
+    "figureUrl": "https://jumpat.github.io/static/images/tigon-teaser.png",
+    "codeUrl": "https://github.com/Jumpat/tigon"
   },
   {
     "id": "2xplat",
@@ -3748,7 +3768,8 @@
     "project": "https://github.com/gwilczynski95/iris",
     "figure": "First method for efficient interactive scene editing using ray-based implicit representations.",
     "abstract": "IRIS introduces a novel framework for efficient and interactive scene editing by employing an analytical sampling strategy that identifies interaction points between rays and scene primitives. This approach enhances rendering performance and enables high-fidelity, real-time rendering while allowing flexible shape editing.",
-    "figureUrl": "https://opengraph.githubassets.com/c42c02aed01f0c6ed50e258dafef14b232690e92315c48fea4ff9681e8f331c8/gwilczynski95/iris"
+    "figureUrl": "https://opengraph.githubassets.com/c42c02aed01f0c6ed50e258dafef14b232690e92315c48fea4ff9681e8f331c8/gwilczynski95/iris",
+    "codeUrl": "https://github.com/gwilczynski95/iris"
   },
   {
     "id": "sk-adapter",
@@ -3762,7 +3783,7 @@
     ],
     "year": 2026,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Mesh",
@@ -3777,7 +3798,8 @@
     "project": "https://sk-adapter.github.io/",
     "figure": "First framework for precise skeletal manipulation in native 3D generation via structural control.",
     "abstract": "SK-Adapter introduces a framework for precise skeletal manipulation in native 3D generation, addressing the limitations of existing models. By treating 3D skeletons as control signals, it enhances structural control while maintaining generative quality. The method also supports local 3D editing, allowing for region-specific modifications. The paper includes the Objaverse-TMS dataset of text-mesh-s",
-    "figureUrl": "https://sk-adapter.github.io/static/images/teaser.jpg"
+    "figureUrl": "https://sk-adapter.github.io/static/images/teaser.jpg",
+    "codeUrl": "https://github.com/sk-adapter/SK-Adapter"
   },
   {
     "id": "ei-part",
@@ -3868,7 +3890,8 @@
     "project": "https://github.com/ROUJINN/SceneAssistant",
     "figure": "First open-vocabulary 3D scene generation method using visual feedback and VLMs.",
     "abstract": "SceneAssistant introduces a visual-feedback-driven agent for open-vocabulary 3D scene generation from natural language. It combines a 3D object generation model with Vision-Language Models to enable flexible scene composition and editing. The method allows for diverse and high-quality scene generation, outperforming existing approaches.",
-    "figureUrl": "https://opengraph.githubassets.com/ef8c5469656fe6ae30794a4f1e46ce05ee987f58045bedb30d245ad665dcc162/ROUJINN/SceneAssistant"
+    "figureUrl": "https://opengraph.githubassets.com/ef8c5469656fe6ae30794a4f1e46ce05ee987f58045bedb30d245ad665dcc162/ROUJINN/SceneAssistant",
+    "codeUrl": "https://github.com/ROUJINN/SceneAssistant"
   },
   {
     "id": "polycrysdiff",
@@ -3928,7 +3951,8 @@
     "project": "https://github.com/devinli123/MV-SAM3D",
     "figure": "First layout-aware 3D generation that incorporates multi-view consistency via a Multi-Diffusion process",
     "abstract": "MV-SAM3D enhances layout-aware 3D generation by integrating multi-view observations to improve spatial arrangement and physical plausibility of multiple objects. It employs adaptive weighting strategies for confidence-aware fusion and physics-aware optimization to ensure realistic object placements. The framework shows significant improvements in reconstruction fidelity without additional training",
-    "figureUrl": "https://opengraph.githubassets.com/30a237225f57e012ebcb8891d6debe78549baae4530cd8c5f3a7eb0eb6f93210/devinli123/MV-SAM3D"
+    "figureUrl": "https://opengraph.githubassets.com/30a237225f57e012ebcb8891d6debe78549baae4530cd8c5f3a7eb0eb6f93210/devinli123/MV-SAM3D",
+    "codeUrl": "https://github.com/devinli123/MV-SAM3D"
   },
   {
     "id": "topgen",
@@ -3986,7 +4010,8 @@
     "project": "https://research.nvidia.com/labs/sil/projects/learning-convex-decomp/",
     "figure": "First feed-forward model for open-world convex decomposition via feature fields",
     "abstract": "This paper introduces a novel approach to convex decomposition using learned feature fields, resulting in a feed-forward model that produces high-quality decompositions of 3D shapes into convex bodies. The method enhances collision detection and generalizes across various representations, including meshes and CAD models. It also enables scalable self-supervised learning on large datasets.",
-    "figureUrl": "https://research.nvidia.com/labs/sil/projects/learning-convex-decomp/assets/teaser_wide.png"
+    "figureUrl": "https://research.nvidia.com/labs/sil/projects/learning-convex-decomp/assets/teaser_wide.png",
+    "codeUrl": "https://github.com/nv-tlabs/learning-convex-decomposition"
   },
   {
     "id": "forgedreamer",
@@ -4016,7 +4041,8 @@
     "arxiv": "https://arxiv.org/abs/2603.09266",
     "project": "https://github.com/Junhaocai27/ForgeDreamer",
     "figure": "First text-to-3D generation framework for industrial applications via Multi-Expert LoRA and Cross-View Hypergraph.",
-    "abstract": "ForgeDreamer addresses limitations in text-to-3D generation for industrial applications by introducing a Multi-Expert LoRA Ensemble for better cross-category generalization and a Cross-View Hypergraph Geometric Enhancement for improved geometric reasoning. This framework enhances semantic understanding and ensures manufacturing-level consistency, outperforming existing methods on a custom dataset."
+    "abstract": "ForgeDreamer addresses limitations in text-to-3D generation for industrial applications by introducing a Multi-Expert LoRA Ensemble for better cross-category generalization and a Cross-View Hypergraph Geometric Enhancement for improved geometric reasoning. This framework enhances semantic understanding and ensures manufacturing-level consistency, outperforming existing methods on a custom dataset.",
+    "codeUrl": "https://github.com/Junhaocai27/ForgeDreamer"
   },
   {
     "id": "parse",
@@ -4072,7 +4098,7 @@
     ],
     "year": 2026,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "PointCloud",
@@ -4086,7 +4112,8 @@
     "project": "https://github.com/123321456-gif/Canoverse",
     "figure": "First large-scale canonical 3D dataset that improves generation stability via a new canonicalization framework",
     "abstract": "CanoVerse addresses the challenge of arbitrary global rotation in 3D objects by providing a massive dataset of 320K objects across 1,156 categories. This dataset enhances 3D generation stability and enables precise cross-modal shape retrieval and orientation estimation. The new canonicalization framework significantly reduces alignment time, transforming the process into a high-throughput data gen",
-    "figureUrl": "https://opengraph.githubassets.com/c611ee76f7636e5b6e12ddd4226b1350a61fb883a07a177c0f9a5dd20338d48b/123321456-gif/Canoverse"
+    "figureUrl": "https://opengraph.githubassets.com/c611ee76f7636e5b6e12ddd4226b1350a61fb883a07a177c0f9a5dd20338d48b/123321456-gif/Canoverse",
+    "codeUrl": "https://github.com/123321456-gif/Canoverse"
   },
   {
     "id": "lato",
@@ -4176,7 +4203,8 @@
     "project": "https://qiuzidian.github.io/pano3dcomposer-page/",
     "figure": "First efficient feed-forward framework for compositional 3D scene generation from single panoramic images.",
     "abstract": "Pano3DComposer is a novel framework that generates 3D scenes from panoramic images efficiently, overcoming limitations of existing methods. It decouples object generation from layout estimation and employs a transformation predictor for accurate object placement. The method achieves high geometric accuracy and rapid scene generation, making it suitable for various datasets.",
-    "figureUrl": "https://qiuzidian.github.io/pano3dcomposer-page/static/images/method_overview.png"
+    "figureUrl": "https://qiuzidian.github.io/pano3dcomposer-page/static/images/method_overview.png",
+    "codeUrl": "https://github.com/qiuzidian/Pano3DComposer"
   },
   {
     "id": "cog2gen3d",
@@ -4566,7 +4594,8 @@
     "project": "https://github.com/AIGeeksGroup/PartRAG",
     "figure": "First retrieval-augmented framework for part-level 3D generation and editing via diffusion.",
     "abstract": "PartRAG addresses challenges in single-image 3D generation with part-level structure by integrating a part database with a diffusion transformer. It enables precise edits and maintains multi-view consistency through a Hierarchical Contrastive Retrieval module and a masked part-level editor. The method shows competitive results on various benchmarks and allows for interactive edits.",
-    "figureUrl": "https://opengraph.githubassets.com/91dee1ed17a4a73218716171c09d1d6c137637d8636ca8a51068bf3952c3a90b/AIGeeksGroup/PartRAG"
+    "figureUrl": "https://opengraph.githubassets.com/91dee1ed17a4a73218716171c09d1d6c137637d8636ca8a51068bf3952c3a90b/AIGeeksGroup/PartRAG",
+    "codeUrl": "https://github.com/AIGeeksGroup/PartRAG"
   },
   {
     "id": "cryo-swan",
@@ -5059,7 +5088,8 @@
     "project": "https://github.com/JS-CHU/RoamScene3D",
     "figure": "First immersive text-to-3D scene generation that adapts object-aware roaming via semantic reasoning.",
     "abstract": "RoamScene3D generates immersive 3D scenes from text by addressing limitations of existing methods that struggle with spatial relationships and occluded content. It employs a vision-language model to create a scene graph for semantic guidance and introduces a Motion-Injected Inpainting model for adaptive camera motion. The method significantly enhances the consistency and photorealism of generated ",
-    "figureUrl": "https://opengraph.githubassets.com/a614fc025ada9616d2fa1c2a437cee80f6bc0750b6d3c0cfe2b24f74649601dd/JS-CHU/RoamScene3D"
+    "figureUrl": "https://opengraph.githubassets.com/a614fc025ada9616d2fa1c2a437cee80f6bc0750b6d3c0cfe2b24f74649601dd/JS-CHU/RoamScene3D",
+    "codeUrl": "https://github.com/JS-CHU/RoamScene3D"
   },
   {
     "id": "actionmesh",
@@ -5367,7 +5397,8 @@
     "project": "https://luhexiao.github.io/Muses.github.io/",
     "figure": "First training-free method for fantastic 3D creature generation via feed-forward.",
     "abstract": "Muses introduces a novel approach for generating 3D creatures without training, utilizing a 3D skeleton for coherent design and composition. It combines graph-constrained reasoning with voxel-based assembly and image-guided appearance modeling to create visually appealing and contextually relevant 3D assets. The method shows state-of-the-art performance in visual fidelity and offers potential for ",
-    "figureUrl": "https://luhexiao.github.io/Muses.github.io/assets/pipeline.png"
+    "figureUrl": "https://luhexiao.github.io/Muses.github.io/assets/pipeline.png",
+    "codeUrl": "https://github.com/luhexiao/Muses"
   },
   {
     "id": "vecset-diffusion",
@@ -5639,7 +5670,8 @@
     "project": "https://glab-caltech.github.io/steer3d/",
     "figure": "First method to add text steerability to image-to-3D generation via feedforward approach",
     "abstract": "Steer3D introduces a feedforward method that integrates text steerability into image-to-3D models, allowing for easy editing of generated 3D assets. Inspired by ControlNet, it adapts image-to-3D generation for direct text steering, achieving faster and more consistent results compared to existing methods. The approach leverages a scalable data engine and a two-stage training recipe.",
-    "figureUrl": "https://glab-caltech.github.io/steer3d/static/images/teaser.png"
+    "figureUrl": "https://glab-caltech.github.io/steer3d/static/images/teaser.png",
+    "codeUrl": "https://github.com/ziqi-ma/Steer3D"
   },
   {
     "id": "cadknitter",
@@ -5700,7 +5732,8 @@
     "project": "https://idea-research.github.io/SceneMaker/",
     "figure": "First decoupled 3D scene generation framework that enhances de-occlusion and pose estimation.",
     "abstract": "SceneMaker is a decoupled framework for 3D scene generation that addresses challenges in producing high-quality geometry and accurate poses under occlusion. It separates the de-occlusion model from object generation and improves it using diverse datasets. The framework also includes a unified pose estimation model. Experiments show its effectiveness on indoor and open-set scenes. Code and datasets",
-    "figureUrl": "https://idea-research.github.io/SceneMaker/src/img/pipeline.png"
+    "figureUrl": "https://idea-research.github.io/SceneMaker/src/img/pipeline.png",
+    "codeUrl": "https://github.com/IDEA-Research/SceneMaker"
   },
   {
     "id": "ar3d-r1",
@@ -5835,7 +5868,8 @@
     "project": "https://wonderzoom.github.io/",
     "figure": "First method to generate multi-scale 3D scenes from a single image via scale-adaptive Gaussian surfels.",
     "abstract": "WonderZoom introduces a novel method for generating 3D scenes with varying spatial scales from a single image. It overcomes limitations of existing models by using scale-adaptive Gaussian surfels and a progressive detail synthesizer, allowing for coherent scene content across different granularities. The approach significantly improves quality and alignment in multi-scale 3D world creation.",
-    "figureUrl": "https://wonderzoom.github.io/assets/images/approach/teaser_img.png"
+    "figureUrl": "https://wonderzoom.github.io/assets/images/approach/teaser_img.png",
+    "codeUrl": "https://github.com/jin-cao-tma/WonderZoom"
   },
   {
     "id": "photo3d",
@@ -5926,7 +5960,8 @@
     "project": "https://lizhiqi49.github.io/MoCA",
     "figure": "First compositional 3D generative model with scalable attention via component routing and compression",
     "abstract": "MoCA addresses the scalability issues in part-aware 3D generation by introducing a compositional model that utilizes importance-based component routing and compression of unimportant components. This allows for efficient creation of 3D assets with a large number of components, outperforming existing methods in both object and scene generation tasks.",
-    "figureUrl": "https://lizhiqi49.github.io/assets/images/teaser_v2.jpg"
+    "figureUrl": "https://lizhiqi49.github.io/assets/images/teaser_v2.jpg",
+    "codeUrl": "https://github.com/lizhiqi49/MoCA"
   },
   {
     "id": "meshripple",
@@ -5992,7 +6027,8 @@
     "project": "https://spacecontrol3d.github.io/",
     "figure": "First method for test-time spatial control of 3D asset generation via geometric inputs.",
     "abstract": "SpaceControl introduces a training-free method for explicit spatial control in 3D asset generation, allowing users to manipulate geometry with various inputs. It integrates with existing generative models and balances geometric fidelity with visual quality. The approach is validated through quantitative evaluations and user studies, and includes an interactive interface for real-time editing and g",
-    "figureUrl": "https://spacecontrol3d.github.io/images/teaser_2.jpg"
+    "figureUrl": "https://spacecontrol3d.github.io/images/teaser_2.jpg",
+    "codeUrl": "https://github.com/spacecontrol3d/spacecontrol"
   },
   {
     "id": "vrsketch2shape",
@@ -6022,7 +6058,8 @@
     "project": "https://chenyizi086.github.io/VRSketch2Shape_website",
     "figure": "First framework for generating 3D shapes from sequential VR sketches via a diffusion-based generator",
     "abstract": "VRSketch2Shape introduces a novel framework for generating 3D shapes from sequential VR sketches, addressing the temporal ordering of strokes to enhance structure and design intent. It includes an automated pipeline for sketch generation, a dataset of sketch-shape pairs, and an order-aware sketch encoder. The method shows improved geometric fidelity and generalization from synthetic to real sketch",
-    "figureUrl": "https://chenyizi086.github.io/static/images/pipeline.png"
+    "figureUrl": "https://chenyizi086.github.io/static/images/pipeline.png",
+    "codeUrl": "https://github.com/chenyizi086/VRSketch2Shape"
   },
   {
     "id": "splice",
@@ -6227,7 +6264,8 @@
     "project": "https://github.com/kasvii/PhysGen",
     "figure": "First physics-based 3D shape generation pipeline for industrial design via flow matching.",
     "abstract": "PhysGen introduces a unified physics-based 3D shape generation pipeline aimed at enhancing realism in industrial design. It employs a flow matching model with physical guidance, iteratively refining shapes to align with desired physical properties. The method integrates a shape-and-physics variational autoencoder to encode both aspects into a unified latent space, improving shape realism beyond vi",
-    "figureUrl": "https://opengraph.githubassets.com/25e1c36bfbf927ddf16d9365b39df0195c2fabc041d5b0735738de226145e7f7/kasvii/PhysGen"
+    "figureUrl": "https://opengraph.githubassets.com/25e1c36bfbf927ddf16d9365b39df0195c2fabc041d5b0735738de226145e7f7/kasvii/PhysGen",
+    "codeUrl": "https://github.com/kasvii/PhysGen"
   },
   {
     "id": "splatfont3d",
@@ -6352,7 +6390,8 @@
     "project": "https://github.com/ZhenglinZhou/ITS3D",
     "figure": "First framework for inference-time scaling in text-guided 3D diffusion models via optimization.",
     "abstract": "ITS3D enhances generative quality in text-to-3D diffusion models by optimizing Gaussian noise input through a verifier-guided search algorithm. It introduces techniques for stability, efficiency, and exploration, including Gaussian normalization, dimensionality reduction, and a singular space reset mechanism. Experiments show improved generation quality, highlighting the potential of efficient sea",
-    "figureUrl": "https://opengraph.githubassets.com/beebbc7082582e28c8a3014bf26fb8f292f0ef7d47bb5bb324a5f054af5682c9/ZhenglinZhou/ITS3D"
+    "figureUrl": "https://opengraph.githubassets.com/beebbc7082582e28c8a3014bf26fb8f292f0ef7d47bb5bb324a5f054af5682c9/ZhenglinZhou/ITS3D",
+    "codeUrl": "https://github.com/ZhenglinZhou/ITS3D"
   },
   {
     "id": "anchorflow",
@@ -6384,7 +6423,8 @@
     "project": "https://github.com/ZhenglinZhou/AnchorFlow",
     "figure": "First training-free 3D editing method that ensures latent anchor consistency via flows",
     "abstract": "AnchorFlow introduces a training-free approach to 3D shape editing that maintains geometric stability and semantic fidelity. By establishing a global latent anchor and enforcing coherence through a relaxed anchor-alignment loss, it allows for significant modifications without mask supervision. Experiments demonstrate its effectiveness in producing robust edits across various types.",
-    "figureUrl": "https://opengraph.githubassets.com/275aa368682aa7363589db205671c84bb4fb33339cf6fec2aab4421b020f0148/ZhenglinZhou/AnchorFlow"
+    "figureUrl": "https://opengraph.githubassets.com/275aa368682aa7363589db205671c84bb4fb33339cf6fec2aab4421b020f0148/ZhenglinZhou/AnchorFlow",
+    "codeUrl": "https://github.com/ZhenglinZhou/AnchorFlow"
   },
   {
     "id": "control3d",
@@ -6411,7 +6451,8 @@
     "project": "https://github.com/Seooooooogi/Control3D_IP/",
     "figure": "First controllable 3D object generation from a single image prompt via diffusion.",
     "abstract": "This paper presents two methods for generating 3D objects from a single image prompt without requiring textual inversion, enhancing control over conditions like depth and pose. The proposed techniques improve 3D consistency and outperform existing methods in user studies. The code is available on GitHub.",
-    "figureUrl": "https://opengraph.githubassets.com/a90d3a03642d767364f07fc90cbde8da31101a2ce2a026d3f937f09e25402427/Seooooooogi/Control3D_IP"
+    "figureUrl": "https://opengraph.githubassets.com/a90d3a03642d767364f07fc90cbde8da31101a2ce2a026d3f937f09e25402427/Seooooooogi/Control3D_IP",
+    "codeUrl": "https://github.com/Seooooooogi/Control3D_IP"
   },
   {
     "id": "pat3d",
@@ -6447,7 +6488,8 @@
     "project": "https://github.com/Simulation-Intelligence/PAT3D",
     "figure": "First physics-augmented text-to-3D scene generation framework that integrates vision-language models with physics-based simulation.",
     "abstract": "PAT3D is a novel framework that generates physically plausible 3D scenes from text prompts by combining vision-language models with physics-based simulation. It organizes generated objects into a hierarchical scene tree and uses a differentiable simulator to ensure realistic interactions. The method enhances scene quality through simulation-in-the-loop optimization, achieving high physical plausib",
-    "figureUrl": "https://opengraph.githubassets.com/921dcf83081c47a42c7d709d93f3e3007c311adddc0ea0fa532d1eeeda766f7b/Simulation-Intelligence/PAT3D"
+    "figureUrl": "https://opengraph.githubassets.com/921dcf83081c47a42c7d709d93f3e3007c311adddc0ea0fa532d1eeeda766f7b/Simulation-Intelligence/PAT3D",
+    "codeUrl": "https://github.com/Simulation-Intelligence/PAT3D"
   },
   {
     "id": "gena3d",
@@ -6567,7 +6609,8 @@
     "arxiv": "https://arxiv.org/abs/2511.19836",
     "project": "https://yeppp27.github.io/4DWorldBench.github.io/",
     "figure": "First comprehensive evaluation framework for 3D/4D world generation models.",
-    "abstract": "4DWorldBench introduces a unified evaluation framework for World Generation Models, assessing their ability to create realistic 3D/4D worlds from various modalities. It measures perceptual quality, physical realism, and consistency, aiming to enhance the transition from visual to world generation. The benchmark supports tasks like Image-to-3D/4D and Text-to-3D/4D, integrating adaptive conditioning"
+    "abstract": "4DWorldBench introduces a unified evaluation framework for World Generation Models, assessing their ability to create realistic 3D/4D worlds from various modalities. It measures perceptual quality, physical realism, and consistency, aiming to enhance the transition from visual to world generation. The benchmark supports tasks like Image-to-3D/4D and Text-to-3D/4D, integrating adaptive conditioning",
+    "codeUrl": "https://github.com/yeppp27/4dworldbench_code"
   },
   {
     "id": "partdiffuser",
@@ -6879,7 +6922,8 @@
     "project": "https://github.com/zeyuanyin/TRIM",
     "figure": "First scalable 3D Gaussian diffusion inference method with temporal and spatial trimming.",
     "abstract": "TRIM is a method designed to enhance the efficiency of 3D Gaussian diffusion models by implementing temporal and spatial trimming strategies. This approach accelerates inference without sacrificing output quality, allowing for scalable generation of 3D shapes. The method includes a lightweight selector model for evaluating latent Gaussian primitives and instance mask denoising to reduce computatio",
-    "figureUrl": "https://opengraph.githubassets.com/14944ad52cfce20804f7fb6c58c7d69233cdd2be2e7651606e16b61269cd7a4a/zeyuanyin/TRIM"
+    "figureUrl": "https://opengraph.githubassets.com/14944ad52cfce20804f7fb6c58c7d69233cdd2be2e7651606e16b61269cd7a4a/zeyuanyin/TRIM",
+    "codeUrl": "https://github.com/zeyuanyin/TRIM"
   },
   {
     "id": "flashmesh",
@@ -7321,7 +7365,7 @@
     ],
     "year": 2025,
     "month": 11,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH Asia",
     "venueYear": 2025,
     "tags": [
       "Mesh",
@@ -7335,7 +7379,8 @@
     "arxiv": "https://arxiv.org/abs/2602.17040",
     "project": "https://jinnmnm.github.io/Fuse3d.github.io/",
     "figure": "First method capable of controllable 3D asset generation from multiple condition images",
-    "abstract": "Fuse3D introduces a novel approach for generating 3D assets using multiple images to control different regions, enhancing flexibility and detail. It features a Multi-Condition Fusion Module for integrating visual features and a Local Attention Enhancement Strategy for resolving control conflicts. The method demonstrates high-quality 3D asset generation through effective fusion of 2D image regions."
+    "abstract": "Fuse3D introduces a novel approach for generating 3D assets using multiple images to control different regions, enhancing flexibility and detail. It features a Multi-Condition Fusion Module for integrating visual features and a Local Attention Enhancement Strategy for resolving control conflicts. The method demonstrates high-quality 3D asset generation through effective fusion of 2D image regions.",
+    "codeUrl": "https://github.com/JINNMnm/Fuse3D"
   },
   {
     "id": "finite-difference-sdf",
@@ -7449,7 +7494,8 @@
     "project": "https://github.com/matteo-bastico/DiffusionPointTransformer",
     "figure": "First architecture for generating high-fidelity 3D point clouds via diffusion.",
     "abstract": "This paper addresses the need for robust evaluation metrics in 3D point cloud generation and introduces a new architecture, the Diffusion Point Transformer, which leverages transformer-based models. It proposes improved metrics for evaluating generated point clouds and demonstrates state-of-the-art performance on the ShapeNet dataset.",
-    "figureUrl": "https://opengraph.githubassets.com/8c90743ca6434050f5fb48e4fa17404ab5c22be60d2f06fe803da4093ada2300/matteo-bastico/DiffusionPointTransformer"
+    "figureUrl": "https://opengraph.githubassets.com/8c90743ca6434050f5fb48e4fa17404ab5c22be60d2f06fe803da4093ada2300/matteo-bastico/DiffusionPointTransformer",
+    "codeUrl": "https://github.com/matteo-bastico/DiffusionPointTransformer"
   },
   {
     "id": "trace",
@@ -7499,8 +7545,8 @@
     ],
     "year": 2025,
     "month": 11,
-    "venue": "arXiv",
-    "venueYear": 2025,
+    "venue": "CVPR",
+    "venueYear": 2024,
     "tags": [
       "Mesh",
       "Diffusion",
@@ -7514,7 +7560,8 @@
     "project": "https://github.com/xxlong0/Wonder3D/tree/Wonder3D_Plus",
     "figure": "First cross-domain diffusion model for high-fidelity 3D generation from a single image",
     "abstract": "Wonder3D++ introduces a novel method for generating high-fidelity textured meshes from single-view images using a cross-domain diffusion model. It improves quality and efficiency in single-view reconstruction by employing a multi-view attention mechanism and a cascaded mesh extraction algorithm, achieving robust results compared to prior works.",
-    "figureUrl": "https://opengraph.githubassets.com/84165ce4747f2c0d1e62597560cbe6087ebb90d3da83aa4a06c653114e57c768/xxlong0/Wonder3D"
+    "figureUrl": "https://opengraph.githubassets.com/84165ce4747f2c0d1e62597560cbe6087ebb90d3da83aa4a06c653114e57c768/xxlong0/Wonder3D",
+    "codeUrl": "https://github.com/xxlong0/Wonder3D"
   },
   {
     "id": "oitijjo-3d",
@@ -7623,7 +7670,7 @@
     ],
     "year": 2025,
     "month": 10,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH Asia",
     "venueYear": 2025,
     "tags": [
       "Mesh",
@@ -7638,7 +7685,8 @@
     "project": "https://czzzzh.github.io/FreeArt3D",
     "figure": "First training-free framework for articulated 3D object generation using 3D diffusion.",
     "abstract": "FreeArt3D introduces a training-free method for generating articulated 3D objects by repurposing a pre-trained static 3D diffusion model. It optimizes geometry, texture, and articulation parameters from a few images, achieving high fidelity and versatility without the need for extensive training data.",
-    "figureUrl": "https://czzzzh.github.io/assets/teaser.png"
+    "figureUrl": "https://czzzzh.github.io/assets/teaser.png",
+    "codeUrl": "https://github.com/CzzzzH/FreeArt3D"
   },
   {
     "id": "4-doodle",
@@ -7781,7 +7829,8 @@
     "arxiv": "https://arxiv.org/abs/2510.21264",
     "project": "https://github.com/psky1111/Tencent-TSSR",
     "figure": "First method for generating high-fidelity 3D meshes via Discrete Diffusion Models.",
-    "abstract": "The paper presents Topology Sculptor, Shape Refiner (TSSR), a method for generating high-quality 3D meshes using Discrete Diffusion Models. TSSR enhances efficiency and control through parallel generation, decoupled training, and a novel connection loss, achieving high fidelity in complex datasets. The code will be available on GitHub."
+    "abstract": "The paper presents Topology Sculptor, Shape Refiner (TSSR), a method for generating high-quality 3D meshes using Discrete Diffusion Models. TSSR enhances efficiency and control through parallel generation, decoupled training, and a novel connection loss, achieving high fidelity in complex datasets. The code will be available on GitHub.",
+    "codeUrl": "https://github.com/psky1111/Tencent-TSSR"
   },
   {
     "id": "lddbm",
@@ -8007,7 +8056,8 @@
     "project": "https://github.com/Lillian-research-hub/CymbaDiff",
     "figure": "First structured spatial diffusion model for sketch-based 3D semantic urban scene generation.",
     "abstract": "CymbaDiff introduces a novel approach for generating 3D outdoor semantic scenes from sketches, addressing the lack of annotated datasets. It enhances spatial coherence and captures cylindrical continuity, achieving superior semantic consistency and realism. The method is evaluated on the new SketchSem3D benchmark, which includes diverse datasets for rigorous testing.",
-    "figureUrl": "https://opengraph.githubassets.com/fb6a80c2d6a4f5e4fb84c5324b2ba8de4b42d468247d7b123ca04964a497ed85/Lillian-research-hub/CymbaDiff"
+    "figureUrl": "https://opengraph.githubassets.com/fb6a80c2d6a4f5e4fb84c5324b2ba8de4b42d468247d7b123ca04964a497ed85/Lillian-research-hub/CymbaDiff",
+    "codeUrl": "https://github.com/Lillian-research-hub/CymbaDiff"
   },
   {
     "id": "3d-gen-framework",
@@ -8161,7 +8211,8 @@
     "project": "https://baiyunshu.github.io/GAUSSIANMORPHING.github.io/",
     "figure": "First semantic-aware 3D morphing method using mesh-guided Gaussians.",
     "abstract": "SemMorph3D presents a framework for semantic-aware 3D shape and texture morphing from multi-view images. It combines mesh-guided strategies with 3D Gaussian Splatting to ensure stable transformations while maintaining topological integrity and color consistency. The method outperforms existing techniques on the TexMorph benchmark, achieving significant improvements in morphing quality without requ",
-    "figureUrl": "https://baiyunshu.github.io/GAUSSIANMORPHING.github.io/project_page/static/images/teaser.png"
+    "figureUrl": "https://baiyunshu.github.io/GAUSSIANMORPHING.github.io/project_page/static/images/teaser.png",
+    "codeUrl": "https://github.com/baiyunshu/gaussionmorphing"
   },
   {
     "id": "unilat3d",
@@ -8200,7 +8251,8 @@
     "project": "https://unilat3d.github.io/",
     "figure": "First unified framework for geometry and appearance in single-stage 3D generation via VAE.",
     "abstract": "UniLat3D introduces a unified framework for high-fidelity 3D asset generation, integrating geometry and appearance in a single latent space. It utilizes a geometry-appearance Unified VAE to efficiently produce diverse 3D formats from a single image, achieving high quality and fidelity in a streamlined process.",
-    "figureUrl": "https://unilat3d.github.io/page_files/pipeline.png"
+    "figureUrl": "https://unilat3d.github.io/page_files/pipeline.png",
+    "codeUrl": "https://github.com/UniLat3D/UniLat3D"
   },
   {
     "id": "light-sq",
@@ -9023,7 +9075,8 @@
     "project": "https://github.com/isl-org/unifi3d",
     "figure": "First unified framework for evaluating 3D representations in generation and reconstruction.",
     "abstract": "This paper presents Unifi3D, a framework for evaluating various 3D representations like voxel grids and point clouds in terms of quality and efficiency for generation and reconstruction. It emphasizes the importance of joint evaluation of generation and reconstruction processes and provides insights for selecting suitable 3D models for different applications. The code is available at GitHub.",
-    "figureUrl": "https://opengraph.githubassets.com/e139a40702aa98503a1aeb04002996d01cca67d905536d80b2db711222877e61/isl-org/unifi3d"
+    "figureUrl": "https://opengraph.githubassets.com/e139a40702aa98503a1aeb04002996d01cca67d905536d80b2db711222877e61/isl-org/unifi3d",
+    "codeUrl": "https://github.com/isl-org/unifi3d"
   },
   {
     "id": "c33d",
@@ -9262,7 +9315,8 @@
     "arxiv": "https://arxiv.org/abs/2509.00062",
     "project": "https://scaffold.deepexploration.org/",
     "figure": "First model to generate sparse multi-category 3D voxel structures via discrete diffusion.",
-    "abstract": "Scaffold Diffusion introduces a generative model for creating realistic sparse multi-category 3D voxel structures, addressing challenges of memory scaling and class imbalance. By treating voxels as tokens, it extends discrete diffusion language models to generate coherent 3D structures, outperforming prior methods even with high sparsity. An interactive viewer is provided for visualizing the gener"
+    "abstract": "Scaffold Diffusion introduces a generative model for creating realistic sparse multi-category 3D voxel structures, addressing challenges of memory scaling and class imbalance. By treating voxels as tokens, it extends discrete diffusion language models to generate coherent 3D structures, outperforming prior methods even with high sparsity. An interactive viewer is provided for visualizing the gener",
+    "codeUrl": "https://github.com/jsjung00/scaffold-diffusion"
   },
   {
     "id": "satskylines",
@@ -9402,7 +9456,8 @@
     "arxiv": "https://arxiv.org/abs/2508.14811",
     "project": "https://aim-uofa.github.io/Tinker",
     "figure": "First framework for multi-view consistent 3D editing from sparse inputs via diffusion models",
-    "abstract": "Tinker is a framework for high-fidelity 3D editing that enables multi-view consistent edits from minimal images without per-scene optimization. It utilizes pretrained diffusion models to achieve this, introducing components for reference-driven edits and novel-view generation. Tinker aims to simplify 3D content creation and has shown state-of-the-art performance in various tasks."
+    "abstract": "Tinker is a framework for high-fidelity 3D editing that enables multi-view consistent edits from minimal images without per-scene optimization. It utilizes pretrained diffusion models to achieve this, introducing components for reference-driven edits and novel-view generation. Tinker aims to simplify 3D content creation and has shown state-of-the-art performance in various tasks.",
+    "codeUrl": "https://github.com/aim-uofa/Tinker"
   },
   {
     "id": "physgm",
@@ -9435,7 +9490,8 @@
     "project": "https://hihixiaolv.github.io/PhysGM.github.io/",
     "figure": "First feed-forward framework for 4D synthesis using Gaussian representation from a single image",
     "abstract": "PhysGM is a feed-forward framework that predicts 3D Gaussian representations and physical properties from a single image, enabling fast 4D rendering and simulation. It overcomes limitations of previous methods by integrating physics-aware reconstruction and optimizing simulations with reference videos. The approach is validated with a new dataset of 50K+ 3D assets annotated with physical propertie",
-    "figureUrl": "https://hihixiaolv.github.io/PhysGM.github.io/static/images/pipeline.png"
+    "figureUrl": "https://hihixiaolv.github.io/PhysGM.github.io/static/images/pipeline.png",
+    "codeUrl": "https://github.com/Hihixiaolv/PhysGM"
   },
   {
     "id": "uniugg",
@@ -9529,7 +9585,8 @@
     "project": "https://4dqv.mpi-inf.mpg.de/QVF/",
     "figure": "First quantum implicit neural representation for 3D geometric field learning via neural amplitude encoding",
     "abstract": "This paper introduces Quantum Visual Fields (QVF), a novel architecture for learning 2D images and 3D geometric fields using quantum implicit neural representations. QVF encodes classical data into quantum statevectors, enabling efficient training and direct measurement extraction. Experiments show its effectiveness in 3D shape interpolation and field completion, outperforming existing quantum met",
-    "figureUrl": "https://4dqv.mpi-inf.mpg.de/QVF/images/teaser.jpg"
+    "figureUrl": "https://4dqv.mpi-inf.mpg.de/QVF/images/teaser.jpg",
+    "codeUrl": "https://github.com/shutengW/Quantum-Visual-Fields-with-Neural-Amplitude-Encoding"
   },
   {
     "id": "vertexregen",
@@ -9650,7 +9707,8 @@
     "arxiv": "https://arxiv.org/abs/2508.08136",
     "project": "https://github.com/yangyt46/FantasyStyle",
     "figure": "First 3DGS-based style transfer framework relying entirely on diffusion model distillation.",
-    "abstract": "FantasyStyle addresses challenges in 3D Gaussian Splatting (3DGS) style transfer, such as multi-view inconsistency and content leakage. It introduces a framework that enhances cross-view consistency and employs negative guidance to optimize 3D Gaussians, achieving superior stylization quality and realism. The method outperforms existing approaches in various scenes and styles, with code available "
+    "abstract": "FantasyStyle addresses challenges in 3D Gaussian Splatting (3DGS) style transfer, such as multi-view inconsistency and content leakage. It introduces a framework that enhances cross-view consistency and employs negative guidance to optimize 3D Gaussians, achieving superior stylization quality and realism. The method outperforms existing approaches in various scenes and styles, with code available ",
+    "codeUrl": "https://github.com/yangyt46/FantasyStyle"
   },
   {
     "id": "make-your-move",
@@ -9860,7 +9918,8 @@
     "project": "https://whiteinblue.github.io/earthcrafter/",
     "figure": "First scalable 3D Earth generation framework via dual-sparse latent diffusion.",
     "abstract": "EarthCrafter introduces a novel framework for large-scale 3D Earth generation, leveraging a dual innovation in data infrastructure and model architecture. It utilizes the Aerial-Earth3D dataset and employs dual sparse 3D-VAEs for efficient geometric and textural generation, enabling versatile applications while ensuring geographic plausibility.",
-    "figureUrl": "https://whiteinblue.github.io/earthcrafter/img/data_pipeline.png"
+    "figureUrl": "https://whiteinblue.github.io/earthcrafter/img/data_pipeline.png",
+    "codeUrl": "https://github.com/whiteinblue/EarthCrafter"
   },
   {
     "id": "blended-point-cloud-diffusion",
@@ -9932,8 +9991,8 @@
     ],
     "year": 2025,
     "month": 7,
-    "venue": "arXiv",
-    "venueYear": 2025,
+    "venue": "ECCV",
+    "venueYear": 2024,
     "tags": [
       "SDF",
       "Diffusion",
@@ -9947,7 +10006,8 @@
     "project": "https://jahnsonblack.github.io/DreamScene-Full/",
     "figure": "First end-to-end framework for high-quality editable 3D scene generation from text via Gaussian-based sampling.",
     "abstract": "DreamScene is an innovative framework that generates 3D scenes from natural language, addressing challenges in automation and consistency. It utilizes a scene planning module and a graph-based placement algorithm to create structured layouts, followed by a multi-timestep sampling method for object geometry. The system also allows for fine-grained scene editing and demonstrates superior quality and",
-    "figureUrl": "https://jahnsonblack.github.io/DreamScene-Full/images/overview.png"
+    "figureUrl": "https://jahnsonblack.github.io/DreamScene-Full/images/overview.png",
+    "codeUrl": "https://github.com/DreamScene-Project/DreamScene"
   },
   {
     "id": "autopartgen",
@@ -10036,7 +10096,8 @@
     "project": "https://janeyeon.github.io/romap",
     "figure": "First robust 3D Gaussian editing framework enabling precise part-level modifications via regularized score distillation.",
     "abstract": "RoMaP introduces a local 3D Gaussian editing framework that enhances part-level modifications through robust 3D mask generation and a regularized score distillation loss. It addresses challenges in achieving precise local edits by improving part segmentations and contextual coherence, demonstrating state-of-the-art performance in local 3D editing of Gaussian scenes and objects.",
-    "figureUrl": "https://janeyeon.github.io/static/images/method.png"
+    "figureUrl": "https://janeyeon.github.io/static/images/method.png",
+    "codeUrl": "https://github.com/janeyeon/romap-code"
   },
   {
     "id": "l2-vsd",
@@ -10288,7 +10349,8 @@
     "project": "https://liuff19.github.io/LangScene-X",
     "figure": "First framework to generate generalizable 3D language-embedded scenes from sparse views via TriMap video diffusion.",
     "abstract": "LangScene-X introduces a generative framework for creating 3D language-embedded scenes from sparse views, addressing challenges in traditional reconstruction methods. It utilizes a TriMap video diffusion model to generate consistent RGBs, normals, and segmentation maps, and employs a Language Quantized Compressor for efficient language embedding. The method shows improved quality and generalizabil",
-    "figureUrl": "https://liuff19.github.io/static/images/teaser.png"
+    "figureUrl": "https://liuff19.github.io/static/images/teaser.png",
+    "codeUrl": "https://github.com/liuff19/LangScene-X"
   },
   {
     "id": "topology-preserved-auto-regressive-mesh-generation",
@@ -10345,7 +10407,8 @@
     "arxiv": "https://arxiv.org/abs/2507.00429",
     "project": "https://rorisis.github.io/DiGA3D/",
     "figure": "First unified 3D inpainting pipeline that propagates geometry and appearance via diffusion.",
-    "abstract": "DiGA3D is a novel 3D inpainting pipeline that addresses challenges in maintaining appearance and geometry consistency across multiple views. It utilizes diffusion models for robust feature propagation and introduces a new loss function to enhance geometric consistency. The method shows effectiveness across various 3D inpainting tasks."
+    "abstract": "DiGA3D is a novel 3D inpainting pipeline that addresses challenges in maintaining appearance and geometry consistency across multiple views. It utilizes diffusion models for robust feature propagation and introduces a new loss function to enhance geometric consistency. The method shows effectiveness across various 3D inpainting tasks.",
+    "codeUrl": "https://github.com/Rorisis/DiGA3D"
   },
   {
     "id": "textmesh4d",
@@ -10549,7 +10612,8 @@
     "project": "https://raniatze.github.io/pritti/",
     "figure": "First primitive-based model for controllable and editable 3D semantic urban scene generation via latent diffusion.",
     "abstract": "PrITTI introduces a primitive-based approach for generating 3D semantic urban scenes using a latent diffusion model. This method allows for diverse, controllable, and editable scene generation with improved efficiency and lower memory usage compared to traditional voxel-based methods. It also supports various applications like scene editing and photo-realistic synthesis.",
-    "figureUrl": "https://raniatze.github.io/pritti/static/images/teaser_200dpi.png"
+    "figureUrl": "https://raniatze.github.io/pritti/static/images/teaser_200dpi.png",
+    "codeUrl": "https://github.com/avg-dev/PrITTI"
   },
   {
     "id": "physid",
@@ -10611,7 +10675,8 @@
     "project": "https://jihyun0510.github.io/Programmable_Room_Page/",
     "figure": "First interactive framework for generating and editing 3D room meshes via natural language instructions.",
     "abstract": "Programmable-Room is a framework that generates and edits 3D room meshes based on natural language instructions. It breaks down the task into simpler steps, utilizing a large language model for visual programming and a diffusion model for texture generation. The framework demonstrates flexibility and outperforms existing models in both quantitative and qualitative assessments.",
-    "figureUrl": "https://jihyun0510.github.io/Programmable_Room_Page/static/images/teaser.png"
+    "figureUrl": "https://jihyun0510.github.io/Programmable_Room_Page/static/images/teaser.png",
+    "codeUrl": "https://github.com/Jihyun0510/Programmable_Room"
   },
   {
     "id": "assembler",
@@ -10626,7 +10691,7 @@
     ],
     "year": 2025,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH Asia",
     "venueYear": 2025,
     "tags": [
       "PointCloud",
@@ -10640,7 +10705,8 @@
     "project": "https://assembler3d.github.io",
     "figure": "First framework for scalable 3D part assembly via diffusion models.",
     "abstract": "Assembler is a framework for 3D part assembly that reconstructs complete objects from part meshes and reference images. It employs diffusion models to sample plausible configurations, addressing challenges in scaling to diverse objects. The method introduces a shape-centric representation based on sparse anchor point clouds and constructs a large dataset of part-object assemblies. It achieves stat",
-    "figureUrl": "https://assembler3d.github.io/assets/teaser.png"
+    "figureUrl": "https://assembler3d.github.io/assets/teaser.png",
+    "codeUrl": "https://github.com/assembler3d/assembler3d"
   },
   {
     "id": "hunyuan3d-2-5",
@@ -10879,7 +10945,8 @@
     "project": "https://horizonrobotics.github.io/robot_lab/embodied_gen/index.html",
     "figure": "First platform for scalable interactive 3D world generation via generative AI",
     "abstract": "EmbodiedGen is a toolkit for generating high-quality, controllable, and photorealistic 3D assets for embodied intelligence tasks. It supports various generation methods including Image-to-3D and Text-to-3D, addressing the limitations of traditional 3D asset creation. The generated assets can be used in physics simulations, enhancing the training and evaluation of AI systems.",
-    "figureUrl": "https://horizonrobotics.github.io/robot_lab/embodied_gen/static/images/overall_method.jpg"
+    "figureUrl": "https://horizonrobotics.github.io/robot_lab/embodied_gen/static/images/overall_method.jpg",
+    "codeUrl": "https://github.com/HorizonRobotics/EmbodiedGen"
   },
   {
     "id": "dual-volume-packing",
@@ -11039,7 +11106,8 @@
     "arxiv": "https://arxiv.org/abs/2506.07826",
     "project": "https://research.zenseact.com/publications/R3D2/",
     "figure": "First diffusion model for realistic 3D asset insertion in autonomous driving simulation.",
-    "abstract": "R3D2 is a lightweight diffusion model that enables realistic insertion of complete 3D assets into existing driving scenes, addressing limitations of traditional simulation methods. It generates plausible rendering effects in real time and enhances the realism of inserted assets, facilitating scalable validation of autonomous driving systems. The model is trained on a novel dataset and supports tex"
+    "abstract": "R3D2 is a lightweight diffusion model that enables realistic insertion of complete 3D assets into existing driving scenes, addressing limitations of traditional simulation methods. It generates plausible rendering effects in real time and enhances the realism of inserted assets, facilitating scalable validation of autonomous driving systems. The model is trained on a novel dataset and supports tex",
+    "codeUrl": "https://github.com/bertaveira/R3D2"
   },
   {
     "id": "nova3d",
@@ -11203,7 +11271,8 @@
     "arxiv": "https://arxiv.org/abs/2506.02938",
     "project": "https://github.com/jjjkkyz/MIND",
     "figure": "First method to generate material interfaces directly from UDFs for non-manifold mesh extraction.",
-    "abstract": "MIND introduces a novel algorithm for generating material interfaces from unsigned distance fields (UDFs), enabling effective non-manifold mesh extraction. By deriving a multi-labeled global field, the method addresses challenges in representing complex geometries and significantly improves upon existing techniques. Extensive experiments validate its robustness across various data sources."
+    "abstract": "MIND introduces a novel algorithm for generating material interfaces from unsigned distance fields (UDFs), enabling effective non-manifold mesh extraction. By deriving a multi-labeled global field, the method addresses challenges in representing complex geometries and significantly improves upon existing techniques. Extensive experiments validate its robustness across various data sources.",
+    "codeUrl": "https://github.com/jjjkkyz/MIND"
   },
   {
     "id": "respace",
@@ -11258,7 +11327,8 @@
     "arxiv": "https://arxiv.org/abs/2506.01853",
     "project": "https://github.com/JAMESYJL/ShapeLLM-Omni",
     "figure": "First native multimodal LLM that generates and understands 3D assets via VQVAE.",
-    "abstract": "ShapeLLM-Omni is a native 3D large language model that can understand and generate 3D assets and text. It utilizes a 3D vector-quantized variational autoencoder for efficient shape representation and reconstruction. The model is trained on a large-scale dataset, 3D-Alpaca, which includes generation, comprehension, and editing tasks, aiming to enhance multimodal models with 3D capabilities."
+    "abstract": "ShapeLLM-Omni is a native 3D large language model that can understand and generate 3D assets and text. It utilizes a 3D vector-quantized variational autoencoder for efficient shape representation and reconstruction. The model is trained on a large-scale dataset, 3D-Alpaca, which includes generation, comprehension, and editing tasks, aiming to enhance multimodal models with 3D capabilities.",
+    "codeUrl": "https://github.com/JAMESYJL/ShapeLLM-Omni"
   },
   {
     "id": "worldexplorer",
@@ -11314,7 +11384,8 @@
     "project": "https://obsphera.github.io/promptvfx/",
     "figure": "First text-driven framework for 3D Gaussian animation via field prediction.",
     "abstract": "PromptVFX introduces a text-driven framework for 3D animation that reformulates the task as a field prediction problem. It utilizes large language and vision-language models to generate time-varying 4D flow fields for 3D Gaussians, allowing users to create visual effects with simple text prompts. This approach simplifies the animation process, making it accessible for both novices and experts.",
-    "figureUrl": "https://obsphera.github.io/promptvfx/static/images/pipeline.png"
+    "figureUrl": "https://obsphera.github.io/promptvfx/static/images/pipeline.png",
+    "codeUrl": "https://github.com/3dwe-ai/promptvfx"
   },
   {
     "id": "artiscene",
@@ -11343,12 +11414,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2506.00742",
     "project": "https://artiscene-cvpr.github.io/",
     "figure": "First automated pipeline for artistic 3D scene generation using 2D images as intermediaries.",
     "abstract": "ArtiScene simplifies 3D scene design by leveraging generated 2D images to guide 3D synthesis, allowing users to create scenes from text descriptions without extensive training. The method outperforms existing benchmarks in layout and aesthetic quality, demonstrating high generalizability across various scenes and styles.",
-    "figureUrl": "https://artiscene-cvpr.github.io/static/images/pipeline_3-compressed.png"
+    "figureUrl": "https://artiscene-cvpr.github.io/static/images/pipeline_3-compressed.png",
+    "codeUrl": "https://github.com/jaclyngu/artiscene"
   },
   {
     "id": "ltm3d",
@@ -11639,12 +11711,13 @@
       "Voxel"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2505.17412",
     "project": "https://www.neural4d.com/research/direct3d-s2",
     "figure": "First scalable 3D generation framework using Spatial Sparse Attention for efficient volumetric representation.",
     "abstract": "Direct3D-S2 is a scalable framework for generating high-resolution 3D shapes using Signed Distance Functions (SDFs). It introduces a Spatial Sparse Attention mechanism to enhance efficiency in Diffusion Transformer computations, achieving significant speedups and improved training stability. The model is capable of training at high resolutions with reduced GPU requirements, making gigascale 3D gen",
-    "figureUrl": "https://www.neural4d.com/favicon.png"
+    "figureUrl": "https://www.neural4d.com/favicon.png",
+    "codeUrl": "https://github.com/DreamTechAI/Direct3D-S2"
   },
   {
     "id": "mesh-rft",
@@ -11682,7 +11755,8 @@
     "project": "https://hitcslj.github.io/mesh-rft/",
     "figure": "First method to optimize mesh quality at the granularity of individual faces via fine-grained reinforcement fine-tuning.",
     "abstract": "Mesh-RFT addresses challenges in 3D mesh generation by introducing a fine-grained reinforcement fine-tuning framework that enhances mesh quality through localized refinement. It employs a topology-aware scoring system to evaluate geometric integrity and topological regularity, achieving state-of-the-art performance in mesh generation.",
-    "figureUrl": "https://hitcslj.github.io/mesh-rft/static/images/pipeline.png"
+    "figureUrl": "https://hitcslj.github.io/mesh-rft/static/images/pipeline.png",
+    "codeUrl": "https://github.com/hitcslj/Mesh-RFT"
   },
   {
     "id": "scenefuse-3d",
@@ -11862,7 +11936,8 @@
     "project": "https://github.com/Zechao-Guan/TopoDiT-3D",
     "figure": "First topology-aware diffusion model for 3D point cloud generation.",
     "abstract": "TopoDiT-3D introduces a Topology-Aware Diffusion Transformer that enhances 3D point cloud generation by integrating global topological information. It employs a bottleneck structure to improve feature learning and training efficiency, outperforming existing models in visual quality and diversity. The work highlights the significance of topological data in maintaining shape consistency.",
-    "figureUrl": "https://github.com/Zechao-Guan/TopoDiT-3D/raw/main/demos/teaser.gif"
+    "figureUrl": "https://github.com/Zechao-Guan/TopoDiT-3D/raw/main/demos/teaser.gif",
+    "codeUrl": "https://github.com/Zechao-Guan/TopoDiT-3D"
   },
   {
     "id": "step1x-3d",
@@ -11959,7 +12034,8 @@
     "project": "https://github.com/Wakals/GASCOL",
     "figure": "First automated method for text-to-3D generation of complex attribute objects via hierarchical chain decomposition.",
     "abstract": "The paper presents Hierarchical-Chain-of-Generation (HCoG), an automated method for text-to-3D generation that addresses challenges in creating objects with complex attributes. It utilizes a large language model to decompose descriptions into parts, ensuring coherent and attribute-faithful 3D object generation. The method improves upon existing approaches by optimizing the generation order and par",
-    "figureUrl": "https://opengraph.githubassets.com/fd506f7295a6b7f8490d4868da9669066a8f60de06ee8d3a158392722011690a/Wakals/GASCOL"
+    "figureUrl": "https://opengraph.githubassets.com/fd506f7295a6b7f8490d4868da9669066a8f60de06ee8d3a158392722011690a/Wakals/GASCOL",
+    "codeUrl": "https://github.com/Wakals/HCoG_SD3"
   },
   {
     "id": "buildingblock",
@@ -12048,7 +12124,8 @@
     "project": "https://heheyas.github.io/MeshGen",
     "figure": "First image-to-3D pipeline that generates high-quality PBR textured meshes via a render-enhanced auto-encoder.",
     "abstract": "MeshGen introduces an advanced image-to-3D pipeline that generates high-quality 3D meshes with detailed geometry and PBR textures. It addresses challenges in existing models through innovations like a render-enhanced point-to-shape auto-encoder and generative rendering augmentation techniques. Extensive experiments show that MeshGen outperforms previous methods in shape and texture generation.",
-    "figureUrl": "https://heheyas.github.io/assets/images/overview.jpg"
+    "figureUrl": "https://heheyas.github.io/assets/images/overview.jpg",
+    "codeUrl": "https://github.com/heheyas/MeshGen"
   },
   {
     "id": "se-rbfnet",
@@ -12078,7 +12155,8 @@
     "project": "https://github.com/lianbobo/SE-RBFNet.git",
     "figure": "First method to approximate SDF fields using sparse ellipsoidal radial basis functions via dynamic multi-objective optimization.",
     "abstract": "This paper presents a method for approximating signed distance fields (SDFs) of implicit surfaces using a small number of ellipsoidal radial basis functions (ERBFs). The approach balances sparsity and precision through a dynamic optimization strategy, enhancing computational efficiency and accuracy. Experiments show significant improvements in representation with fewer parameters compared to exist",
-    "figureUrl": "https://opengraph.githubassets.com/b79d5dbf643692d4a559600d27eb5e68bcb110cbe54b1b8d4c6426562c79f32c/lianbobo/SE-RBFNet"
+    "figureUrl": "https://opengraph.githubassets.com/b79d5dbf643692d4a559600d27eb5e68bcb110cbe54b1b8d4c6426562c79f32c/lianbobo/SE-RBFNet",
+    "codeUrl": "https://github.com/lianbobo/SE-RBFNet"
   },
   {
     "id": "unified-distillation-sampling",
@@ -12398,7 +12476,8 @@
     "project": "https://github.com/octree-nn/octgpt",
     "figure": "First multiscale autoregressive model for 3D shape generation via octree representation",
     "abstract": "OctGPT is a novel multiscale autoregressive model that enhances 3D shape generation efficiency and performance, rivaling state-of-the-art diffusion models. It utilizes an octree representation for capturing hierarchical structures and employs a vector quantized variational autoencoder for fine details. The model supports various conditioning methods and demonstrates significant improvements in tra",
-    "figureUrl": "https://opengraph.githubassets.com/309a1ec4222208df95a7901c8cda0a06017af4fd04bde17d7700399af4e1aa12/octree-nn/octgpt"
+    "figureUrl": "https://opengraph.githubassets.com/309a1ec4222208df95a7901c8cda0a06017af4fd04bde17d7700399af4e1aa12/octree-nn/octgpt",
+    "codeUrl": "https://github.com/octree-nn/octgpt"
   },
   {
     "id": "text-to-3d-object",
@@ -12660,12 +12739,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2504.01956",
     "project": "https://hanyang-21.github.io/VideoScene",
     "figure": "First method to distill video diffusion model for direct 3D scene generation.",
     "abstract": "VideoScene introduces a novel approach to generate 3D scenes from video diffusion models in a single step. It addresses challenges in recovering 3D structures from sparse views by employing a 3D-aware leap flow distillation strategy, resulting in faster and more accurate scene generation compared to previous methods. The paper highlights its potential for future video-to-3D applications.",
-    "figureUrl": "https://hanyang-21.github.io/static/images/teaser.png"
+    "figureUrl": "https://hanyang-21.github.io/static/images/teaser.png",
+    "codeUrl": "https://github.com/hanyang-21/VideoScene"
   },
   {
     "id": "3dbonsai",
@@ -12906,7 +12986,8 @@
     "arxiv": "https://arxiv.org/abs/2503.21694",
     "project": "https://github.com/theEricMa/TriplaneTurbo",
     "figure": "First text-to-mesh generator that adapts Stable Diffusion via Progressive Rendering Distillation.",
-    "abstract": "This paper presents TriplaneTurbo, a novel text-to-mesh generator that utilizes Progressive Rendering Distillation to create high-quality 3D meshes from text prompts without requiring 3D training data. By distilling multi-view diffusion models, it enhances generation quality and speed, outperforming previous models in efficiency and quality."
+    "abstract": "This paper presents TriplaneTurbo, a novel text-to-mesh generator that utilizes Progressive Rendering Distillation to create high-quality 3D meshes from text prompts without requiring 3D training data. By distilling multi-view diffusion models, it enhances generation quality and speed, outperforming previous models in efficiency and quality.",
+    "codeUrl": "https://github.com/theEricMa/TriplaneTurbo"
   },
   {
     "id": "weight-space-shape-gen",
@@ -13058,7 +13139,8 @@
     "project": "https://github.com/Tencent/FlashVDM",
     "figure": "First framework to accelerate VAE and DiT in 3D shape generation via FlashVDM.",
     "abstract": "The Vecset Diffusion Model (VDM) has advanced 3D shape generation, but struggles with speed. FlashVDM addresses this by enhancing both VAE and DiT processes, allowing for rapid generation with fewer inference steps while maintaining quality. The model significantly outperforms existing methods, achieving faster inference times. Code and models are available at the provided GitHub link.",
-    "figureUrl": "https://opengraph.githubassets.com/488a72581d512fc98f5b9d9aeb94a8b6fcc710822d3b64d81e6e9cf3ff3768cb/Tencent-Hunyuan/FlashVDM"
+    "figureUrl": "https://opengraph.githubassets.com/488a72581d512fc98f5b9d9aeb94a8b6fcc710822d3b64d81e6e9cf3ff3768cb/Tencent-Hunyuan/FlashVDM",
+    "codeUrl": "https://github.com/Tencent-Hunyuan/FlashVDM"
   },
   {
     "id": "gaussian-atlas-3d",
@@ -13150,7 +13232,8 @@
     "arxiv": "https://arxiv.org/abs/2503.15265",
     "project": "https://zhaorw02.github.io/DeepMesh/",
     "figure": "First auto-regressive mesh generation framework that incorporates Reinforcement Learning for human preference alignment.",
-    "abstract": "DeepMesh introduces a novel framework for generating triangle meshes using an auto-regressive approach enhanced by Reinforcement Learning. It addresses limitations in face counts and mesh completeness through a new tokenization algorithm and a scoring standard that combines human evaluation with 3D metrics. The method generates detailed meshes conditioned on point clouds and images, achieving supe"
+    "abstract": "DeepMesh introduces a novel framework for generating triangle meshes using an auto-regressive approach enhanced by Reinforcement Learning. It addresses limitations in face counts and mesh completeness through a new tokenization algorithm and a scoring standard that combines human evaluation with 3D metrics. The method generates detailed meshes conditioned on point clouds and images, achieving supe",
+    "codeUrl": "https://github.com/zhaorw02/DeepMesh"
   },
   {
     "id": "bolt3d",
@@ -13390,7 +13473,8 @@
     "project": "https://pbr3dgen1218.github.io/",
     "figure": "First mesh generation method that integrates VLM-guided multi-view PBR material estimation.",
     "abstract": "PBR3DGen is a two-stage method for generating high-quality meshes with PBR materials, utilizing vision language models to guide multi-view diffusion. It addresses challenges in material and lighting interactions, enhancing spatially varying properties. Experimental results show it achieves state-of-the-art performance in PBR estimation and mesh generation.",
-    "figureUrl": "https://pbr3dgen1218.github.io/static/imgs/teaser.jpg"
+    "figureUrl": "https://pbr3dgen1218.github.io/static/imgs/teaser.jpg",
+    "codeUrl": "https://github.com/XiaokangWei/PBR3DGen"
   },
   {
     "id": "hyper3d",
@@ -13449,7 +13533,8 @@
     "project": "https://itaychachy.github.io/reward-sds/",
     "figure": "First approach to align score distillation via reward-weighted sampling for text-to-3D generation.",
     "abstract": "RewardSDS enhances Score Distillation Sampling (SDS) by introducing a reward model to weight noise samples, improving alignment to user intent in text-to-3D generation. The method shows significant performance improvements over existing SDS and VSD techniques across various metrics. A project page is available for further details.",
-    "figureUrl": "https://itaychachy.github.io/reward-sds/static/figs/method.png"
+    "figureUrl": "https://itaychachy.github.io/reward-sds/static/figs/method.png",
+    "codeUrl": "https://github.com/itaychachy/RewardSDS"
   },
   {
     "id": "pointnsp",
@@ -13508,7 +13593,8 @@
     "project": "https://github.com/join16/COD-VAE",
     "figure": "First efficient 3D diffusion model using a compact set of latent vectors via VAE",
     "abstract": "This paper presents COD-VAE, a method for encoding 3D shapes into a compact set of latent vectors using a two-stage autoencoder. It improves compression and decoding efficiency, achieving significant speedup in generation while maintaining quality. The method demonstrates 16x compression and 20.8x speedup compared to the baseline, with code available at the provided GitHub link.",
-    "figureUrl": "https://opengraph.githubassets.com/a2b1c3d6b2b45126edcc9e21a6ff4d68191df7f66e2ff38951d46a0557ff5df6/join16/COD-VAE"
+    "figureUrl": "https://opengraph.githubassets.com/a2b1c3d6b2b45126edcc9e21a6ff4d68191df7f66e2ff38951d46a0557ff5df6/join16/COD-VAE",
+    "codeUrl": "https://github.com/join16/COD-VAE"
   },
   {
     "id": "implicit-flow-simulation",
@@ -13676,7 +13762,8 @@
     "project": "https://github.com/aailab-kaist/DDiF",
     "figure": "First dataset distillation method that utilizes neural fields for shape generation.",
     "abstract": "This paper introduces DDiF, a novel framework for dataset distillation that uses neural fields to compress large-scale datasets into smaller synthetic datasets while preserving essential information. DDiF demonstrates superior expressiveness and performance across various domains, including 3D voxel data, and the code is available at the provided GitHub link.",
-    "figureUrl": "https://opengraph.githubassets.com/1817175ada2fb31081ca92ad907a4d4be4e5b43c044c7caa5df13d7afb622851/aailab-kaist/DDiF"
+    "figureUrl": "https://opengraph.githubassets.com/1817175ada2fb31081ca92ad907a4d4be4e5b43c044c7caa5df13d7afb622851/aailab-kaist/DDiF",
+    "codeUrl": "https://github.com/aailab-kaist/DDiF"
   },
   {
     "id": "arcpro",
@@ -14485,7 +14572,8 @@
     "arxiv": "https://arxiv.org/abs/2501.14317",
     "project": "https://nautilusmeshgen.github.io",
     "figure": "First locality-aware autoencoder for scalable mesh generation via novel tokenization and dual-stream conditioning.",
-    "abstract": "Nautilus is a locality-aware autoencoder designed for scalable mesh generation, addressing limitations in existing methods. It introduces a novel tokenization algorithm to maintain face proximity and compress sequence length, allowing for the generation of meshes with up to 5,000 faces. The method also features a Dual-stream Point Conditioner for enhanced geometric guidance, significantly improvin"
+    "abstract": "Nautilus is a locality-aware autoencoder designed for scalable mesh generation, addressing limitations in existing methods. It introduces a novel tokenization algorithm to maintain face proximity and compress sequence length, allowing for the generation of meshes with up to 5,000 faces. The method also features a Dual-stream Point Conditioner for enhanced geometric guidance, significantly improvin",
+    "codeUrl": "https://github.com/yuxuan-w/nautilus"
   },
   {
     "id": "multidreamer3d",
@@ -14845,7 +14933,8 @@
     "project": "https://github.com/kamwoh/chirpy3d",
     "figure": "First part-aware multi-view diffusion framework for fine-grained object generation.",
     "abstract": "Chirpy3D introduces a part-aware multi-view diffusion framework that generates fine-grained object structures from 2D images without 3D data. It learns a hierarchical part latent space for intuitive part-level manipulation and supports coherent generation across views. The method emphasizes flexibility in creative object generation and is backed by a self-supervised feature consistency loss. Code ",
-    "figureUrl": "https://opengraph.githubassets.com/095510894b901c7c72e7be3ab53a50d81fc19b0217d4b90a616325eaa58d4029/kamwoh/chirpy3d"
+    "figureUrl": "https://opengraph.githubassets.com/095510894b901c7c72e7be3ab53a50d81fc19b0217d4b90a616325eaa58d4029/kamwoh/chirpy3d",
+    "codeUrl": "https://github.com/kamwoh/chirpy3d"
   },
   {
     "id": "layout2scene",
@@ -14934,7 +15023,8 @@
     "project": "https://freemty.github.io/project-prometheus/",
     "figure": "First 3D-aware latent diffusion model for feed-forward text-to-3D scene generation.",
     "abstract": "Prometheus is a 3D-aware latent diffusion model designed for rapid text-to-3D generation of both objects and scenes. It utilizes multi-view, feed-forward, pixel-aligned 3D Gaussian generation within the latent diffusion framework, enhancing generalizability and fidelity by incorporating RGB-D latent space. The method shows significant effectiveness in generating 3D Gaussians and scenes.",
-    "figureUrl": "https://freemty.github.io/project-prometheus/files/teaser_p1.jpg"
+    "figureUrl": "https://freemty.github.io/project-prometheus/files/teaser_p1.jpg",
+    "codeUrl": "https://github.com/XDimLab/Prometheus"
   },
   {
     "id": "grala3d",
@@ -15383,7 +15473,8 @@
     "project": "https://yueqiu0911.github.io/MS2Mesh-XR/",
     "figure": "First multi-modal sketch-to-mesh generation pipeline in XR environments using voice inputs.",
     "abstract": "MS2Mesh-XR is a novel pipeline that allows users to create realistic 3D objects in XR environments through hand-drawn sketches and voice inputs. It integrates ControlNet to generate images from sketches and text prompts, which are then reconstructed into detailed 3D meshes. The system enables high-quality mesh generation in under 20 seconds, enhancing creative production in XR settings.",
-    "figureUrl": "https://yueqiu0911.github.io/MS2Mesh-XR/static/images/Teaser_page-0001.jpg"
+    "figureUrl": "https://yueqiu0911.github.io/MS2Mesh-XR/static/images/Teaser_page-0001.jpg",
+    "codeUrl": "https://github.com/yukimi023/MS2Mesh-XR"
   },
   {
     "id": "dsplats",
@@ -15442,7 +15533,8 @@
     "project": "https://github.com/valeoai/LOGen",
     "figure": "First LiDAR object generation model using point diffusion.",
     "abstract": "LOGen introduces a novel diffusion-based model for generating LiDAR point clouds of 3D objects, focusing on enhancing the quality of LiDAR scan generation. The model allows extensive control through conditioning information and demonstrates effectiveness on datasets like nuScenes and KITTI-360, evaluated with new 3D metrics tailored for LiDAR objects.",
-    "figureUrl": "https://opengraph.githubassets.com/f1143dac6483912a1fec66ca8f52aef656be8346cf30fa30436fae5e6f88ac45/valeoai/LOGen"
+    "figureUrl": "https://opengraph.githubassets.com/f1143dac6483912a1fec66ca8f52aef656be8346cf30fa30436fae5e6f88ac45/valeoai/LOGen",
+    "codeUrl": "https://github.com/valeoai/LOGen"
   },
   {
     "id": "artformer",
@@ -15593,7 +15685,8 @@
     "project": "https://jahnsonblack.github.io/GE3D/",
     "figure": "First method that distills 3D representations from 2D diffusion models via editing.",
     "abstract": "This paper presents GE3D, a novel method for generating photorealistic 3D outputs by distilling information from pretrained 2D diffusion models through a 2D editing framework. It addresses inefficiencies in current methods and optimizes the process by aligning latents across noising and denoising trajectories. The approach enhances 3D generation technology and connects it with 2D editing, with cod",
-    "figureUrl": "https://jahnsonblack.github.io/GE3D/images/overview.png"
+    "figureUrl": "https://jahnsonblack.github.io/GE3D/images/overview.png",
+    "codeUrl": "https://github.com/Jahnsonblack/GE3D"
   },
   {
     "id": "text-to-3d-gaussian-splatting",
@@ -16281,7 +16374,8 @@
     "project": "https://github.com/YuQiao0303/Fancy123",
     "figure": "First method to generate high-quality 3D meshes from a single image via plug-and-play deformation.",
     "abstract": "Fancy123 addresses the challenges of generating 3D meshes from a single image by introducing enhancement modules and an unprojection operation. It improves multiview consistency and mesh fidelity, resulting in high-quality outputs. The method integrates seamlessly with existing techniques and demonstrates state-of-the-art performance in experiments.",
-    "figureUrl": "https://opengraph.githubassets.com/fab49f738dd8dffbc36e73e4a6ce145873736856356442e63902e87d962bb571/YuQiao0303/Fancy123"
+    "figureUrl": "https://opengraph.githubassets.com/fab49f738dd8dffbc36e73e4a6ce145873736856356442e63902e87d962bb571/YuQiao0303/Fancy123",
+    "codeUrl": "https://github.com/YuQiao0303/Fancy123"
   },
   {
     "id": "novelgs",
@@ -16411,7 +16505,8 @@
     "project": "https://caiyuanhao1998.github.io/project/DiffusionGS/",
     "figure": "First single-stage 3D diffusion model for object generation and scene reconstruction from a single view.",
     "abstract": "The paper introduces DiffusionGS, a novel single-stage 3D diffusion model that generates 3D Gaussian point clouds from a single view, ensuring view consistency and robustness. It improves upon existing methods by using a scene-object mixed training strategy, achieving significant performance gains in PSNR and FID metrics while being faster than state-of-the-art approaches. The project page and cod",
-    "figureUrl": "https://caiyuanhao1998.github.io/project/DiffusionGS/static/images/teaser.jpg"
+    "figureUrl": "https://caiyuanhao1998.github.io/project/DiffusionGS/static/images/teaser.jpg",
+    "codeUrl": "https://github.com/caiyuanhao1998/Open-DiffusionGS"
   },
   {
     "id": "sseditor",
@@ -16869,7 +16964,8 @@
     "project": "https://github.com/DoronHav/WassersteinFlowMatching",
     "figure": "First algorithm to generate distributions in high dimensions via Wasserstein flow matching.",
     "abstract": "Wasserstein flow matching (WFM) introduces a novel approach to generative modeling by considering families of distributions, enabling the generation of both 2D and 3D shapes as well as high-dimensional cellular microenvironments. The method utilizes optimal transport theory and attention mechanisms, demonstrating its versatility across different computational scenarios. Code is available at the pr",
-    "figureUrl": "https://opengraph.githubassets.com/91b44001ff4c894f060a8c8ed032518937779d1e59d48df073ea689379ed75a3/DoronHav/WassersteinFlowMatching"
+    "figureUrl": "https://opengraph.githubassets.com/91b44001ff4c894f060a8c8ed032518937779d1e59d48df073ea689379ed75a3/DoronHav/WassersteinFlowMatching",
+    "codeUrl": "https://github.com/DoronHav/WassersteinFlowMatching"
   },
   {
     "id": "compgs",
@@ -16994,7 +17090,8 @@
     "arxiv": "https://arxiv.org/abs/2410.17802",
     "project": "https://github.com/TrepangCat/GenUDC",
     "figure": "First high-quality 3D mesh generation using Unsigned Dual Contouring via a coarse-to-fine process",
-    "abstract": "GenUDC introduces a novel framework for generating high-quality 3D meshes by utilizing Unsigned Dual Contouring (UDC) as the mesh representation. It addresses challenges in existing methods by employing a two-stage generative process that first creates a rough shape and then refines it into a detailed mesh. The approach effectively resolves ambiguity issues and demonstrates superior performance in"
+    "abstract": "GenUDC introduces a novel framework for generating high-quality 3D meshes by utilizing Unsigned Dual Contouring (UDC) as the mesh representation. It addresses challenges in existing methods by employing a two-stage generative process that first creates a rough shape and then refines it into a detailed mesh. The approach effectively resolves ambiguity issues and demonstrates superior performance in",
+    "codeUrl": "https://github.com/TrepangCat/GenUDC"
   },
   {
     "id": "mvdrag3d",
@@ -17052,7 +17149,8 @@
     "project": "https://colezwhy.github.io/layoutyour3d/",
     "figure": "First framework for controllable 3D generation from 2D layouts via text prompts",
     "abstract": "Layout-Your-3D is a framework that enables controllable and compositional 3D generation using 2D layouts as blueprints. It addresses challenges in existing text-to-3D methods by creating a coarse 3D scene from a 2D layout and optimizing for coherent global layouts. The approach yields visually appealing 3D assets and can be applied to tasks like 3D editing and object insertion.",
-    "figureUrl": "https://colezwhy.github.io/layoutyour3d/sources/teaser.png"
+    "figureUrl": "https://colezwhy.github.io/layoutyour3d/sources/teaser.png",
+    "codeUrl": "https://github.com/Colezwhy/Layout-Your-3D"
   },
   {
     "id": "l3dg",
@@ -17274,7 +17372,8 @@
     "arxiv": "https://arxiv.org/abs/2410.09049",
     "project": "https://orangesodahub.github.io/SceneCraft",
     "figure": "First method for generating detailed indoor scenes guided by user specifications via a diffusion model.",
-    "abstract": "SceneCraft is a novel approach for generating complex 3D indoor scenes based on user-provided textual descriptions and spatial layouts. It utilizes a rendering-based technique to convert 3D layouts into multi-view 2D proxy maps and employs a semantic and depth conditioned diffusion model to create multi-view images, ultimately learning a neural radiance field for scene representation. The method e"
+    "abstract": "SceneCraft is a novel approach for generating complex 3D indoor scenes based on user-provided textual descriptions and spatial layouts. It utilizes a rendering-based technique to convert 3D layouts into multi-view 2D proxy maps and employs a semantic and depth conditioned diffusion model to create multi-view images, ultimately learning a neural radiance field for scene representation. The method e",
+    "codeUrl": "https://github.com/OrangeSodahub/SceneCraft"
   },
   {
     "id": "semanticsds",
@@ -17305,7 +17404,8 @@
     "arxiv": "https://arxiv.org/abs/2410.09009",
     "project": "https://github.com/YangLing0818/SemanticSDS-3D",
     "figure": "First method for compositional text-to-3D generation using Semantic Score Distillation Sampling.",
-    "abstract": "This paper presents Semantic Score Distillation Sampling (SemanticSDS), a novel approach for generating high-quality 3D assets from textual descriptions. It addresses challenges in crafting complex 3D scenes by integrating semantic embeddings for improved expressiveness and accuracy. The method enhances existing diffusion models, enabling precise optimization and superior quality in 3D content gen"
+    "abstract": "This paper presents Semantic Score Distillation Sampling (SemanticSDS), a novel approach for generating high-quality 3D assets from textual descriptions. It addresses challenges in crafting complex 3D scenes by integrating semantic embeddings for improved expressiveness and accuracy. The method enhances existing diffusion models, enabling precise optimization and superior quality in 3D content gen",
+    "codeUrl": "https://github.com/YangLing0818/SemanticSDS-3D"
   },
   {
     "id": "3d-adapter",
@@ -17335,7 +17435,8 @@
     "project": "https://github.com/iceli1007/3D-Adapter",
     "figure": "First one-shot 3D generative domain adaptation method via GAN.",
     "abstract": "This paper introduces 3D-Adapter, a novel method for one-shot 3D generative domain adaptation, enabling the transfer of a pre-trained 3D generator to a new domain using a single reference image. It emphasizes high fidelity, diversity, and consistency across domains and views, employing advanced loss functions and a progressive fine-tuning strategy. The method also supports zero-shot scenarios and ",
-    "figureUrl": "https://opengraph.githubassets.com/a8f80b1b80c3b6d10bc55dcb7e0277a4a2cda2f51b14d07d1c00398288123ea0/iceli1007/3D-Adapter"
+    "figureUrl": "https://opengraph.githubassets.com/a8f80b1b80c3b6d10bc55dcb7e0277a4a2cda2f51b14d07d1c00398288123ea0/iceli1007/3D-Adapter",
+    "codeUrl": "https://github.com/iceli1007/3D-Adapter"
   },
   {
     "id": "semv-3d",
@@ -17626,7 +17727,8 @@
     "project": "https://github.com/florinshen/Vista3D",
     "figure": "First framework that generates 3D objects from a single image using Gaussian Splatting and SDF optimization.",
     "abstract": "Vista3D is a framework designed for rapid 3D generation from single images, utilizing a two-phase approach that combines Gaussian Splatting and Signed Distance Function extraction. It balances consistency and diversity in generated 3D objects, with demos and code available online.",
-    "figureUrl": "https://opengraph.githubassets.com/d46441da3f2988b37da7d15afcc3812538734d47953303a4c70924db9a8fcade/florinshen/Vista3D"
+    "figureUrl": "https://opengraph.githubassets.com/d46441da3f2988b37da7d15afcc3812538734d47953303a4c70924db9a8fcade/florinshen/Vista3D",
+    "codeUrl": "https://github.com/florinshen/Vista3D"
   },
   {
     "id": "lt3sd",
@@ -17718,7 +17820,8 @@
     "project": "https://github.com/yanghb22-fdu/Hi3D-Official",
     "figure": "First high-resolution image-to-3D generation model using video diffusion.",
     "abstract": "Hi3D introduces a novel video diffusion approach for high-resolution image-to-3D generation, enhancing multi-view consistency and texture detail. By leveraging 3D-aware priors and a video-to-video refiner, it produces superior multi-view images and high-fidelity meshes. The method shows significant improvements in both novel view synthesis and single view reconstruction.",
-    "figureUrl": "https://opengraph.githubassets.com/060355df19113c1e8e2ec573d88fd743117420846b0a36b8b3e4f66b4c501f07/yanghb22-fdu/Hi3D-Official"
+    "figureUrl": "https://opengraph.githubassets.com/060355df19113c1e8e2ec573d88fd743117420846b0a36b8b3e4f66b4c501f07/yanghb22-fdu/Hi3D-Official",
+    "codeUrl": "https://github.com/yanghb22-fdu/Hi3D-Official"
   },
   {
     "id": "mvgaussian",
@@ -17994,8 +18097,8 @@
     ],
     "year": 2024,
     "month": 8,
-    "venue": "arXiv",
-    "venueYear": 2024,
+    "venue": "3DV",
+    "venueYear": 2025,
     "tags": [
       "Mesh",
       "Diffusion",
@@ -18009,7 +18112,8 @@
     "project": "https://threedle.github.io/MeshUp",
     "figure": "First method to deform 3D meshes towards multiple target concepts via blended score distillation.",
     "abstract": "MeshUp introduces a technique for deforming 3D meshes towards multiple target concepts defined by text or images. It utilizes a novel score distillation approach to control the influence of these concepts on specific mesh regions. The method employs a probabilistic Region of Interest map to manage the expression of activations, demonstrating effective deformation across various meshes.",
-    "figureUrl": "https://threedle.github.io/static/images/figures/teaser.png"
+    "figureUrl": "https://threedle.github.io/static/images/figures/teaser.png",
+    "codeUrl": "https://github.com/threedle/MeshUp"
   },
   {
     "id": "octfusion",
@@ -18040,7 +18144,8 @@
     "project": "https://github.com/octree-nn/octfusion",
     "figure": "First octree-based diffusion model for high-quality 3D shape generation.",
     "abstract": "OctFusion introduces an octree-based latent representation and a unified multi-scale U-Net diffusion model for efficient 3D shape generation. It achieves high-quality results in 2.5 seconds on a single GPU and supports various conditioning methods, including text prompts and sketches. The method demonstrates state-of-the-art performance on ShapeNet and Objaverse datasets.",
-    "figureUrl": "https://opengraph.githubassets.com/2d0d76c186ac3ceafc6bf335e050bed31ef28edf0f041c6cb042978bcc4491c0/octree-nn/octfusion"
+    "figureUrl": "https://opengraph.githubassets.com/2d0d76c186ac3ceafc6bf335e050bed31ef28edf0f041c6cb042978bcc4491c0/octree-nn/octfusion",
+    "codeUrl": "https://github.com/octree-nn/octfusion"
   },
   {
     "id": "scenedreamer360",
@@ -18072,7 +18177,8 @@
     "project": "https://github.com/liwrui/SceneDreamer360",
     "figure": "First text-driven 3D-consistent scene generation model using panoramic Gaussian splatting.",
     "abstract": "SceneDreamer360 addresses the challenge of spatial inconsistency in text-driven 3D scene generation by leveraging a panoramic image generation model and 3D Gaussian Splatting. This method enhances the quality and consistency of generated 3D scenes from text prompts, producing high-resolution and detail-rich outputs. The approach includes a novel point cloud fusion initialization for improved resul",
-    "figureUrl": "https://opengraph.githubassets.com/bb64ac2f370196e6b5235f6d95294dbab1c77af489f625674b6b8de2c1bd6d67/liwrui/SceneDreamer360"
+    "figureUrl": "https://opengraph.githubassets.com/bb64ac2f370196e6b5235f6d95294dbab1c77af489f625674b6b8de2c1bd6d67/liwrui/SceneDreamer360",
+    "codeUrl": "https://github.com/liwrui/SceneDreamer360"
   },
   {
     "id": "atlas-gaussians-diffusion",
@@ -18103,7 +18209,8 @@
     "project": "https://yanghtr.github.io/projects/atlas_gaussians",
     "figure": "First 3D generation method using Atlas Gaussians representation via latent diffusion model",
     "abstract": "This paper presents Atlas Gaussians, a novel representation for efficient 3D generation using a latent diffusion model. By representing shapes as unions of local patches that decode 3D Gaussians, the method achieves high-quality detail generation. A variational autoencoder is trained to learn this representation, and experiments demonstrate its superiority over previous methods in feed-forward nat",
-    "figureUrl": "https://yanghtr.github.io/projects/static/images/pipeline.png"
+    "figureUrl": "https://yanghtr.github.io/projects/static/images/pipeline.png",
+    "codeUrl": "https://github.com/yanghtr/AtlasGaussians"
   },
   {
     "id": "point-to-gaussian",
@@ -18233,7 +18340,8 @@
     "arxiv": "https://arxiv.org/abs/2408.05938",
     "project": "https://moment-3d.github.io/",
     "figure": "First text-to-3D model that ensures geometric consistency using deep geometric moments via SDS.",
-    "abstract": "MT3D is a text-to-3D generative model that addresses viewpoint bias in diffusion models by using depth maps from high-quality 3D models as control signals. It incorporates deep geometric moments to enhance geometric consistency in generated 3D objects, improving their quality and usability."
+    "abstract": "MT3D is a text-to-3D generative model that addresses viewpoint bias in diffusion models by using depth maps from high-quality 3D models as control signals. It incorporates deep geometric moments to enhance geometric consistency in generated 3D objects, improving their quality and usability.",
+    "codeUrl": "https://github.com/utkarshnath/MT3D"
   },
   {
     "id": "scene123",
@@ -18264,7 +18372,8 @@
     "project": "https://yiyingyang12.github.io/Scene123.github.io/",
     "figure": "First 3D scene generation model that ensures realism and consistency via video-assisted MAE.",
     "abstract": "Scene123 is a 3D scene generation model that leverages video generation frameworks and implicit neural representations to create realistic large-scale scenes from single inputs. It addresses view consistency challenges by optimizing a neural radiance field and enhancing detail fidelity using a GAN-based loss. Experimental results show it outperforms existing methods.",
-    "figureUrl": "https://yiyingyang12.github.io/Scene123.github.io/static/images/pipeline.png"
+    "figureUrl": "https://yiyingyang12.github.io/Scene123.github.io/static/images/pipeline.png",
+    "codeUrl": "https://github.com/YiyingYang12/Scene123"
   },
   {
     "id": "flowdreamer",
@@ -18348,7 +18457,8 @@
     "project": "https://github.com/1YimingZhong/DreamLCM",
     "figure": "First high-quality text-to-3D generation via Latent Consistency Model.",
     "abstract": "DreamLCM addresses the poor quality of 3D object generation in text-to-3D tasks by incorporating a Latent Consistency Model. It enhances guidance for generating detailed 3D models through improved calibration and dual timestep strategies, achieving state-of-the-art results in generation quality and training efficiency.",
-    "figureUrl": "https://opengraph.githubassets.com/98f1f1263c8dc1ae3c55303554ffd53d79fb2c017580558ec6f627833ddc39e4/1YimingZhong/DreamLCM"
+    "figureUrl": "https://opengraph.githubassets.com/98f1f1263c8dc1ae3c55303554ffd53d79fb2c017580558ec6f627833ddc39e4/1YimingZhong/DreamLCM",
+    "codeUrl": "https://github.com/1YimingZhong/DreamLCM"
   },
   {
     "id": "meshanything-v2",
@@ -18381,7 +18491,8 @@
     "project": "https://buaacyw.github.io/meshanything-v2/",
     "figure": "First mesh generation model that uses Adjacent Mesh Tokenization for improved efficiency",
     "abstract": "MeshAnything V2 is an advanced autoregressive model for generating meshes, introducing a novel Adjacent Mesh Tokenization method that optimizes vertex representation. This innovation reduces token sequence length and enhances mesh generation efficiency, allowing for the creation of complex meshes with improved performance. The authors plan to release their code and models publicly.",
-    "figureUrl": "https://buaacyw.github.io/meshanything-v2/method.png"
+    "figureUrl": "https://buaacyw.github.io/meshanything-v2/method.png",
+    "codeUrl": "https://github.com/buaacyw/MeshAnythingV2"
   },
   {
     "id": "icontrol3d",
@@ -18415,7 +18526,8 @@
     "project": "https://github.com/xingyi-li/iControl3D",
     "figure": "First interactive system for controllable 3D scene generation via 2D diffusion images",
     "abstract": "iControl3D is an interactive system that allows users to generate customizable 3D scenes with precise control. It utilizes 3D meshes as intermediaries to merge 2D diffusion-generated images into a unified 3D representation, incorporating boundary-aware depth alignment and environment maps for remote content. The system includes a neural rendering interface for scene navigation. Code will be availa",
-    "figureUrl": "https://opengraph.githubassets.com/8da708963e0b279e6de22e3d0d37e2390203a7c6de2898ebf660dbb01760d5fe/xingyi-li/iControl3D"
+    "figureUrl": "https://opengraph.githubassets.com/8da708963e0b279e6de22e3d0d37e2390203a7c6de2898ebf660dbb01760d5fe/xingyi-li/iControl3D",
+    "codeUrl": "https://github.com/xingyi-li/iControl3D"
   },
   {
     "id": "3d-gs-initialization",
@@ -18594,7 +18706,8 @@
     "project": "https://liuzhen0212.github.io/finerpp/",
     "figure": "First framework to improve implicit neural representation using variable-periodic functions.",
     "abstract": "FINER++ enhances implicit neural representation by addressing spectral bias and capacity-convergence gaps through variable-periodic activation functions. This approach allows for better representation of complex signals, including 3D signed distance fields, and demonstrates improved performance across various tasks. The framework is validated with different activation function backbones and showca",
-    "figureUrl": "https://liuzhen0212.github.io/finer/img/finer.png"
+    "figureUrl": "https://liuzhen0212.github.io/finer/img/finer.png",
+    "codeUrl": "https://github.com/liuzhen0212/FINERplusplus"
   },
   {
     "id": "scalinggaussian",
@@ -18747,7 +18860,8 @@
     "project": "https://github.com/HansenHuang0823/PlacidDreamer",
     "figure": "First text-to-3D framework that harmonizes multi-view generation and text conditioning via a single diffusion model",
     "abstract": "PlacidDreamer is a text-to-3D generation framework that addresses limitations in previous methods by harmonizing initialization, multi-view generation, and text conditioning using a single multi-view diffusion model. It introduces a novel score distillation algorithm to balance saturation and improve detail richness. Extensive experiments demonstrate its capabilities.",
-    "figureUrl": "https://opengraph.githubassets.com/c42875e067262c63ad418a12a9ff62a4740f0e37d51ba87c9ba148dbfea74b12/HansenHuang0823/PlacidDreamer"
+    "figureUrl": "https://opengraph.githubassets.com/c42875e067262c63ad418a12a9ff62a4740f0e37d51ba87c9ba148dbfea74b12/HansenHuang0823/PlacidDreamer",
+    "codeUrl": "https://github.com/HansenHuang0823/PlacidDreamer"
   },
   {
     "id": "pasta",
@@ -18802,7 +18916,8 @@
     "project": "https://github.com/LMozart/ECCV2024-GCS-BEG",
     "figure": "First text-to-3D generation method that connects consistency distillation to score distillation via Guided Consistency Sampling.",
     "abstract": "This paper addresses issues in text-to-3D generation, such as limited detail and low fidelity, by analyzing score distillation methods and proposing an optimization framework called Guided Consistency Sampling (GCS). The authors also introduce a Brightness-Equalized Generation scheme to improve rendering quality. Experimental results show enhanced detail and fidelity in generated 3D assets compare",
-    "figureUrl": "https://opengraph.githubassets.com/604ba76156c3a3b9e755f4256aec7529a786bf20ce23efaa0eacc860619bde5c/LMozart/ECCV2024-GCS-BEG"
+    "figureUrl": "https://opengraph.githubassets.com/604ba76156c3a3b9e755f4256aec7529a786bf20ce23efaa0eacc860619bde5c/LMozart/ECCV2024-GCS-BEG",
+    "codeUrl": "https://github.com/LMozart/ECCV2024-GCS-BEG"
   },
   {
     "id": "4dynamic",
@@ -18898,7 +19013,8 @@
     "project": "https://github.com/Urban-World/UrbanWorld",
     "figure": "First generative urban world model that creates customizable 3D urban environments via diffusion.",
     "abstract": "UrbanWorld is a generative model designed to automatically create realistic and interactive 3D urban environments. It utilizes a four-stage generation pipeline, including flexible layout generation, urban scene design, controllable asset rendering, and scene refinement. The model demonstrates state-of-the-art realism and controllability using both text and image prompts, and is available as an ope",
-    "figureUrl": "https://opengraph.githubassets.com/bcfa88568514785631372b320b856ae3f7d9979f9e99dab7cd1d1732b126bdd5/Urban-World/UrbanWorld"
+    "figureUrl": "https://opengraph.githubassets.com/bcfa88568514785631372b320b856ae3f7d9979f9e99dab7cd1d1732b126bdd5/Urban-World/UrbanWorld",
+    "codeUrl": "https://github.com/Urban-World/UrbanWorld"
   },
   {
     "id": "vividdreamer",
@@ -19191,7 +19307,8 @@
     "project": "https://linshan-bin.github.io/GeoLRM/",
     "figure": "First geometry-aware model that generates high-quality 3D Gaussian representations via a transformer structure",
     "abstract": "GeoLRM introduces a Geometry-Aware Large Reconstruction Model that predicts high-quality 3D assets using 512k Gaussians and 21 input images. It addresses the limitations of previous methods by incorporating a 3D-aware transformer and deformable cross-attention mechanisms, enabling better integration of image features into 3D representations. The model shows significant improvements in 3D generatio",
-    "figureUrl": "https://linshan-bin.github.io/GeoLRM/static/images/overview.png"
+    "figureUrl": "https://linshan-bin.github.io/GeoLRM/static/images/overview.png",
+    "codeUrl": "https://github.com/alibaba-yuanjing-aigclab/GeoLRM"
   },
   {
     "id": "a3d",
@@ -19227,7 +19344,8 @@
     "arxiv": "https://arxiv.org/abs/2406.15020",
     "project": "https://voyleg.github.io/a3d/",
     "figure": "First method for aligned text-driven 3D object generation via Score Distillation",
-    "abstract": "The paper addresses text-driven 3D generation by focusing on geometry alignment. It proposes a method that generates a collection of semantically aligned objects by embedding them into a common latent space and optimizing transitions between them. The approach emphasizes smoothness and plausibility of these transitions, demonstrating its effectiveness in applications like 3D editing and object hyb"
+    "abstract": "The paper addresses text-driven 3D generation by focusing on geometry alignment. It proposes a method that generates a collection of semantically aligned objects by embedding them into a common latent space and optimizing transitions between them. The approach emphasizes smoothness and plausibility of these transitions, demonstrating its effectiveness in applications like 3D editing and object hyb",
+    "codeUrl": "https://github.com/AIRI-Institute/a3d"
   },
   {
     "id": "vividdreamer",
@@ -19257,7 +19375,8 @@
     "arxiv": "https://arxiv.org/abs/2406.14964",
     "project": "https://narcissusex.github.io/VividDreamer",
     "figure": "First efficient text-to-3D generation method using Pose-dependent Consistency Distillation Sampling.",
-    "abstract": "VividDreamer introduces a novel objective for text-to-3D generation that addresses quality issues in existing methods by utilizing Pose-dependent Consistency Distillation Sampling (PCDS). This approach allows for more accurate gradient approximation and efficient generation of 3D assets, significantly improving upon state-of-the-art methods in both quality and training efficiency."
+    "abstract": "VividDreamer introduces a novel objective for text-to-3D generation that addresses quality issues in existing methods by utilizing Pose-dependent Consistency Distillation Sampling (PCDS). This approach allows for more accurate gradient approximation and efficient generation of 3D assets, significantly improving upon state-of-the-art methods in both quality and training efficiency.",
+    "codeUrl": "https://github.com/NarcissusEx/VividDreamer"
   },
   {
     "id": "latent-diffusion-3d-scenes",
@@ -19379,7 +19498,8 @@
     "project": "https://github.com/trapoom555/GradeADreamer",
     "figure": "First text-to-3D generation method that mitigates the Multi-face Janus problem via a three-stage training pipeline.",
     "abstract": "GradeADreamer introduces a novel three-stage training pipeline for text-to-3D generation, addressing challenges like the Multi-face Janus problem and long generation times. Utilizing a Multi-view Diffusion Model to create Gaussian Splats, it refines geometry and texture with StableDiffusion, achieving high-quality assets efficiently. Experimental results show significant improvements over previous",
-    "figureUrl": "https://opengraph.githubassets.com/25ef03ef9f606dd5525e7c01a8ded2de535efd64fa8bd5abdcb6cf72b2e6e80a/trapoom555/GradeADreamer"
+    "figureUrl": "https://opengraph.githubassets.com/25ef03ef9f606dd5525e7c01a8ded2de535efd64fa8bd5abdcb6cf72b2e6e80a/trapoom555/GradeADreamer",
+    "codeUrl": "https://github.com/trapoom555/GradeADreamer"
   },
   {
     "id": "gaussiancity",
@@ -19430,12 +19550,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2406.06432",
     "project": "https://jingyang2017.github.io/sym3d.github.io/",
     "figure": "First 3D-aware GAN that incorporates reflectional symmetry for improved 3D asset generation from single-view images.",
     "abstract": "SYM3D is a novel 3D-aware GAN that utilizes reflectional symmetry and a view-aware spatial attention mechanism to enhance 3D representation learning. It effectively generates detailed 3D assets from single-view images, addressing the limitations of traditional multi-view approaches. The method shows improved performance on both synthetic and real-world datasets, reducing artifacts in text-to-3D ta",
-    "figureUrl": "https://jingyang2017.github.io/sym3d.github.io/static/images/overview.png"
+    "figureUrl": "https://jingyang2017.github.io/sym3d.github.io/static/images/overview.png",
+    "codeUrl": "https://github.com/The-Open-Reality-Research/sym3d"
   },
   {
     "id": "mvgamba",
@@ -19552,7 +19673,8 @@
     "project": "https://github.com/qihao067/direct3d",
     "figure": "First diffusion-based model for text-to-3D generation using noisy 3D data.",
     "abstract": "DIRECT-3D is a diffusion-based model that generates high-quality 3D assets from text prompts, trained on extensive noisy 3D data. It features a novel learning framework for data filtering and alignment, and a tri-plane representation that separates geometry and color features. The model achieves state-of-the-art performance in text-to-3D generation and can serve as a geometric prior for 3D lifting",
-    "figureUrl": "https://opengraph.githubassets.com/e91b8ac7928c406efa362b3c91410eb6e4f5d3aeedd4ef41f6cb2ad6f44db547/qihao067/direct3d"
+    "figureUrl": "https://opengraph.githubassets.com/e91b8ac7928c406efa362b3c91410eb6e4f5d3aeedd4ef41f6cb2ad6f44db547/qihao067/direct3d",
+    "codeUrl": "https://github.com/qihao067/direct3d"
   },
   {
     "id": "geogen",
@@ -19636,12 +19758,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2406.03184",
     "project": "https://costwen.github.io/Ouroboros3D/",
     "figure": "First unified 3D generation framework that integrates diffusion-based multi-view image generation and 3D reconstruction via recursive diffusion.",
     "abstract": "Ouroboros3D introduces a unified framework for image-to-3D generation that combines multi-view image generation and 3D reconstruction into a recursive diffusion process. This approach allows for improved geometric consistency and robust inference by jointly training the two modules. Experiments demonstrate its superiority over traditional two-stage methods. Project page: https://costwen.github.io/",
-    "figureUrl": "https://costwen.github.io/Ouroboros3D/static/images/pipeline-comparison.png"
+    "figureUrl": "https://costwen.github.io/Ouroboros3D/static/images/pipeline-comparison.png",
+    "codeUrl": "https://github.com/Costwen/Ouroboros3D"
   },
   {
     "id": "gsgan",
@@ -19667,7 +19790,8 @@
     "arxiv": "https://arxiv.org/abs/2406.02968",
     "project": "https://hse1032.github.io/gsgan",
     "figure": "First hierarchical generation of 3D Gaussian splats via GAN.",
-    "abstract": "This paper presents GSGAN, a novel approach that utilizes a hierarchical multi-scale Gaussian representation for 3D GANs, addressing training instability and scale adjustment issues. The method significantly improves rendering speed while maintaining 3D generation quality, outperforming existing models. Experimental results show a 100x speed increase in rendering compared to state-of-the-art metho"
+    "abstract": "This paper presents GSGAN, a novel approach that utilizes a hierarchical multi-scale Gaussian representation for 3D GANs, addressing training instability and scale adjustment issues. The method significantly improves rendering speed while maintaining 3D generation quality, outperforming existing models. Experimental results show a 100x speed increase in rendering compared to state-of-the-art metho",
+    "codeUrl": "https://github.com/hse1032/GSGAN"
   },
   {
     "id": "tet-splatting",
@@ -19987,7 +20111,8 @@
     "project": "https://github.com/jasongzy/EG4D",
     "figure": "First explicit generation of 4D objects without score distillation.",
     "abstract": "EG4D introduces a novel framework for generating high-quality 4D objects from a single input image, addressing challenges like temporal inconsistency and semantic defects. The method utilizes collaborative techniques, including attention strategies and Gaussian Splatting, to enhance generation quality. Results show significant improvements over existing methods, with code to be released.",
-    "figureUrl": "https://opengraph.githubassets.com/b9f3d44b992536943df0b4b6a334fa479a5f573ebc04d41071a0c4a312861578/jasongzy/EG4D"
+    "figureUrl": "https://opengraph.githubassets.com/b9f3d44b992536943df0b4b6a334fa479a5f573ebc04d41071a0c4a312861578/jasongzy/EG4D",
+    "codeUrl": "https://github.com/jasongzy/EG4D"
   },
   {
     "id": "pivotmesh",
@@ -20164,7 +20289,8 @@
     "arxiv": "https://arxiv.org/abs/2405.15305",
     "project": "https://yiboz2001.github.io/Diff3DS/",
     "figure": "First framework for generating view-consistent 3D sketches via differentiable rendering.",
-    "abstract": "Diff3DS introduces a differentiable rendering framework for generating view-consistent 3D sketches from 3D parametric curves. It optimizes these curves under various supervisions, allowing for tasks like text-to-3D and image-to-3D sketch generation. The framework bridges 3D sketches and raster images, enabling end-to-end optimization through gradients computed in the 2D image domain. Promising exp"
+    "abstract": "Diff3DS introduces a differentiable rendering framework for generating view-consistent 3D sketches from 3D parametric curves. It optimizes these curves under various supervisions, allowing for tasks like text-to-3D and image-to-3D sketch generation. The framework bridges 3D sketches and raster images, enabling end-to-end optimization through gradients computed in the 2D image domain. Promising exp",
+    "codeUrl": "https://github.com/yiboz2001/Diff3DS"
   },
   {
     "id": "craftsman3d",
@@ -20197,7 +20323,8 @@
     "project": "https://craftsman3d.github.io/",
     "figure": "First high-fidelity mesh generation system with interactive geometry refinement via 3D native diffusion.",
     "abstract": "CraftsMan3D is a generative 3D modeling system that produces high-fidelity geometries with varied shapes and regular mesh topologies. It utilizes a 3D native diffusion model for quick generation and allows for interactive refinement of geometry. The method improves robustness and generalizability by leveraging multi-view diffusion, achieving superior-quality 3D assets compared to existing techniqu",
-    "figureUrl": "https://craftsman3d.github.io/assets/images/overview.png"
+    "figureUrl": "https://craftsman3d.github.io/assets/images/overview.png",
+    "codeUrl": "https://github.com/wyysf-98/CraftsMan3D"
   },
   {
     "id": "direct3d",
@@ -20230,7 +20357,8 @@
     "project": "https://nju-3dv.github.io/projects/Direct3D/",
     "figure": "First scalable image-to-3D generation model via 3D latent diffusion transformer",
     "abstract": "Direct3D introduces a scalable 3D generative model that generates high-quality 3D assets from text and images. It features a Direct 3D Variational Auto-Encoder and a Direct 3D Diffusion Transformer, enabling efficient encoding and modeling of 3D shapes. The method achieves superior generation quality and generalization, setting a new state-of-the-art for 3D content creation.",
-    "figureUrl": "https://nju-3dv.github.io/projects/Direct3D/assets/pipeline_final.png"
+    "figureUrl": "https://nju-3dv.github.io/projects/Direct3D/assets/pipeline_final.png",
+    "codeUrl": "https://github.com/DreamTechAI/Direct3D"
   },
   {
     "id": "ldm",
@@ -20293,7 +20421,8 @@
     "arxiv": "https://arxiv.org/abs/2405.11252",
     "project": "https://github.com/xingy038/Dreamer-XL",
     "figure": "First high-resolution text-to-3D generation method using Trajectory Score Matching.",
-    "abstract": "This paper introduces Trajectory Score Matching (TSM) to address pseudo ground truth inconsistency in text-to-3D generation. By generating two paths from a single starting point, TSM reduces accumulated error and enhances model stability. The method optimizes high-resolution generation using Stable Diffusion XL and demonstrates significant improvements in visual quality and performance over existi"
+    "abstract": "This paper introduces Trajectory Score Matching (TSM) to address pseudo ground truth inconsistency in text-to-3D generation. By generating two paths from a single starting point, TSM reduces accumulated error and enhances model stability. The method optimizes high-resolution generation using Stable Diffusion XL and demonstrates significant improvements in visual quality and performance over existi",
+    "codeUrl": "https://github.com/xingy038/Dreamer-XL"
   },
   {
     "id": "cat3d",
@@ -20583,7 +20712,8 @@
     "project": "https://github.com/facebookresearch/lightplane",
     "figure": "First scalable components for 3D neural fields that reduce memory usage in 2D-3D mapping.",
     "abstract": "The paper introduces Lightplane Render and Splatter, components that enhance the efficiency of 2D-3D mapping in neural fields, allowing for higher resolution image processing with reduced memory costs. These innovations support various applications, including 3D reconstruction and generation.",
-    "figureUrl": "https://opengraph.githubassets.com/cfa4cbbb0f0e254573623b54b217bf428d8ebe9adc4e3fce3f71a01c8da3ed0f/facebookresearch/lightplane"
+    "figureUrl": "https://opengraph.githubassets.com/cfa4cbbb0f0e254573623b54b217bf428d8ebe9adc4e3fce3f71a01c8da3ed0f/facebookresearch/lightplane",
+    "codeUrl": "https://github.com/facebookresearch/lightplane"
   },
   {
     "id": "microdreamer",
@@ -20615,7 +20745,8 @@
     "project": "https://github.com/ML-GSAI/MicroDreamer",
     "figure": "First efficient 3D generation method that reduces NFEs via score-based iterative reconstruction.",
     "abstract": "MicroDreamer introduces score-based iterative reconstruction (SIR) to enhance the efficiency of 3D generation, achieving significant speed improvements while maintaining performance. It optimizes 3D parameters in pixel space and is applicable to various 3D representations, generating meshes in about 20 seconds on a single GPU.",
-    "figureUrl": "https://opengraph.githubassets.com/2b93612f3dd9e72e8632dd534571833d12319d609aa5ac618c4a5106c9f4cea5/ML-GSAI/MicroDreamer"
+    "figureUrl": "https://opengraph.githubassets.com/2b93612f3dd9e72e8632dd534571833d12319d609aa5ac618c4a5106c9f4cea5/ML-GSAI/MicroDreamer",
+    "codeUrl": "https://github.com/ML-GSAI/MicroDreamer"
   },
   {
     "id": "grounded-dreamer",
@@ -20704,11 +20835,12 @@
       "Editing"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2404.16510",
     "project": "https://interactive-3d.github.io/",
     "figure": "First interactive 3D generation framework that allows precise user control via extensive 3D interaction capabilities",
-    "abstract": "Interactive3D is a novel framework for interactive 3D object generation that enhances user control through extensive interaction capabilities. It operates in two stages, first using Gaussian Splatting for direct modifications and then refining the geometry with InstantNGP. The approach significantly improves the controllability and quality of generated 3D objects."
+    "abstract": "Interactive3D is a novel framework for interactive 3D object generation that enhances user control through extensive interaction capabilities. It operates in two stages, first using Gaussian Splatting for direct modifications and then refining the geometry with InstantNGP. The approach significantly improves the controllability and quality of generated 3D objects.",
+    "codeUrl": "https://github.com/interactive-3d/interactive3d"
   },
   {
     "id": "gdpnet",
@@ -20807,8 +20939,8 @@
     ],
     "year": 2024,
     "month": 4,
-    "venue": "arXiv",
-    "venueYear": 2024,
+    "venue": "3DV",
+    "venueYear": 2025,
     "tags": [
       "SDF",
       "Diffusion",
@@ -20822,7 +20954,8 @@
     "project": "https://realmdreamer.github.io/",
     "figure": "First method for text-driven 3D scene generation using inpainting and depth diffusion.",
     "abstract": "RealmDreamer generates 3D scenes from text descriptions by optimizing a 3D Gaussian Splatting representation. It combines 2D inpainting diffusion models with depth diffusion for high-fidelity geometry, allowing for synthesis from single images without requiring multi-view data. The method shows superior performance in user studies.",
-    "figureUrl": "https://realmdreamer.github.io/img/grid_teaser_img.png"
+    "figureUrl": "https://realmdreamer.github.io/img/grid_teaser_img.png",
+    "codeUrl": "https://github.com/jaidevshriram/realmdreamer"
   },
   {
     "id": "instantmesh",
@@ -20885,7 +21018,8 @@
     "project": "http://dreamscene360.github.io/",
     "figure": "First text-to-3D scene generation pipeline using panoramic Gaussian splatting.",
     "abstract": "DreamScene360 introduces a text-to-3D scene generation pipeline that creates immersive 360° scenes quickly. It leverages a 2D diffusion model to generate a coherent panoramic image, which is then transformed into 3D Gaussians for real-time exploration. The method ensures consistent 3D geometry by optimizing a point cloud derived from monocular depth, addressing challenges of single-view inputs.",
-    "figureUrl": "https://dreamscene360.github.io/media/dreamscene360_teaser.gif"
+    "figureUrl": "https://dreamscene360.github.io/media/dreamscene360_teaser.gif",
+    "codeUrl": "https://github.com/ShijieZhou-UCLA/DreamScene360"
   },
   {
     "id": "udiff",
@@ -20911,12 +21045,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2404.06851",
     "project": "https://weiqi-zhang.github.io/UDiFF",
     "figure": "First diffusion model for generating unsigned distance fields with optimal wavelet transformation.",
     "abstract": "UDiFF introduces a 3D diffusion model for generating unsigned distance fields, enabling the creation of textured 3D shapes with open surfaces from text conditions or unconditionally. It employs an optimal wavelet transformation to enhance representation space, overcoming limitations of previous models that only handled closed surfaces. The method shows significant advantages in both numerical and ",
-    "figureUrl": "https://weiqi-zhang.github.io/resources/overview.png"
+    "figureUrl": "https://weiqi-zhang.github.io/resources/overview.png",
+    "codeUrl": "https://github.com/weiqi-zhang/UDiFF"
   },
   {
     "id": "urban-architect",
@@ -20942,12 +21077,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2404.06780",
     "project": "https://urbanarchitect.github.io",
     "figure": "First text-to-3D urban scene generator that incorporates layout prior via score distillation.",
     "abstract": "This paper presents a novel approach to text-to-3D generation for urban scenes by introducing a compositional 3D layout representation. It enhances model optimization through Layout-Guided Variational Score Distillation and utilizes a Scalable Hash Grid structure to manage the complexity of large-scale urban environments. The framework demonstrates the ability to generate and edit extensive urban ",
-    "figureUrl": "https://urbanarchitect.github.io/static/images/teaser.png"
+    "figureUrl": "https://urbanarchitect.github.io/static/images/teaser.png",
+    "codeUrl": "https://github.com/UrbanArchitect/UrbanArchitect"
   },
   {
     "id": "dreamview",
@@ -20979,7 +21115,8 @@
     "project": "https://github.com/iSEE-Laboratory/DreamView",
     "figure": "First text-to-3D generation method that enables multi-view customization via score distillation sampling.",
     "abstract": "DreamView enhances text-to-3D generation by allowing customization of 3D objects from specific viewpoints while maintaining overall consistency. It uses a collaborative text guidance injection module to balance view-specific and overall text inputs, trained on large-scale multi-view images. This approach fosters creative design of diverse 3D assets. Code will be available on GitHub.",
-    "figureUrl": "https://opengraph.githubassets.com/9e7e490a09dd1f3337d528776241b4325f89f4595bc4cbe472be547e09389ad1/iSEE-Laboratory/DreamView"
+    "figureUrl": "https://opengraph.githubassets.com/9e7e490a09dd1f3337d528776241b4325f89f4595bc4cbe472be547e09389ad1/iSEE-Laboratory/DreamView",
+    "codeUrl": "https://github.com/iSEE-Laboratory/DreamView"
   },
   {
     "id": "3d-aware-gans",
@@ -21039,7 +21176,8 @@
     "project": "https://github.com/hamedhaghighi/LidarGRIT",
     "figure": "First generative model for realistic Lidar point cloud generation using auto-regressive transformers",
     "abstract": "LidarGRIT is a generative model that enhances Lidar point cloud generation by using auto-regressive transformers to sample range images in the latent space. It addresses the challenge of modeling Lidar raydrop noise effectively, achieving superior performance on benchmark datasets. The model incorporates VQ-VAE for decoding range images and raydrop masks.",
-    "figureUrl": "https://opengraph.githubassets.com/430dfaf6cc96a76a316e24431984b3cb42eec935345f45f638216f1788be53e3/hamedhaghighi/LidarGRIT"
+    "figureUrl": "https://opengraph.githubassets.com/430dfaf6cc96a76a316e24431984b3cb42eec935345f45f638216f1788be53e3/hamedhaghighi/LidarGRIT",
+    "codeUrl": "https://github.com/hamedhaghighi/LidarGRIT"
   },
   {
     "id": "lgsdf",
@@ -21066,7 +21204,8 @@
     "arxiv": "https://arxiv.org/abs/2404.05187",
     "project": "https://github.com/BIT-DYN/LGSDF",
     "figure": "First continual global learning algorithm for signed distance fields aided by local updating.",
-    "abstract": "LGSDF introduces a continual global learning algorithm for Euclidean Signed Distance Fields (ESDF) that improves map accuracy by dynamically updating grids with sensor observations and employing a self-supervised learning approach. The method outperforms existing mapping algorithms in generating smooth and continuous maps and meshes across various scenes."
+    "abstract": "LGSDF introduces a continual global learning algorithm for Euclidean Signed Distance Fields (ESDF) that improves map accuracy by dynamically updating grids with sensor observations and employing a self-supervised learning approach. The method outperforms existing mapping algorithms in generating smooth and continuous maps and meshes across various scenes.",
+    "codeUrl": "https://github.com/BIT-DYN/LGSDF"
   },
   {
     "id": "nerf2points",
@@ -21130,7 +21269,8 @@
     "arxiv": "https://arxiv.org/abs/2404.04562",
     "project": "https://github.com/yxymessi/DTC123",
     "figure": "First one-image-to-3D generation method using a time-step curriculum via score distillation.",
-    "abstract": "The paper introduces DTC123, a novel pipeline for generating 3D models from a single image by optimizing the treatment of diffusion time-steps. It addresses issues in existing score distillation sampling methods, leading to improved multi-view consistency and quality in 3D asset generation. Extensive experiments validate its effectiveness, and code will be available on GitHub."
+    "abstract": "The paper introduces DTC123, a novel pipeline for generating 3D models from a single image by optimizing the treatment of diffusion time-steps. It addresses issues in existing score distillation sampling methods, leading to improved multi-view consistency and quality in 3D asset generation. Extensive experiments validate its effectiveness, and code will be available on GitHub.",
+    "codeUrl": "https://github.com/yxymessi/DTC123"
   },
   {
     "id": "idea23d",
@@ -21161,7 +21301,8 @@
     "project": "https://idea23d.github.io/",
     "figure": "First framework that generates 3D models from multimodal inputs via collaborative LMM agents",
     "abstract": "Idea23D introduces a novel approach for generating 3D models from multimodal inputs, combining text, images, and 3D models. The framework utilizes three collaborative agents based on large multimodal models to automate the generation process, significantly improving the accuracy and success rate of 3D content creation. A new dataset, Eval3DAIGC-198, is introduced to evaluate the generated models a",
-    "figureUrl": "https://idea23d.github.io/img/pipeline.png"
+    "figureUrl": "https://idea23d.github.io/img/pipeline.png",
+    "codeUrl": "https://github.com/yisuanwang/Idea23D"
   },
   {
     "id": "dreamscene",
@@ -21194,7 +21335,8 @@
     "project": "https://dreamscene-project.github.io",
     "figure": "First 3D Gaussian-based text-to-3D scene generation framework via Formation Pattern Sampling.",
     "abstract": "DreamScene introduces a novel framework for text-to-3D scene generation that addresses quality, consistency, and editing flexibility challenges. It utilizes Formation Pattern Sampling for high-quality representations and a progressive camera sampling strategy for scene-wide consistency. The method enhances scene editing by integrating objects and environments, demonstrating superior performance ov",
-    "figureUrl": "https://dreamscene-project.github.io/images/overview.png"
+    "figureUrl": "https://dreamscene-project.github.io/images/overview.png",
+    "codeUrl": "https://github.com/DreamScene-Project/DreamScene"
   },
   {
     "id": "lidardm",
@@ -21336,7 +21478,8 @@
     "project": "https://gaussiancube.github.io/",
     "figure": "First structured and explicit radiance representation for 3D generative modeling via Gaussian fitting.",
     "abstract": "GaussianCube introduces a structured and explicit radiance representation that enhances 3D generative modeling. It employs a novel Gaussian fitting algorithm and integrates with 3D diffusion methods, achieving high-quality results with fewer parameters. The model excels in unconditional and class-conditioned object generation, as well as text-to-3D synthesis, demonstrating its versatility and accu",
-    "figureUrl": "https://gaussiancube.github.io/static/images/pipeline.png"
+    "figureUrl": "https://gaussiancube.github.io/static/images/pipeline.png",
+    "codeUrl": "https://github.com/GaussianCube/GaussianCube"
   },
   {
     "id": "neusdfusion",
@@ -21614,7 +21757,8 @@
     "project": "https://justimyhxu.github.io/projects/grm/",
     "figure": "First large-scale Gaussian reconstruction model that enables efficient 3D generation via multi-view information.",
     "abstract": "GRM is a feed-forward transformer model that reconstructs 3D assets from sparse-view images quickly. It uses pixel-aligned Gaussians to represent scenes and demonstrates potential in generative tasks like text-to-3D and image-to-3D by integrating with diffusion models. The method shows superior reconstruction quality and efficiency compared to alternatives.",
-    "figureUrl": "https://justimyhxu.github.io/projects/grm/grm/pipeline.png"
+    "figureUrl": "https://justimyhxu.github.io/projects/grm/grm/pipeline.png",
+    "codeUrl": "https://github.com/justimyhxu/grm"
   },
   {
     "id": "dreamreward",
@@ -21978,7 +22122,8 @@
     "project": "https://aigc3d.github.io/VideoMV",
     "figure": "First multi-view generation model that ensures consistency via video generative models",
     "abstract": "This paper presents VideoMV, a framework for generating multi-view images from text or single-image prompts, enhancing consistency through a 3D-Aware Denoising Sampling method. It utilizes video generative models for training, allowing for better multi-view consistency and faster convergence in training compared to existing methods. The approach also enables quick creation of 3D assets represented",
-    "figureUrl": "https://aigc3d.github.io/static/image/video_t1.png"
+    "figureUrl": "https://aigc3d.github.io/static/image/video_t1.png",
+    "codeUrl": "https://github.com/alibaba/VideoMV"
   },
   {
     "id": "sv3d",
@@ -22043,7 +22188,8 @@
     "project": "https://getmesh.github.io",
     "figure": "First controllable model for high-quality mesh generation and manipulation via latent point representation.",
     "abstract": "GetMesh is a generative model designed for mesh generation and manipulation, allowing fine-grained control over the process. It utilizes a varying number of points as latent representation and reorganizes them into a triplane format, enabling the generation of detailed meshes and intuitive adjustments to mesh topology and parts across categories.",
-    "figureUrl": "https://getmesh.github.io/assets/teaser.png"
+    "figureUrl": "https://getmesh.github.io/assets/teaser.png",
+    "codeUrl": "https://github.com/ZhaoyangLyu/GetMesh"
   },
   {
     "id": "urbandiffusion",
@@ -22158,7 +22304,8 @@
     "arxiv": "https://arxiv.org/abs/2403.10395",
     "project": "https://isotropic3d.github.io/",
     "figure": "First image-to-3D generation pipeline using only a single CLIP embedding via Score Distillation Sampling.",
-    "abstract": "Isotropic3D presents a novel image-to-3D generation pipeline that utilizes a single image CLIP embedding, optimizing the process to produce consistent multi-view images and a 3D model with improved geometry and texture. The method fine-tunes a text-to-3D diffusion model to enhance image-to-image capabilities, resulting in less distortion compared to existing methods. The project and code are avail"
+    "abstract": "Isotropic3D presents a novel image-to-3D generation pipeline that utilizes a single image CLIP embedding, optimizing the process to produce consistent multi-view images and a 3D model with improved geometry and texture. The method fine-tunes a text-to-3D diffusion model to enhance image-to-image capabilities, resulting in less distortion compared to existing methods. The project and code are avail",
+    "codeUrl": "https://github.com/pkunliu/Isotropic3D"
   },
   {
     "id": "rangeldm",
@@ -22198,8 +22345,8 @@
     ],
     "year": 2024,
     "month": 3,
-    "venue": "arXiv",
-    "venueYear": 2024,
+    "venue": "3DV",
+    "venueYear": 2025,
     "tags": [
       "SDF",
       "Diffusion",
@@ -22213,7 +22360,8 @@
     "project": "https://lizhiqi49.github.io/MVControl/",
     "figure": "First controllable text-to-3D generation method via surface-aligned Gaussian splatting",
     "abstract": "This work introduces MVControl, a novel architecture for controllable text-to-3D generation that enhances multi-view diffusion models with additional input conditions. It employs a hybrid diffusion guidance method and 3D Gaussians for efficient geometry representation, enabling the generation of high-quality 3D content. Extensive experiments show robust generalization capabilities.",
-    "figureUrl": "https://lizhiqi49.github.io/MVControl/assets/images/overview.png"
+    "figureUrl": "https://lizhiqi49.github.io/MVControl/assets/images/overview.png",
+    "codeUrl": "https://github.com/WU-CVGL/MVControl"
   },
   {
     "id": "3d-scenedreamer",
@@ -22276,7 +22424,8 @@
     "arxiv": "https://arxiv.org/abs/2403.09236",
     "project": "https://github.com/yjhboy/Hyper3DG",
     "figure": "First text-to-3D generation method that captures high-order correlations via hypergraph.",
-    "abstract": "Hyper-3DG introduces a novel approach for text-to-3D generation that addresses issues like over-smoothness and over-saturation by utilizing a hypergraph framework. It refines 3D Gaussian representations and enhances the quality of generated 3D objects without increasing computational costs. The method shows significant improvements in generating detailed 3D models from textual descriptions."
+    "abstract": "Hyper-3DG introduces a novel approach for text-to-3D generation that addresses issues like over-smoothness and over-saturation by utilizing a hypergraph framework. It refines 3D Gaussian representations and enhances the quality of generated 3D objects without increasing computational costs. The method shows significant improvements in generating detailed 3D models from textual descriptions.",
+    "codeUrl": "https://github.com/JiahuiYang01/Hyper3DG"
   },
   {
     "id": "sculpt3d",
@@ -22308,7 +22457,8 @@
     "arxiv": "https://arxiv.org/abs/2403.09140",
     "project": "https://stellarcheng.github.io/Sculpt3D/",
     "figure": "First text-to-3D generation method ensuring multi-view consistency via 3D priors.",
-    "abstract": "Sculpt3D addresses inconsistencies in text-to-3D generation by integrating 3D priors from reference objects without retraining the 2D diffusion model. It utilizes keypoints supervision and a sparse ray sampling approach to enhance 3D geometry quality and multi-view consistency while maintaining the fidelity of the 2D model's output. Experiments demonstrate significant improvements in generated obj"
+    "abstract": "Sculpt3D addresses inconsistencies in text-to-3D generation by integrating 3D priors from reference objects without retraining the 2D diffusion model. It utilizes keypoints supervision and a sparse ray sampling approach to enhance 3D geometry quality and multi-view consistency while maintaining the fidelity of the 2D model's output. Experiments demonstrate significant improvements in generated obj",
+    "codeUrl": "https://github.com/StellarCheng/Scuplt_3d"
   },
   {
     "id": "semcity",
@@ -22339,7 +22489,8 @@
     "project": "https://github.com/zoomin-lee/SemCity",
     "figure": "First 3D diffusion model for generating real-world outdoor scenes using triplane representation",
     "abstract": "SemCity introduces a 3D diffusion model aimed at generating semantic outdoor scenes from real-world datasets. It addresses challenges posed by empty spaces in outdoor data by utilizing a triplane representation. The model supports various tasks like scene inpainting and completion, demonstrating improved generation results on the SemanticKITTI dataset. The method also allows for manipulation of sc",
-    "figureUrl": "https://opengraph.githubassets.com/3cf57d0c4d9a62b455455d2118717d0cda366c68279a87a04b0d55976fefc40f/zoomin-lee/SemCity"
+    "figureUrl": "https://opengraph.githubassets.com/3cf57d0c4d9a62b455455d2118717d0cda366c68279a87a04b0d55976fefc40f/zoomin-lee/SemCity",
+    "codeUrl": "https://github.com/zoomin-lee/SemCity"
   },
   {
     "id": "v3d",
@@ -22369,7 +22520,8 @@
     "project": "https://github.com/heheyas/V3D",
     "figure": "First video diffusion model that generates high-quality 3D shapes via multi-view consistency.",
     "abstract": "V3D leverages video diffusion models for effective 3D generation, introducing geometrical consistency to enhance detail and speed. It generates high-quality meshes or 3D Gaussians from single images and extends to scene-level novel view synthesis, demonstrating superior performance in generation quality and multi-view consistency. Code is available at GitHub.",
-    "figureUrl": "https://opengraph.githubassets.com/fc53b92cc2550ab116ed6b53aa2e2798919ebde852ca2f3b70d67c28374e9a3b/heheyas/V3D"
+    "figureUrl": "https://opengraph.githubassets.com/fc53b92cc2550ab116ed6b53aa2e2798919ebde852ca2f3b70d67c28374e9a3b/heheyas/V3D",
+    "codeUrl": "https://github.com/heheyas/V3D"
   },
   {
     "id": "magicclay",
@@ -22434,7 +22586,8 @@
     "project": "https://github.com/3DTopia/3DTopia",
     "figure": "First text-to-3D generation model using hybrid diffusion priors for high-quality asset creation",
     "abstract": "3DTopia is a two-stage text-to-3D generation system that produces high-quality general 3D assets in 5 minutes. It employs a text-conditioned tri-plane latent diffusion model for initial coarse generation, followed by a refinement stage using 2D diffusion priors for texture enhancement. The system is trained on a cleaned and captioned version of the Objaverse dataset, with performance results provi",
-    "figureUrl": "https://opengraph.githubassets.com/85cddac60edfbb3407b5da3d893929a956fc52283aaca56c3adffb804388cad4/3DTopia/3DTopia"
+    "figureUrl": "https://opengraph.githubassets.com/85cddac60edfbb3407b5da3d893929a956fc52283aaca56c3adffb804388cad4/3DTopia/3DTopia",
+    "codeUrl": "https://github.com/3DTopia/3DTopia"
   },
   {
     "id": "viewdiff",
@@ -22493,7 +22646,8 @@
     "arxiv": "https://arxiv.org/abs/2403.00939",
     "project": "https://github.com/preddy5/G3DR",
     "figure": "First method that generates diverse 3D objects from single images via depth regularization and language-vision model.",
-    "abstract": "G3DR is a novel 3D generative method that creates high-quality 3D objects from single images, utilizing a depth regularization technique and a pretrained language-vision model to enhance visual realism and geometric fidelity. It offers efficient 3D asset generation based on class or text conditioning and outperforms existing methods in perceptual and geometry metrics while reducing training time."
+    "abstract": "G3DR is a novel 3D generative method that creates high-quality 3D objects from single images, utilizing a depth regularization technique and a pretrained language-vision model to enhance visual realism and geometric fidelity. It offers efficient 3D asset generation based on class or text conditioning and outperforms existing methods in perceptual and geometry metrics while reducing training time.",
+    "codeUrl": "https://github.com/preddy5/G3DR"
   },
   {
     "id": "hypersdfusion",
@@ -22522,7 +22676,8 @@
     "project": "https://HyperSDFusion.github.io",
     "figure": "First method to explore hyperbolic hierarchical representation for text-to-shape generation via a dual-branch diffusion model",
     "abstract": "HyperSDFusion introduces a dual-branch diffusion model for generating 3D shapes from text, leveraging hierarchical structures in both text and geometry. By utilizing hyperbolic space for representation, it enhances the learning of hierarchical features, achieving state-of-the-art results on the Text2Shape dataset. The implementation is available at HyperSDFusion.github.io.",
-    "figureUrl": "https://hypersdfusion.github.io/static/images/teaser.png"
+    "figureUrl": "https://hypersdfusion.github.io/static/images/teaser.png",
+    "codeUrl": "https://github.com/M-leng/HyperSDFusion-Text2Shape"
   },
   {
     "id": "score-distillation-text-to-3d",
@@ -22799,7 +22954,8 @@
     "project": "https://gala3d.github.io",
     "figure": "First text-to-3D scene generator using layout-guided generative Gaussian splatting.",
     "abstract": "GALA3D introduces a layout-guided generative approach for text-to-3D scene generation, utilizing large language models to create initial layouts and a Gaussian representation for 3D content. It features a compositional optimization mechanism that ensures realistic scenes with coherent geometry and interactions among objects, while allowing for controllable editing. The framework aims for high fide",
-    "figureUrl": "https://gala3d.github.io/static/teaser.png"
+    "figureUrl": "https://gala3d.github.io/static/teaser.png",
+    "codeUrl": "https://github.com/VDIGPKU/GALA3D"
   },
   {
     "id": "lgm",
@@ -23218,7 +23374,8 @@
     "arxiv": "https://arxiv.org/abs/2401.09050",
     "project": "https://github.com/sail-sg/Consistent3D",
     "figure": "First method that uses ODE deterministic sampling for high-fidelity text-to-3D generation.",
-    "abstract": "Consistent3D addresses the issues of geometry collapse and poor textures in text-to-3D generation by utilizing an ODE deterministic sampling prior. This method improves the consistency and fidelity of generated 3D objects and scenes by guiding the sampling process with a less noisy sample. Experimental results demonstrate its effectiveness in producing diverse and high-quality 3D outputs."
+    "abstract": "Consistent3D addresses the issues of geometry collapse and poor textures in text-to-3D generation by utilizing an ODE deterministic sampling prior. This method improves the consistency and fidelity of generated 3D objects and scenes by guiding the sampling process with a less noisy sample. Experimental results demonstrate its effectiveness in producing diverse and high-quality 3D outputs.",
+    "codeUrl": "https://github.com/sail-sg/Consistent3D"
   },
   {
     "id": "efficient4d",
@@ -23850,7 +24007,8 @@
     "arxiv": "https://arxiv.org/abs/2312.11856",
     "project": "https://3dgan-ssl.github.io",
     "figure": "First self-supervised learning technique to enhance 3D geometrical modeling in GANs via inversion.",
-    "abstract": "This paper presents a self-supervised learning technique to improve 3D geometrical modeling in 3D-aware GANs, addressing issues like mesh imperfections due to limited annotated data. The method introduces a Cyclic Generative Constraint to enhance the latent space and integrates seamlessly with existing GAN architectures. Experiments validate its effectiveness across various datasets."
+    "abstract": "This paper presents a self-supervised learning technique to improve 3D geometrical modeling in 3D-aware GANs, addressing issues like mesh imperfections due to limited annotated data. The method introduces a Cyclic Generative Constraint to enhance the latent space and integrates seamlessly with existing GAN architectures. Experiments validate its effectiveness across various datasets.",
+    "codeUrl": "https://github.com/jr-guo/3DGAN-SSL"
   },
   {
     "id": "text-image-conditioned-diffusion",
@@ -24131,7 +24289,8 @@
     "project": "https://github.com/tyhuang0428/DreamControl",
     "figure": "First controllable text-to-3D generation method using a two-stage 2D-lifting framework via score distillation.",
     "abstract": "DreamControl introduces a two-stage framework for controllable text-to-3D generation, addressing geometry inconsistencies in previous methods. By optimizing coarse NeRF scenes as 3D self-priors and employing control-based score distillation, it ensures high-quality 3D content with consistent geometry and detailed textures. The method is adaptable for various downstream tasks, including user-guided",
-    "figureUrl": "https://opengraph.githubassets.com/e6c9406b5357d95dd715d9bd9c0e1bcf1397638cee191caf603d168c28951975/tyhuang0428/DreamControl"
+    "figureUrl": "https://opengraph.githubassets.com/e6c9406b5357d95dd715d9bd9c0e1bcf1397638cee191caf603d168c28951975/tyhuang0428/DreamControl",
+    "codeUrl": "https://github.com/tyhuang0428/DreamControl"
   },
   {
     "id": "mvdd",
@@ -24193,7 +24352,8 @@
     "project": "https://ddpo3d.github.io",
     "figure": "First method that extends policy gradient methods to 3D score-based rendering via SDS.",
     "abstract": "This paper presents DDPO3D, a novel approach that integrates policy gradient optimization with score distillation for 3D generation. It demonstrates the effectiveness of aesthetic scoring in enhancing the quality of 3D assets generated from 2D diffusion models, marking a significant advancement in text-to-3D synthesis.",
-    "figureUrl": "https://ddpo3d.github.io/images/pipeline.png"
+    "figureUrl": "https://ddpo3d.github.io/images/pipeline.png",
+    "codeUrl": "https://github.com/ddpo3d/ddpo3d"
   },
   {
     "id": "deep3dsketch",
@@ -24283,11 +24443,12 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2312.04963",
     "project": "https://bidiff.github.io/",
     "figure": "First text-to-3D generation method using bidirectional diffusion with 2D and 3D priors",
-    "abstract": "The paper presents Bidirectional Diffusion (BiDiff), a framework that combines 2D and 3D diffusion processes to enhance the quality and consistency of 3D object generation. By leveraging both 3D fidelity and 2D texture richness, BiDiff reduces generation time significantly while producing high-quality and diverse 3D models. Experimental results demonstrate its effectiveness in generating scalable "
+    "abstract": "The paper presents Bidirectional Diffusion (BiDiff), a framework that combines 2D and 3D diffusion processes to enhance the quality and consistency of 3D object generation. By leveraging both 3D fidelity and 2D texture richness, BiDiff reduces generation time significantly while producing high-quality and diverse 3D models. Experimental results demonstrate its effectiveness in generating scalable ",
+    "codeUrl": "https://github.com/BiDiff/bidiff"
   },
   {
     "id": "doodle-your-3d",
@@ -24350,11 +24511,12 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2312.03884",
     "project": "https://kovenyu.com/WonderJourney/",
     "figure": "First framework for perpetual 3D scene generation from any location via text or image.",
-    "abstract": "WonderJourney is a modular framework that generates a sequence of diverse and coherent 3D scenes based on user-provided locations through text or images. It utilizes a text-driven point cloud generation pipeline and a large visual language model to ensure the scenes are compelling and connected, creating imaginative journeys."
+    "abstract": "WonderJourney is a modular framework that generates a sequence of diverse and coherent 3D scenes based on user-provided locations through text or images. It utilizes a text-driven point cloud generation pipeline and a large visual language model to ensure the scenes are compelling and connected, creating imaginative journeys.",
+    "codeUrl": "https://github.com/KovenYu/WonderJourney"
   },
   {
     "id": "xcube",
@@ -24439,7 +24601,8 @@
     "arxiv": "https://arxiv.org/abs/2312.02201",
     "project": "https://Image-Dream.github.io",
     "figure": "First image-prompt multi-view diffusion model for 3D object generation.",
-    "abstract": "ImageDream is a novel multi-view diffusion model that generates high-quality 3D models from image prompts. It employs a canonical camera coordination to enhance visual geometry accuracy and incorporates various control levels to shape object layout and details. The model's effectiveness is validated through extensive evaluations, and further information is available on its project page."
+    "abstract": "ImageDream is a novel multi-view diffusion model that generates high-quality 3D models from image prompts. It employs a canonical camera coordination to enhance visual geometry accuracy and incorporates various control levels to shape object layout and details. The model's effectiveness is validated through extensive evaluations, and further information is available on its project page.",
+    "codeUrl": "https://github.com/bytedance/ImageDream"
   },
   {
     "id": "controldreamer",
@@ -24455,8 +24618,8 @@
     ],
     "year": 2023,
     "month": 12,
-    "venue": "arXiv",
-    "venueYear": 2023,
+    "venue": "BMVC",
+    "venueYear": 2024,
     "tags": [
       "Mesh",
       "Diffusion",
@@ -24470,7 +24633,8 @@
     "project": "https://controldreamer.github.io",
     "figure": "First text-to-3D model that blends geometry and style via a multi-view diffusion approach",
     "abstract": "ControlDreamer enhances text-to-3D generation by integrating a depth-aware multi-view diffusion model, allowing for the creation of stylized 3D models. It includes a benchmark for 3D style editing across various subjects, demonstrating superior performance compared to existing methods through human evaluations and CLIP scores.",
-    "figureUrl": "https://controldreamer.github.io/method.png"
+    "figureUrl": "https://controldreamer.github.io/method.png",
+    "codeUrl": "https://github.com/oyt9306/ControlDreamer"
   },
   {
     "id": "diversedream",
@@ -24485,8 +24649,8 @@
     ],
     "year": 2023,
     "month": 12,
-    "venue": "arXiv",
-    "venueYear": 2023,
+    "venue": "ECCV",
+    "venueYear": 2024,
     "tags": [
       "Representation",
       "Model",
@@ -24494,12 +24658,13 @@
       "Capability"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2312.02192",
     "project": "https://diversedream.github.io",
     "figure": "First method to enhance diversity in text-to-3D synthesis via augmented text prompts.",
     "abstract": "DiverseDream addresses the issue of limited diversity in text-to-3D synthesis by proposing a method that generates multiple 3D models from the same text prompt using augmented text prompts. This approach improves the diversity of generated models both qualitatively and quantitatively.",
-    "figureUrl": "https://diversedream.github.io/static/figures/pipeline.png"
+    "figureUrl": "https://diversedream.github.io/static/figures/pipeline.png",
+    "codeUrl": "https://github.com/VinAIResearch/DiverseDream"
   },
   {
     "id": "stabledreamer",
@@ -24595,7 +24760,8 @@
     "project": "https://xmu-xiaoma666.github.io/Projects/X-Dreamer/",
     "figure": "First method that bridges the domain gap between text-to-2D and text-to-3D generation via innovative designs.",
     "abstract": "X-Dreamer is a novel approach for high-quality text-to-3D content creation that addresses the domain gap between 2D images and 3D assets. It introduces Camera-Guided Low-Rank Adaptation and Attention-Mask Alignment Loss to enhance the generation of 3D objects, ensuring better alignment with camera perspectives and focusing on detailed foreground objects. Evaluations show its effectiveness over exi",
-    "figureUrl": "https://xmu-xiaoma666.github.io/Projects/X-Dreamer/static/our_gif/pipeline.png"
+    "figureUrl": "https://xmu-xiaoma666.github.io/Projects/X-Dreamer/static/our_gif/pipeline.png",
+    "codeUrl": "https://github.com/xmu-xiaoma666/X-Dreamer"
   },
   {
     "id": "cg3d",
@@ -24745,12 +24911,13 @@
       "Conditional"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2311.17050",
     "project": "https://yzmblog.github.io/projects/SurfD/",
     "figure": "First method to generate high-quality 3D shapes with arbitrary topologies using diffusion models.",
     "abstract": "Surf-D is a novel approach for generating high-quality 3D shapes as surfaces with arbitrary topologies using diffusion models. It utilizes Unsigned Distance Fields for representation and a point-based AutoEncoder for efficient latent space learning. The method supports various generation tasks, including unconditional, category conditional, image conditional, and text-to-shape generation, outperfo",
-    "figureUrl": "https://yzmblog.github.io/projects/SurfD/figs/fig_teaser.png"
+    "figureUrl": "https://yzmblog.github.io/projects/SurfD/figs/fig_teaser.png",
+    "codeUrl": "https://github.com/Yzmblog/SurfD"
   },
   {
     "id": "richdreamer",
@@ -24785,7 +24952,8 @@
     "project": "https://aigc3d.github.io/richdreamer/",
     "figure": "First Normal-Depth diffusion model for detail-rich text-to-3D generation.",
     "abstract": "RichDreamer addresses the challenges of 3D generation from 2D diffusion by proposing a Normal-Depth diffusion model that leverages normal and depth information for scene geometry. It integrates an albedo diffusion model to improve material representation and achieves state-of-the-art results in detail richness when used in text-to-3D pipelines.",
-    "figureUrl": "https://aigc3d.github.io/richdreamer/static/teaser.jpg"
+    "figureUrl": "https://aigc3d.github.io/richdreamer/static/teaser.jpg",
+    "codeUrl": "https://github.com/modelscope/RichDreamer"
   },
   {
     "id": "dreampropeller",
@@ -24842,12 +25010,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2311.15980",
     "project": "https://nju-3dv.github.io/projects/direct25",
     "figure": "First diverse text-to-3D generation via multi-view 2.5D diffusion.",
     "abstract": "This paper presents a novel approach to 3D content generation using a multi-view 2.5D diffusion model fine-tuned from a pre-trained 2D diffusion model. It effectively combines the strengths of 2D and 3D diffusion methods, allowing for diverse and high-fidelity 3D model generation without the need for time-consuming post-processing. The method achieves fast inference and consistent 3D model creatio",
-    "figureUrl": "https://nju-3dv.github.io/projects/resources/pipeline.png"
+    "figureUrl": "https://nju-3dv.github.io/projects/resources/pipeline.png",
+    "codeUrl": "https://github.com/apple/ml-direct2.5"
   },
   {
     "id": "et3d",
@@ -24959,7 +25128,8 @@
     "project": "https://github.com/WU-CVGL/MVControl/",
     "figure": "First method to enhance multi-view diffusion for controllable text-to-3D generation via a new conditioning mechanism.",
     "abstract": "MVControl is a novel architecture that improves multi-view 2D diffusion models by adding input conditions like edge maps, enabling controllable generation of multi-view images and consistent 3D content. It introduces a conditioning mechanism for precise shape and view control, utilizing score-distillation for 3D content generation. Extensive experiments show robust generalization and high-quality ",
-    "figureUrl": "https://github.com/WU-CVGL/MVControl/raw/main/assets/teaser.jpg"
+    "figureUrl": "https://github.com/WU-CVGL/MVControl/raw/main/assets/teaser.jpg",
+    "codeUrl": "https://github.com/WU-CVGL/MVControl"
   },
   {
     "id": "boosting3d",
@@ -25021,7 +25191,8 @@
     "project": "https://chenliang-zhou.github.io/FrePolad/",
     "figure": "First point cloud generation method using frequency-rectified latent diffusion via VAE.",
     "abstract": "FrePolad introduces a point cloud generation pipeline that combines a variational autoencoder with a denoising diffusion model. It enhances generation quality and diversity while allowing variable point cloud cardinality. The method employs frequency rectification to preserve high-frequency details and demonstrates state-of-the-art performance in efficiency and quality. A project page is available",
-    "figureUrl": "https://chenliang-zhou.github.io/FrePolad/img/teaser.png"
+    "figureUrl": "https://chenliang-zhou.github.io/FrePolad/img/teaser.png",
+    "codeUrl": "https://github.com/Chenliang-Zhou/FrePolad"
   },
   {
     "id": "luciddreamer",
@@ -25111,12 +25282,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2311.09217",
     "project": "https://justimyhxu.github.io/projects/dmv3d/",
     "figure": "First 3D generation model that denoises multi-view images using a transformer-based approach via NeRF.",
     "abstract": "DMV3D is a novel 3D generation method that employs a transformer-based large reconstruction model to denoise multi-view diffusion. It utilizes a triplane NeRF representation for effective denoising and achieves state-of-the-art results in single-image reconstruction and text-to-3D generation, all without needing 3D assets. The method demonstrates high-quality outputs and efficiency on large-scale ",
-    "figureUrl": "https://justimyhxu.github.io/projects/dmv3d/dmv3d/pipeline.png"
+    "figureUrl": "https://justimyhxu.github.io/projects/dmv3d/dmv3d/pipeline.png",
+    "codeUrl": "https://github.com/justimyhxu/dmv3d"
   },
   {
     "id": "instant3d",
@@ -25147,7 +25319,8 @@
     "project": "https://github.com/ming1993li/Instant3DCodes",
     "figure": "First fast text-to-3D generation framework that constructs a 3D triplane from text in under one second via a feedforward network",
     "abstract": "Instant3D introduces a novel framework for rapid text-to-3D generation, enabling the creation of 3D objects from unseen text prompts in less than one second. The method employs a new network architecture that constructs a 3D triplane directly from text, utilizing mechanisms like cross-attention and style injection for precise output alignment. Extensive experiments show its efficiency and performa",
-    "figureUrl": "https://opengraph.githubassets.com/0727a67ff5fc0ffe897a4829435ce9d2885fe8037d46d87f0a7e5635e2607da3/ming1993li/Instant3DCodes"
+    "figureUrl": "https://opengraph.githubassets.com/0727a67ff5fc0ffe897a4829435ce9d2885fe8037d46d87f0a7e5635e2607da3/ming1993li/Instant3DCodes",
+    "codeUrl": "https://github.com/ming1993li/Instant3DCodes"
   },
   {
     "id": "one-2-3-45",
@@ -25177,12 +25350,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2311.07885",
     "project": "https://sudo-ai-3d.github.io/One2345plus_page",
     "figure": "First method to transform a single image into a detailed 3D textured mesh in approximately one minute via 3D diffusion.",
     "abstract": "One-2-3-45++ is a novel method for fast single image to 3D object generation, achieving high fidelity and rapid generation speeds. It leverages 2D diffusion models for multi-view image generation and elevates these to 3D using conditioned 3D diffusion models, producing diverse 3D assets that closely resemble the input image.",
-    "figureUrl": "https://sudo-ai-3d.github.io/static/figure/method.png"
+    "figureUrl": "https://sudo-ai-3d.github.io/static/figure/method.png",
+    "codeUrl": "https://github.com/SUDO-AI-3D/One2345plus"
   },
   {
     "id": "3dstyle-diffusion",
@@ -25213,7 +25387,8 @@
     "project": "https://github.com/yanghb22-fdu/3DStyle-Diffusion-Official",
     "figure": "First model that enables fine-grained text-driven stylization of 3D meshes via 2D diffusion models",
     "abstract": "3DStyle-Diffusion addresses the challenge of text-driven 3D content creation by integrating controllable appearance and geometric guidance from 2D diffusion models. It parameterizes 3D mesh textures and achieves accurate depth maps, allowing for high-quality stylization that aligns with text prompts. The model is validated through qualitative and quantitative experiments, and source code is availa",
-    "figureUrl": "https://opengraph.githubassets.com/7848be94f6c2c348a3b3ac9de70299f086bbec0e19a65cdd3c80975c545d0713/yanghb22-fdu/3DStyle-Diffusion-Official"
+    "figureUrl": "https://opengraph.githubassets.com/7848be94f6c2c348a3b3ac9de70299f086bbec0e19a65cdd3c80975c545d0713/yanghb22-fdu/3DStyle-Diffusion-Official",
+    "codeUrl": "https://github.com/yanghb22-fdu/3DStyle-Diffusion-Official"
   },
   {
     "id": "control3d",
@@ -25258,7 +25433,7 @@
     ],
     "year": 2023,
     "month": 11,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH Asia",
     "venueYear": 2023,
     "tags": [
       "Hybrid",
@@ -25273,7 +25448,8 @@
     "project": "https://github.com/liuzhengzhe/EXIM",
     "figure": "First hybrid explicit-implicit representation for text-guided 3D shape generation.",
     "abstract": "This paper introduces EXIM, a novel technique for generating 3D shapes from text using a hybrid representation that combines explicit and implicit methods. It allows for high-fidelity shape generation without extensive optimization or reliance on human-annotated texts. The approach also ensures shape-color consistency and is applicable to generating indoor scenes. The results show significant impr",
-    "figureUrl": "https://opengraph.githubassets.com/61c4297211eca1ea2468c53b2b2349b55e9110ea715c8d2f10ba05449c7ae6b5/liuzhengzhe/EXIM"
+    "figureUrl": "https://opengraph.githubassets.com/61c4297211eca1ea2468c53b2b2349b55e9110ea715c8d2f10ba05449c7ae6b5/liuzhengzhe/EXIM",
+    "codeUrl": "https://github.com/liuzhengzhe/EXIM"
   },
   {
     "id": "generative-neural-fields",
@@ -25331,7 +25507,8 @@
     "arxiv": "https://arxiv.org/abs/2310.19415",
     "project": "https://xinyu-andy.github.io/Classifier-Score-Distillation",
     "figure": "First text-to-3D generation method that relies solely on classifier-free guidance via Score Distillation.",
-    "abstract": "This paper presents Classifier Score Distillation (CSD), a novel approach for text-to-3D generation that emphasizes the role of classifier-free guidance. The method demonstrates effectiveness in various tasks, including shape generation and editing, outperforming existing state-of-the-art techniques. The findings provide new insights into the optimization of text-to-3D generation."
+    "abstract": "This paper presents Classifier Score Distillation (CSD), a novel approach for text-to-3D generation that emphasizes the role of classifier-free guidance. The method demonstrates effectiveness in various tasks, including shape generation and editing, outperforming existing state-of-the-art techniques. The findings provide new insights into the optimization of text-to-3D generation.",
+    "codeUrl": "https://github.com/CVMI-Lab/Classifier-Score-Distillation"
   },
   {
     "id": "general-point-model",
@@ -25483,7 +25660,8 @@
     "project": "https://taoranyi.com/gaussiandreamer/",
     "figure": "First fast text-to-3D Gaussian generation via bridging 2D and 3D diffusion models",
     "abstract": "GaussianDreamer proposes a novel framework for generating 3D objects from text prompts by combining the strengths of 2D and 3D diffusion models. It utilizes a 3D Gaussian splatting representation to enhance quality and consistency, achieving high-quality 3D instance generation in a fraction of the time compared to previous methods. Demos and code are available online.",
-    "figureUrl": "https://taoranyi.com/gaussiandreamer/static/teaser.png"
+    "figureUrl": "https://taoranyi.com/gaussiandreamer/static/teaser.png",
+    "codeUrl": "https://github.com/hustvl/GaussianDreamer"
   },
   {
     "id": "hifi-123",
@@ -25580,7 +25758,8 @@
     "project": "https://github.com/zengbohan0217/IPDreamer",
     "figure": "First method for appearance-controllable 3D object generation from complex image prompts via diffusion.",
     "abstract": "IPDreamer addresses the challenges of generating appearance-controllable 3D objects from complex images by capturing intricate features and aligning them with synthesized 3D objects. The method shows consistent high-quality results that align with both textual and image prompts, demonstrating its effectiveness in 3D object generation.",
-    "figureUrl": "https://opengraph.githubassets.com/9a69511f39a5618cf20ffb87118415ab85208b4735452fb8fa97b5f05aa9a922/zengbohan0217/IPDreamer"
+    "figureUrl": "https://opengraph.githubassets.com/9a69511f39a5618cf20ffb87118415ab85208b4735452fb8fa97b5f05aa9a922/zengbohan0217/IPDreamer",
+    "codeUrl": "https://github.com/zengbohan0217/IPDreamer"
   },
   {
     "id": "consistent123",
@@ -25951,7 +26130,7 @@
     ],
     "year": 2023,
     "month": 8,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2023,
     "tags": [
       "Mesh",
@@ -25965,7 +26144,8 @@
     "arxiv": "https://arxiv.org/abs/2308.10898",
     "project": "https://meowuu7.github.io/few-arti-obj-gen",
     "figure": "First few-shot articulated mesh generator that ensures physical validity via hierarchical deformation.",
-    "abstract": "This paper addresses few-shot articulated mesh generation by proposing a hierarchical mesh deformation model that enhances diversity and physical validity. The method leverages transferrable deformation patterns from rigid meshes and includes a physics-aware correction scheme. Experiments show improved performance in generating articulated meshes across various categories. Code and project page ar"
+    "abstract": "This paper addresses few-shot articulated mesh generation by proposing a hierarchical mesh deformation model that enhances diversity and physical validity. The method leverages transferrable deformation patterns from rigid meshes and includes a physics-aware correction scheme. Experiments show improved performance in generating articulated meshes across various categories. Code and project page ar",
+    "codeUrl": "https://github.com/Meowuu7/few-arti-gen"
   },
   {
     "id": "sketch-text-diffusion",
@@ -26071,7 +26251,7 @@
     ],
     "year": 2023,
     "month": 7,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2023,
     "tags": [
       "Implicit",
@@ -26085,7 +26265,8 @@
     "arxiv": "https://arxiv.org/abs/2307.14051",
     "project": "https://github.com/TrepangCat/3D_Semantic_Subspace_Traverser",
     "figure": "First semantic generative model for category-specific 3D shape generation and editing via latent-space GAN.",
-    "abstract": "This paper introduces the 3D Semantic Subspace Traverser, a generative model that incorporates semantic attributes for category-specific 3D shape generation and editing. By utilizing implicit functions and a latent-space GAN, the model allows for the manipulation of semantic attributes during shape generation, producing plausible shapes with complex structures. The code and models are available on"
+    "abstract": "This paper introduces the 3D Semantic Subspace Traverser, a generative model that incorporates semantic attributes for category-specific 3D shape generation and editing. By utilizing implicit functions and a latent-space GAN, the model allows for the manipulation of semantic attributes during shape generation, producing plausible shapes with complex structures. The code and models are available on",
+    "codeUrl": "https://github.com/TrepangCat/3D_Semantic_Subspace_Traverser"
   },
   {
     "id": "points-to-3d",
@@ -26321,7 +26502,8 @@
     "arxiv": "https://arxiv.org/abs/2306.17843",
     "project": "https://github.com/guochengqian/Magic123",
     "figure": "First method to generate high-quality 3D meshes from a single image using 2D and 3D diffusion priors",
-    "abstract": "Magic123 introduces a two-stage approach for generating high-quality textured 3D meshes from a single unposed image. It combines 2D and 3D diffusion priors to optimize a neural radiance field for coarse geometry and a differentiable mesh representation for high-resolution output. The method shows significant improvements over existing image-to-3D techniques."
+    "abstract": "Magic123 introduces a two-stage approach for generating high-quality textured 3D meshes from a single unposed image. It combines 2D and 3D diffusion priors to optimize a neural radiance field for coarse geometry and a differentiable mesh representation for high-resolution output. The method shows significant improvements over existing image-to-3D techniques.",
+    "codeUrl": "https://github.com/guochengqian/Magic123"
   },
   {
     "id": "michelangelo",
@@ -26459,7 +26641,7 @@
     ],
     "year": 2023,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2023,
     "tags": [
       "Implicit",
@@ -26474,7 +26656,8 @@
     "project": "https://github.com/Rowl1ng/3Dsketch2shape",
     "figure": "First 3D shape generation network that uses 3D VR sketches as a condition via normalizing flow.",
     "abstract": "This paper presents a 3D shape generation network that utilizes 3D VR sketches created by novices to generate geometrically realistic 3D shapes. The method addresses sketch ambiguity by producing multiple 3D shapes that correspond to the sketch's structure, employing normalizing flow for latent space distribution modeling and a dedicated loss for fidelity to the input sketch. The code is available",
-    "figureUrl": "https://opengraph.githubassets.com/cbdb2842941c47867a5953b8d889a931fcb5b787e2be4feb5589d10676e463e4/Rowl1ng/3Dsketch2shape"
+    "figureUrl": "https://opengraph.githubassets.com/cbdb2842941c47867a5953b8d889a931fcb5b787e2be4feb5589d10676e463e4/Rowl1ng/3Dsketch2shape",
+    "codeUrl": "https://github.com/Rowl1ng/3Dsketch2shape"
   },
   {
     "id": "sds-complete",
@@ -26487,7 +26670,7 @@
     ],
     "year": 2023,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2023,
     "tags": [
       "PointCloud",
@@ -26502,7 +26685,8 @@
     "project": "https://sds-complete.github.io/",
     "figure": "First point-cloud completion method that uses pretrained text-to-image diffusion models.",
     "abstract": "SDS-Complete addresses the challenge of incomplete point-cloud data by leveraging text-guided image generation techniques. It utilizes a pre-trained diffusion model to complete point clouds based on the semantics of the input data, achieving significant improvements in reconstruction quality for out-of-distribution objects. The method shows a 50% reduction in Chamfer loss compared to existing appr",
-    "figureUrl": "https://sds-complete.github.io/files/teaser.png"
+    "figureUrl": "https://sds-complete.github.io/files/teaser.png",
+    "codeUrl": "https://github.com/NVlabs/sds-complete"
   },
   {
     "id": "zeroforge",
@@ -26650,7 +26834,8 @@
     "project": "https://github.com/AkiraHero/diffindscene",
     "figure": "First diffusion-based framework for high-quality indoor scene generation via cascaded 3D diffusion pipeline",
     "abstract": "DiffInDScene introduces a novel framework for high-quality 3D indoor scene generation using a cascaded diffusion pipeline. It efficiently generates room-level geometry in a coarse-to-fine manner, leveraging a diffusion-based SDF fusion approach. The results show superior mesh quality compared to ground truth data, and the method can also refine multi-view stereo reconstructions.",
-    "figureUrl": "https://opengraph.githubassets.com/9245a028ac158e5d9e810293ba0c88d4cf04ba841debacdcb21fd95f0b0d6751/AkiraHero/diffindscene"
+    "figureUrl": "https://opengraph.githubassets.com/9245a028ac158e5d9e810293ba0c88d4cf04ba841debacdcb21fd95f0b0d6751/AkiraHero/diffindscene",
+    "codeUrl": "https://github.com/AkiraHero/diffindscene"
   },
   {
     "id": "nap",
@@ -26749,7 +26934,7 @@
     ],
     "year": 2023,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "CVPR",
     "venueYear": 2023,
     "tags": [
       "SDF",
@@ -26779,7 +26964,7 @@
     ],
     "year": 2023,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH",
     "venueYear": 2023,
     "tags": [
       "SDF",
@@ -26793,7 +26978,8 @@
     "arxiv": "https://arxiv.org/abs/2305.04461",
     "project": "https://zhengxinyang.github.io/projects/LAS-Diffusion.html",
     "figure": "First controllable 3D shape generation via locally attentional SDF diffusion.",
-    "abstract": "This paper presents a diffusion-based framework for 3D shape generation that enhances user control over local geometry. It employs a two-stage model to generate occupancy fields and signed distance fields, utilizing a local attention mechanism for improved feature learning from 2D sketches. The method demonstrates superior controllability and generalizability in generating diverse 3D shapes."
+    "abstract": "This paper presents a diffusion-based framework for 3D shape generation that enhances user control over local geometry. It employs a two-stage model to generate occupancy fields and signed distance fields, utilizing a local attention mechanism for improved feature learning from 2D sketches. The method demonstrates superior controllability and generalizability in generating diverse 3D shapes.",
+    "codeUrl": "https://github.com/Zhengxinyang/LAS-Diffusion"
   },
   {
     "id": "difffacto",
@@ -26818,11 +27004,12 @@
       "Part-aware"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2305.01921",
     "project": "https://difffacto.github.io/",
     "figure": "First controllable part-based 3D point cloud generation via cross diffusion.",
-    "abstract": "DiffFacto introduces a probabilistic generative model for controllable part-based 3D point cloud generation. It learns independent distributions for part style and configuration, enabling coherent shape generation with multiple control axes. The method achieves state-of-the-art quality and supports various editing applications."
+    "abstract": "DiffFacto introduces a probabilistic generative model for controllable part-based 3D point cloud generation. It learns independent distributions for part style and configuration, enabling coherent shape generation with multiple control axes. The method achieves state-of-the-art quality and supports various editing applications.",
+    "codeUrl": "https://github.com/diffFacto/diffFacto"
   },
   {
     "id": "ai-architecture-liberty",
@@ -26974,7 +27161,8 @@
     "project": "https://len-li.github.io/lift3d-web",
     "figure": "First 3D data generation framework that lifts 2D GAN to 3D generative radiance field.",
     "abstract": "Lift3D proposes a novel framework for synthesizing photorealistic 3D training data from 2D GANs, addressing limitations of existing NeRF-based 3D GANs. It allows for higher resolution outputs and provides explicit 3D information, enhancing performance in 3D vision tasks like object detection. The framework is evaluated on autonomous driving datasets, showing significant improvements.",
-    "figureUrl": "https://len-li.github.io/static/lift3d_method.png"
+    "figureUrl": "https://len-li.github.io/static/lift3d_method.png",
+    "codeUrl": "https://github.com/Len-Li/Lift3D"
   },
   {
     "id": "ditto-nerf",
@@ -27130,7 +27318,7 @@
     ],
     "year": 2023,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "CVPR",
     "venueYear": 2023,
     "tags": [
       "SDF",
@@ -27145,7 +27333,8 @@
     "project": "https://github.com/chenchao15/NeuralTPS",
     "figure": "First method to infer SDFs from single sparse point clouds without learned priors via a neural network.",
     "abstract": "This paper presents a method for inferring signed distance functions (SDFs) from single sparse point clouds without relying on learned priors or signed distance supervision. The approach utilizes parameterized surfaces for coarse surface sampling and employs a thin plate splines-based network to infer SDFs, enhancing generalization and accuracy for unseen point clouds. Experimental results demonst",
-    "figureUrl": "https://opengraph.githubassets.com/55aa314c868c1ddf8acd5cdad4abeb6cd6e7d958c3462cbd4084418e83d28a5d/chenchao15/NeuralTPS"
+    "figureUrl": "https://opengraph.githubassets.com/55aa314c868c1ddf8acd5cdad4abeb6cd6e7d958c3462cbd4084418e83d28a5d/chenchao15/NeuralTPS",
+    "codeUrl": "https://github.com/chenchao15/NeuralTPS"
   },
   {
     "id": "fantasia3d",
@@ -27159,7 +27348,7 @@
     ],
     "year": 2023,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2023,
     "tags": [
       "Implicit",
@@ -27174,7 +27363,8 @@
     "project": "https://fantasia3d.github.io/",
     "figure": "First method for high-quality text-to-3D content creation via disentangled geometry and appearance modeling.",
     "abstract": "Fantasia3D introduces a novel approach for text-to-3D content creation by disentangling geometry and appearance. It utilizes a hybrid scene representation and incorporates surface normals into an image diffusion model for improved geometry learning. The method also integrates a spatially varying BRDF for realistic rendering, enhancing compatibility with graphics engines. Experiments demonstrate it",
-    "figureUrl": "https://fantasia3d.github.io/static/gif/pipeline.png"
+    "figureUrl": "https://fantasia3d.github.io/static/gif/pipeline.png",
+    "codeUrl": "https://github.com/Gorilla-Lab-SCUT/Fantasia3D"
   },
   {
     "id": "componerf",
@@ -27221,7 +27411,7 @@
     ],
     "year": 2023,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ICLR",
     "venueYear": 2023,
     "tags": [
       "SDF",
@@ -27236,7 +27426,8 @@
     "project": "https://github.com/liuzhengzhe/DreamStone-ISS",
     "figure": "First text-guided 3D shape generation that uses images as a stepping stone via feature-space alignment.",
     "abstract": "DreamStone introduces a novel approach for text-guided 3D shape generation that utilizes images to connect text and shape modalities. It employs a two-stage feature-space alignment strategy with a pre-trained single-view reconstruction model and incorporates a text-guided 3D shape stylization module. The method enhances generative diversity and fidelity, outperforming existing techniques in qualit",
-    "figureUrl": "https://opengraph.githubassets.com/71a0f95dc057f6d82f17040c25b76d51fca1cd9eee5f990aa9f8b311df4bc8ba/liuzhengzhe/DreamStone-ISS"
+    "figureUrl": "https://opengraph.githubassets.com/71a0f95dc057f6d82f17040c25b76d51fca1cd9eee5f990aa9f8b311df4bc8ba/liuzhengzhe/DreamStone-ISS",
+    "codeUrl": "https://github.com/liuzhengzhe/DreamStone-ISS"
   },
   {
     "id": "taps3d",
@@ -27278,7 +27469,7 @@
     ],
     "year": 2023,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "CVPR",
     "venueYear": 2023,
     "tags": [
       "SDF",
@@ -27291,7 +27482,8 @@
     "arxiv": "https://arxiv.org/abs/2303.12675",
     "project": "https://xiazeqing.github.io/VecFontSDF",
     "figure": "First method to synthesize vector fonts using signed distance functions.",
-    "abstract": "VecFontSDF introduces an end-to-end trainable approach for reconstructing and synthesizing high-quality vector fonts through signed distance functions. It models each glyph as shape primitives and converts them to quadratic Bézier curves, enabling effective font design automation. Experiments show significant improvements over existing methods in vector font tasks."
+    "abstract": "VecFontSDF introduces an end-to-end trainable approach for reconstructing and synthesizing high-quality vector fonts through signed distance functions. It models each glyph as shape primitives and converts them to quadratic Bézier curves, enabling effective font design automation. Experiments show significant improvements over existing methods in vector font tasks.",
+    "codeUrl": "https://github.com/ymxbj/VecFontSDF"
   },
   {
     "id": "salad",
@@ -27558,7 +27750,8 @@
     "arxiv": "https://arxiv.org/abs/2303.06821",
     "project": "https://github.com/lutao2021/SDF-3DGAN",
     "figure": "First 3D object generation method using implicit Signed Distance Function via GAN.",
-    "abstract": "SDF-3DGAN introduces a novel method for 3D object generation using implicit Signed Distance Function (SDF) as a representation. It enhances rendering efficiency and accuracy, allowing for high-quality 3D object generation from 2D images. The method addresses sampling ambiguity and improves surface smoothness, demonstrating superior performance in benchmarks for 3D object generation and 3D-aware im"
+    "abstract": "SDF-3DGAN introduces a novel method for 3D object generation using implicit Signed Distance Function (SDF) as a representation. It enhances rendering efficiency and accuracy, allowing for high-quality 3D object generation from 2D images. The method addresses sampling ambiguity and improves surface smoothness, demonstrating superior performance in benchmarks for 3D object generation and 3D-aware im",
+    "codeUrl": "https://github.com/lutao2021/SDF-3DGAN"
   },
   {
     "id": "3dgen",
@@ -27604,7 +27797,7 @@
     ],
     "year": 2023,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ICLR",
     "venueYear": 2023,
     "tags": [
       "Mesh",
@@ -27618,7 +27811,8 @@
     "arxiv": "https://arxiv.org/abs/2303.01416",
     "project": "https://snap-research.github.io/3dgp",
     "figure": "First 3D generator with Generic Priors that scales to diverse datasets via GAN.",
-    "abstract": "This paper presents 3DGP, a 3D synthesis framework that addresses the limitations of existing 3D-from-2D generators by incorporating a depth estimator, a flexible camera model, and knowledge distillation techniques. It demonstrates improved stability and convergence in training, outperforming state-of-the-art methods on challenging datasets like ImageNet."
+    "abstract": "This paper presents 3DGP, a 3D synthesis framework that addresses the limitations of existing 3D-from-2D generators by incorporating a depth estimator, a flexible camera model, and knowledge distillation techniques. It demonstrates improved stability and convergence in training, outperforming state-of-the-art methods on challenging datasets like ImageNet.",
+    "codeUrl": "https://github.com/snap-research/3dgp"
   },
   {
     "id": "neural-wavelet-diffusion",
@@ -27732,6 +27926,7 @@
     "project": "https://bipashasen.github.io/scarp",
     "figure": "First model for 3D shape completion in arbitrary poses via a single network",
     "abstract": "SCARP addresses the challenge of recovering full 3D shapes from partial observations by learning a disentangled feature representation of pose and shape. It performs canonicalization, pose estimation, and shape completion in one network, significantly improving grasp proposals on tabletop objects. The model shows a 45% performance increase over existing methods and a 71.2% improvement in grasp pro",
-    "figureUrl": "https://bipashasen.github.io/images/scarp/scarp_banner.jpg"
+    "figureUrl": "https://bipashasen.github.io/images/scarp/scarp_banner.jpg",
+    "codeUrl": "https://github.com/vanhalen42/SCARP"
   }
 ]
