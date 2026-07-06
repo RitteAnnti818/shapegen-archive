@@ -1,5 +1,213 @@
 [
   {
+    "id": "spg-layout",
+    "title": "Text-Driven 3D Indoor Scene Synthesis in Non-Manhattan Environments",
+    "short": "SPG-Layout",
+    "authors": [
+      "Meng",
+      "Song",
+      "Zhang",
+      "Zhang",
+      "Lv",
+      "Chen",
+      "Wang",
+      "Luo",
+      "Chen",
+      "Ye",
+      "Chen",
+      "Liu",
+      "Hao"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Representation",
+      "Model",
+      "Conditioning",
+      "Capability"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.02407",
+    "project": "",
+    "figure": "First text-driven framework for generating 3D indoor scenes in non-Manhattan environments via statistical priors and hierarchical layout.",
+    "abstract": "SPG-Layout is a novel framework that generates physically plausible indoor scenes in non-Manhattan environments by utilizing statistical priors and a hierarchical layout strategy. This approach enhances environmental understanding and minimizes layout violations, achieving a balance between semantic realism and physical fidelity. Extensive experiments show significant performance improvements over"
+  },
+  {
+    "id": "pwm-artgen",
+    "title": "PWM-ArtGen: Part World Model for Articulated Object Generation",
+    "short": "PWM-ArtGen",
+    "authors": [
+      "Zheng",
+      "Wu"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "PointCloud",
+      "Diffusion",
+      "Image",
+      "Generation",
+      "Part-aware"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.02045",
+    "project": "",
+    "figure": "First articulated object generator that learns joint distribution of visual dynamics and kinematic parameters via action and image diffusion.",
+    "abstract": "PWM-ArtGen addresses the challenge of generating articulated 3D objects from a single image by learning the joint distribution of visual dynamics and kinematic parameters. It utilizes a unified Part World Model and couples action diffusion with image diffusion, enabling effective co-training with a newly curated dataset of part-level image pairs. The model shows significant improvements over exist"
+  },
+  {
+    "id": "pixgs",
+    "title": "PixGS: Pixel-Space Diffusion for Direct 3D Gaussian Splat Generation",
+    "short": "PixGS",
+    "authors": [
+      "Cao",
+      "Nguyen-Ha"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "3DGS",
+      "Diffusion",
+      "Generation",
+      "Unconditional",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.01803",
+    "project": "",
+    "figure": "First single-stage pipeline for direct high-quality 3D Gaussian Splat generation via pixel-space diffusion",
+    "abstract": "PixGS addresses the limitations of existing 3D content generation methods by proposing a single-stage pipeline for generating high-quality 3D Gaussian Splats. It leverages pixel-space diffusion to avoid lossy latent compression, allowing for precise regularization of appearance and geometry. The method incorporates comprehensive supervision strategies and demonstrates superior performance compared"
+  },
+  {
+    "id": "ink3d",
+    "title": "Ink3D: Sculpting 3D Assets with Extremely Complex Textures via Video Generative Models",
+    "short": "Ink3D",
+    "authors": [
+      "Han",
+      "Li",
+      "Liu",
+      "Huang",
+      "Deng",
+      "Liu",
+      "Wei",
+      "Lu"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "VAE",
+      "Image",
+      "Generation",
+      "Texturing"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.01222",
+    "project": "",
+    "figure": "First framework that synthesizes complex textures for 3D assets via video generative models.",
+    "abstract": "Ink3D introduces a novel approach to 3D asset generation by combining traditional 3D geometry reconstruction with large-scale video generative models to create intricate textures. It first generates a white-mesh geometry and then uses a conditional video model to produce detailed texture maps, improving upon previous methods by effectively decoupling geometry and texture synthesis."
+  },
+  {
+    "id": "world-from-motion",
+    "title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video",
+    "short": "World from Motion",
+    "authors": [
+      "Zhu",
+      "Huang",
+      "Mazumdar",
+      "Li",
+      "Gojcic",
+      "Wetzstein",
+      "Armeni",
+      "Mello",
+      "Trevithick"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Flow",
+      "Image",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.01202",
+    "project": "",
+    "figure": "First method to generate dynamic 3D Gaussian representations from monocular video via a video model.",
+    "abstract": "World from Motion introduces a technique for generating dynamic 3D Gaussian representations from monocular videos. It utilizes pixel-aligned renderings to enhance appearance and geometry while correcting artifacts. The model is trained on a dataset of multiview video pairs and dynamic 3DGS representations, achieving state-of-the-art results in 4D reconstruction and adapting to various video condit"
+  },
+  {
+    "id": "pano2world",
+    "title": "Pano2World: End-to-End 3D Generation via Unified Multi-View Sequences",
+    "short": "Pano2World",
+    "authors": [
+      "Li",
+      "Jia",
+      "Shi"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Gaussian",
+      "Diffusion",
+      "Unconditional",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.00832",
+    "project": "",
+    "figure": "First end-to-end method that generates a 3D Gaussian scene from a single panorama via a panoramic diffusion model.",
+    "abstract": "Pano2World converts a single indoor panorama into a persistent, explorable 3D Gaussian scene. It reconstructs a coarse 3D proxy and uses a panoramic diffusion model to denoise target views while ensuring cross-view consistency. The method outperforms existing techniques in multi-position panoramic novel-view synthesis."
+  },
+  {
+    "id": "vitality-aware-compression",
+    "title": "Vitality-Aware Compression for Efficient Image-to-Shape Diffusion Transformers",
+    "short": "Vitality-Aware Compression",
+    "authors": [
+      "Lee",
+      "Kim",
+      "Cho",
+      "Kwon"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "SDF",
+      "Diffusion",
+      "Image",
+      "Generation",
+      "Completion"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.00382",
+    "project": "",
+    "figure": "First compression approach for image-to-shape Diffusion Transformers that reduces model size while preserving geometric fidelity.",
+    "abstract": "This paper presents a novel compression method for image-to-shape Diffusion Transformers, significantly reducing model size while maintaining geometric fidelity. The proposed framework integrates structured pruning, adaptive quantization, and targeted fine-tuning, achieving up to 66% model-size reduction across various models while ensuring synthesis quality."
+  },
+  {
     "id": "flat",
     "title": "FLAT: Feedforward Latent Triangle Splatting for Geometrically Accurate Scene Generation",
     "short": "FLAT",
@@ -1203,6 +1411,185 @@
     "project": "",
     "figure": "First text-to-3D scene generation that uses reconstruction-anchored video synthesis via Gaussian Splatting.",
     "abstract": "OrbitForge is a novel method that converts text-generated videos into 3D Gaussian Splatting scenes by leveraging 3D reconstruction for improved consistency. It addresses challenges in camera motion control and view coverage, using a unique approach to complete missing viewpoints without task-specific fine-tuning."
+  },
+  {
+    "id": "mesh-bdf",
+    "title": "Mesh BDF: Barycentric Dominance Field for 3D Native Mesh Generation",
+    "short": "Mesh-BDF",
+    "authors": [
+      "Song",
+      "Weng",
+      "Zhang",
+      "Zhao",
+      "Gao"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Diffusion",
+      "Generation",
+      "Continuous",
+      "3DGS"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.31777",
+    "project": "",
+    "figure": "First continuous representation for 3D mesh generation via Barycentric Dominance Field.",
+    "abstract": "The paper introduces the Barycentric Dominance Field (BDF), a continuous representation for 3D mesh generation that enhances autoregressive modeling by addressing limitations in mesh quality and scalability. BDF encodes vertex connectivity on triangular mesh surfaces, allowing for improved integration with diffusion models and enabling the generation of higher quality native meshes."
+  },
+  {
+    "id": "dualbrep",
+    "title": "DualBrep: A Dual-Field Continuous Representation for B-rep Modelling",
+    "short": "DualBrep",
+    "authors": [
+      "Liu",
+      "Jayaraman",
+      "Reddy",
+      "Xu",
+      "Shayani"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "SDF",
+      "Flow",
+      "Generation",
+      "CAD",
+      "Geometry"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.31579",
+    "project": "",
+    "figure": "First continuous representation for B-rep modeling via dual scalar fields and flow matching.",
+    "abstract": "DualBrep introduces a continuous representation that unifies B-rep geometry and topology using dual scalar fields: a Signed Distance Function (SDF) for shape and an Unsigned Distance Field (UDF) for topology. This approach allows for joint sampling of geometry and topology, improving CAD model generation and reverse engineering."
+  },
+  {
+    "id": "mv-sdi",
+    "title": "Variance Reduction on the Camera Axis: Multi-View Score Distillation for 3D",
+    "short": "MV-SDI",
+    "authors": [
+      "Lupascu",
+      "Stupariu",
+      "Mironica"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "SDF",
+      "Score-distillation",
+      "Generation",
+      "Multi-view"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.29964",
+    "project": "",
+    "figure": "First method to reduce variance in 3D score distillation via multi-view aggregation.",
+    "abstract": "This paper presents Multi-View Aggregated Score Distillation (MV-SDI), which improves 3D shape generation by aggregating gradients from multiple views to reduce variance in the score distillation process. The method maintains peak memory usage while enhancing shape consistency and performance metrics without retraining the prior model."
+  },
+  {
+    "id": "nala",
+    "title": "NaLA: A 3D Native LLM Layout Agent for High-quality 3D Scene Generation",
+    "short": "NaLA",
+    "authors": [
+      "Wan",
+      "Mao",
+      "Wu",
+      "Xie",
+      "Xiang",
+      "Wang",
+      "Zhang",
+      "Liu",
+      "Dai",
+      "Liu"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Autoregressive",
+      "Scene",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.29395",
+    "project": "",
+    "figure": "First native 3D LLM layout agent for high-quality 3D scene generation.",
+    "abstract": "NaLA is a native 3D LLM layout agent designed to enhance 3D scene generation by directly encoding 3D assets and boundaries, thus reducing information loss. It employs a coarse-to-fine prediction mechanism for asset positioning and orientation, achieving improved generation quality and efficiency compared to previous layout agents."
+  },
+  {
+    "id": "polyflow",
+    "title": "PolyFlow: Continuous Topology Embedding Flow Matching for Artist-style Mesh Generation",
+    "short": "PolyFlow",
+    "authors": [
+      "Wang",
+      "Weng",
+      "Ye",
+      "Lei",
+      "Li",
+      "Zhao",
+      "Lai",
+      "Zhang",
+      "Yang",
+      "Chen",
+      "Guo",
+      "Luo"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Flow",
+      "Unconditional",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2606.30673",
+    "project": "",
+    "figure": "First flow-matching framework for efficient mesh generation via continuous topology embedding.",
+    "abstract": "PolyFlow introduces a novel continuous topology embedder for mesh generation, enabling efficient parallel synthesis. It transforms discrete mesh data into continuous per-vertex embeddings, allowing for rapid and controlled mesh generation. Evaluations show it outperforms existing autoregressive models in quality metrics."
+  },
+  {
+    "id": "satsplatdiff",
+    "title": "SatSplatDiff: Geometry-preserving generative refinement for high-fidelity satellite Gaussian Splatting",
+    "short": "SatSplatDiff",
+    "authors": [
+      "Kim",
+      "Song",
+      "Qin"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Diffusion",
+      "Generation",
+      "Scene",
+      "Completion"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2606.27223",
+    "project": "https://github.com/GDAOSU/SatSplatDiff",
+    "figure": "First generative refinement method for satellite Gaussian splatting that minimizes geometric degradation via shadow-guided refinement.",
+    "abstract": "SatSplatDiff enhances satellite 3D reconstruction by addressing geometric degradation in generative refinement. It introduces monocular depth supervision and shadow-guided refinement to improve visual fidelity and maintain geometric consistency. Evaluations show significant performance improvements over existing methods, with enhanced resolution and reduced hallucination."
   },
   {
     "id": "hyperdiffusion-4d",
