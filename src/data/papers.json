@@ -208,6 +208,182 @@
     "abstract": "This paper presents a novel compression method for image-to-shape Diffusion Transformers, significantly reducing model size while maintaining geometric fidelity. The proposed framework integrates structured pruning, adaptive quantization, and targeted fine-tuning, achieving up to 66% model-size reduction across various models while ensuring synthesis quality."
   },
   {
+    "id": "elsa3d",
+    "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "short": "ELSA3D",
+    "authors": [
+      "Yu",
+      "Li",
+      "Shen",
+      "Susladkar",
+      "Liu",
+      "Zhou",
+      "Lourentzou"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Diffusion",
+      "Text",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.06565",
+    "project": "",
+    "figure": "First unified 3D model that generates 3D assets and reasons about them using elastic semantic anchoring.",
+    "abstract": "ELSA3D is a unified 3D model that enhances text-3D interaction by structuring language and geometric reasoning along matched abstraction scales. It utilizes a scale-aware octree tokenizer and Anchor Tokens to improve the generation of 3D assets from text and images, achieving state-of-the-art performance while reducing computational costs."
+  },
+  {
+    "id": "syncity-3000",
+    "title": "SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion",
+    "short": "SynCity 3000",
+    "authors": [
+      "Engstler",
+      "Laina",
+      "Rupprecht",
+      "Vedaldi"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Diffusion",
+      "Image",
+      "Scene",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.05392",
+    "project": "",
+    "figure": "First framework for generating globally coherent 3D scenes via convolutional diffusion.",
+    "abstract": "SynCity 3000 is a framework designed to generate coherent 3D scenes with fine-grained layout control. It builds on image-to-3D generation techniques and adapts them for entire scenes using a convolutional generator. The model is fine-tuned on synthetic scene data, allowing it to produce large and detailed 3D scenes from user prompts."
+  },
+  {
+    "id": "pixworld",
+    "title": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space",
+    "short": "PixWorld",
+    "authors": [
+      "Gao",
+      "Wang",
+      "Cao",
+      "Yu",
+      "Wang",
+      "Bian"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Diffusion",
+      "Unconditional",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.05373",
+    "project": "",
+    "figure": "First unified model for 3D scene generation and reconstruction in pixel space via diffusion.",
+    "abstract": "PixWorld introduces a unified pixel-space diffusion model that simultaneously addresses 3D scene generation and reconstruction. By supervising diffusion directly on rendered images and incorporating a geometry perception loss, it enhances 3D structural fidelity while outperforming previous methods in both tasks."
+  },
+  {
+    "id": "inspace",
+    "title": "InSpace: Structure-Aware 3D Indoor Scene Generation from a Single 360° Image",
+    "short": "InSpace",
+    "authors": [
+      "Koo",
+      "Kim",
+      "Kim",
+      "Lee",
+      "Lim",
+      "Yoon",
+      "Yeon",
+      "Yoo"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Flow",
+      "Image",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.03990",
+    "project": "https://kookie12.github.io/InSpace-Project-Page/",
+    "figure": "First structure-aware framework for 3D indoor scene generation from a single 360° image via flow matching",
+    "abstract": "InSpace is a framework designed for generating 3D indoor scenes from a single 360° image. It addresses the challenge of structural layout in scene generation by estimating partial geometry, generating coarse structures, and producing detailed layouts and asset geometry with textures. The method shows strong performance in generating complete scenes and textured assets."
+  },
+  {
+    "id": "cggs",
+    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation",
+    "short": "CGGS",
+    "authors": [
+      "Sun",
+      "Zhang",
+      "Liu",
+      "Wang"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "PointCloud",
+      "Diffusion",
+      "Text",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.03819",
+    "project": "https://cggs-26.github.io/cggs26/",
+    "figure": "First text-to-3D framework that enhances ego-centric scene generation via consistency-augmented loss.",
+    "abstract": "CGGS addresses challenges in ego-centric 3D scene generation by proposing a framework that generates consistent, high-fidelity 2D content aligned with text descriptions and produces dense point clouds. It enhances 3D Gaussian reconstruction using a novel loss function and hierarchical optimization, outperforming previous methods in generating coherent text-driven 3D scenes."
+  },
+  {
+    "id": "property-constrained-3d-porous-media-reconstruction",
+    "title": "Property-Constrained 3D Porous Media Reconstruction from 2D Images via Conditional Generative Adversarial Networks",
+    "short": "Property-Constrained 3D Porous Media Reconstruction",
+    "authors": [
+      "Sadeghkhani",
+      "Bennett",
+      "Rabbani"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Voxel",
+      "GAN",
+      "Image",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.02693",
+    "project": "",
+    "figure": "First framework for generating 3D porous media volumes with controlled porosity via cGAN.",
+    "abstract": "This paper introduces a conditional GAN framework for generating 3D porous media from 2D images, allowing for controlled porosity without needing extensive 3D training data. The method combines property-conditioned generation with 2D-to-3D reconstruction, successfully producing realistic 3D volumes that capture important lithological features."
+  },
+  {
     "id": "flat",
     "title": "FLAT: Feedforward Latent Triangle Splatting for Geometrically Accurate Scene Generation",
     "short": "FLAT",
@@ -1590,6 +1766,34 @@
     "project": "https://github.com/GDAOSU/SatSplatDiff",
     "figure": "First generative refinement method for satellite Gaussian splatting that minimizes geometric degradation via shadow-guided refinement.",
     "abstract": "SatSplatDiff enhances satellite 3D reconstruction by addressing geometric degradation in generative refinement. It introduces monocular depth supervision and shadow-guided refinement to improve visual fidelity and maintain geometric consistency. Evaluations show significant performance improvements over existing methods, with enhanced resolution and reduced hallucination."
+  },
+  {
+    "id": "procedural-plant-modeling",
+    "title": "Procedural Volumetric Modeling of Plant Branching Structures for Finite Element Analysis",
+    "short": "Procedural Plant Modeling",
+    "authors": [
+      "Moola",
+      "Gupta",
+      "Ganapathysubramanian",
+      "Pawar"
+    ],
+    "year": 2026,
+    "month": 6,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Procedural",
+      "Generation",
+      "Plant",
+      "3DGS"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.05421",
+    "project": "",
+    "figure": "First automated volumetric modeling framework for plant branching structures via procedural generation",
+    "abstract": "This paper presents a procedural modeling framework that generates hexahedral meshes of plant branching structures from input skeletons or point clouds. It captures plant topology and supports dynamic modeling of plant growth, providing high-fidelity 3D representations suitable for simulations in precision agriculture."
   },
   {
     "id": "hyperdiffusion-4d",
