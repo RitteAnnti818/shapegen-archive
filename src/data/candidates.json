@@ -1,16 +1,10 @@
 [
   {
-    "id": "elsa3d",
-    "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
-    "short": "ELSA3D",
+    "id": "atomic-design-transformer",
+    "title": "Atomic Design Transformer: Scaffold-Conditioned 3D Molecule Generation via xTB-Reward Reinforcement Learning",
+    "short": "Atomic-Design-Transformer",
     "authors": [
-      "Yu",
-      "Li",
-      "Shen",
-      "Susladkar",
-      "Liu",
-      "Zhou",
-      "Lourentzou"
+      "Kotani"
     ],
     "year": 2026,
     "month": 7,
@@ -18,88 +12,27 @@
     "venueYear": 2026,
     "tags": [
       "Implicit",
-      "Diffusion",
-      "Text",
+      "Autoregressive",
       "Generation",
-      "Scene"
+      "Molecule",
+      "3D"
     ],
     "citations": 0,
     "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.06565",
+    "arxiv": "https://arxiv.org/abs/2607.15918",
     "project": "",
-    "figure": "First unified 3D model that generates 3D assets and reasons about them using elastic semantic anchoring.",
-    "abstract": "ELSA3D is a unified 3D model that enhances text-3D interaction by structuring language and geometric reasoning along matched abstraction scales. It utilizes a scale-aware octree tokenizer and Anchor Tokens to improve the generation of 3D assets from text and images, achieving state-of-the-art performance while reducing computational costs."
+    "figure": "First transformer for scaffold-conditioned 3D molecule generation via autoregressive placement.",
+    "abstract": "The Atomic Design Transformer (ADT) is introduced for 3D molecule generation, placing atoms autoregressively while ensuring SE(3) invariance through tokenization. The model benchmarks scaffold-conditioned generation across drug-like scaffolds, achieving high topology-preservation rates and valid-molecule yields. An Inverse-Kinematics Transformer is also presented to recover topology for larger mol"
   },
   {
-    "id": "syncity-3000",
-    "title": "SynCity 3000: Bootstrapping Scene-Scale 3D Diffusion",
-    "short": "SynCity 3000",
+    "id": "tango",
+    "title": "TanGO: Training-Free 3D Editing via Tangent-Space Guidance and Optimization",
+    "short": "TanGO",
     "authors": [
-      "Engstler",
-      "Laina",
-      "Rupprecht",
-      "Vedaldi"
-    ],
-    "year": 2026,
-    "month": 7,
-    "venue": "arXiv",
-    "venueYear": 2026,
-    "tags": [
-      "Implicit",
-      "Diffusion",
-      "Image",
-      "Scene",
-      "Generation"
-    ],
-    "citations": 0,
-    "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.05392",
-    "project": "",
-    "figure": "First framework for generating globally coherent 3D scenes via convolutional diffusion.",
-    "abstract": "SynCity 3000 is a framework designed to generate coherent 3D scenes with fine-grained layout control. It builds on image-to-3D generation techniques and adapts them for entire scenes using a convolutional generator. The model is fine-tuned on synthetic scene data, allowing it to produce large and detailed 3D scenes from user prompts."
-  },
-  {
-    "id": "pixworld",
-    "title": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space",
-    "short": "PixWorld",
-    "authors": [
-      "Gao",
-      "Wang",
-      "Cao",
-      "Yu",
-      "Wang",
-      "Bian"
-    ],
-    "year": 2026,
-    "month": 7,
-    "venue": "arXiv",
-    "venueYear": 2026,
-    "tags": [
-      "Implicit",
-      "Diffusion",
-      "Unconditional",
-      "Generation",
-      "Scene"
-    ],
-    "citations": 0,
-    "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.05373",
-    "project": "",
-    "figure": "First unified model for 3D scene generation and reconstruction in pixel space via diffusion.",
-    "abstract": "PixWorld introduces a unified pixel-space diffusion model that simultaneously addresses 3D scene generation and reconstruction. By supervising diffusion directly on rendered images and incorporating a geometry perception loss, it enhances 3D structural fidelity while outperforming previous methods in both tasks."
-  },
-  {
-    "id": "inspace",
-    "title": "InSpace: Structure-Aware 3D Indoor Scene Generation from a Single 360° Image",
-    "short": "InSpace",
-    "authors": [
-      "Koo",
-      "Kim",
-      "Kim",
-      "Lee",
       "Lim",
       "Yoon",
-      "Yeon",
+      "Koo",
+      "Yun",
       "Yoo"
     ],
     "year": 2026,
@@ -107,28 +40,147 @@
     "venue": "arXiv",
     "venueYear": 2026,
     "tags": [
-      "Implicit",
+      "PointCloud",
       "Flow",
-      "Image",
-      "Generation",
-      "Scene"
+      "Editing",
+      "Generation"
     ],
     "citations": 0,
     "code": true,
-    "arxiv": "https://arxiv.org/abs/2607.03990",
-    "project": "https://kookie12.github.io/InSpace-Project-Page/",
-    "figure": "First structure-aware framework for 3D indoor scene generation from a single 360° image via flow matching",
-    "abstract": "InSpace is a framework designed for generating 3D indoor scenes from a single 360° image. It addresses the challenge of structural layout in scene generation by estimating partial geometry, generating coarse structures, and producing detailed layouts and asset geometry with textures. The method shows strong performance in generating complete scenes and textured assets."
+    "arxiv": "https://arxiv.org/abs/2607.14927",
+    "project": "https://github.com/siw00-lim/TanGO",
+    "figure": "First training-free 3D editing framework that enables adaptive per-token steering via tangent-space guidance.",
+    "abstract": "TanGO is a training-free framework for 3D editing that improves upon existing generative models by allowing adaptive control of tokens in tangent space, reducing artifacts and enhancing performance in 3D editing tasks. The method employs a one-step optimal control rule to manage token control signals effectively."
   },
   {
-    "id": "cggs",
-    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation",
-    "short": "CGGS",
+    "id": "nexus",
+    "title": "Nexus: Native Mesh Generation with Diffusion",
+    "short": "Nexus",
+    "authors": [
+      "Wang",
+      "Liu",
+      "Guo",
+      "Feng",
+      "Zou",
+      "Liang",
+      "Zhang",
+      "Cao"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Diffusion",
+      "Generation",
+      "Topology",
+      "3DGS"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.13563",
+    "project": "",
+    "figure": "First holistic mesh generation method via decoupled vertex and topology generation using diffusion.",
+    "abstract": "Nexus introduces a diffusion method for generating high-quality triangle meshes by decoupling vertex and topology generation. It utilizes a coarse-to-fine approach for vertex generation and a novel Spacetime Interval for efficient topology modeling. The method outperforms existing autoregressive and two-stage baselines, as confirmed by user studies."
+  },
+  {
+    "id": "diffgi",
+    "title": "DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation",
+    "short": "DiffGI",
+    "authors": [
+      "Shim",
+      "Lee",
+      "Ju"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "VAE",
+      "Generation",
+      "Scene",
+      "Texturing"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.13365",
+    "project": "",
+    "figure": "First differentiable geometry image framework for high-fidelity thin-shell 3D generation via VAE.",
+    "abstract": "DiffGI introduces a novel end-to-end framework for 3D-to-2D mapping that integrates surface representation and geometric optimization. It replaces binary occupancy maps with a continuous 2D TSDF, eliminating artifacts and enabling gradient propagation for training. The method achieves high reconstruction fidelity for complex 3D surfaces, particularly in garment and object datasets, while being com"
+  },
+  {
+    "id": "compos3d",
+    "title": "Compos3D: Interactive Part-Based Composition for Creative Control in Generative 3D Models",
+    "short": "Compos3D",
+    "authors": [
+      "Faruqi",
+      "Liu",
+      "Fitzmaurice",
+      "Matejka"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Feed-forward",
+      "Text",
+      "Generation",
+      "Editing"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.12193",
+    "project": "",
+    "figure": "First interactive part-based composition system for generative 3D models via remixing.",
+    "abstract": "Compos3D introduces a compositional workflow for generative 3D modeling, allowing users to generate multiple candidates from prompts, select parts of interest, and assemble them into a refined model. This approach enhances creative control and aligns better with user intent compared to traditional regeneration workflows, as shown in a user study."
+  },
+  {
+    "id": "abot-3dworld",
+    "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space",
+    "short": "ABot-3DWorld",
     "authors": [
       "Sun",
+      "Tang",
+      "Liu",
+      "Yan",
+      "Li",
+      "Zhang",
+      "Yu",
+      "Ge",
+      "Liu",
+      "Zhang",
+      "Zhang",
       "Zhang",
       "Liu",
-      "Wang"
+      "Sun",
+      "Ouyang",
+      "Chen",
+      "Yang",
+      "Fan",
+      "Sun",
+      "Li",
+      "Zhou",
+      "Li",
+      "Peng",
+      "Du",
+      "Liu",
+      "Shi",
+      "Gong",
+      "Yu",
+      "Jia",
+      "Liu",
+      "Zeng",
+      "Lai",
+      "Zhang",
+      "Guo",
+      "Chen",
+      "Xu",
+      "Pan"
     ],
     "year": 2026,
     "month": 7,
@@ -136,71 +188,75 @@
     "venueYear": 2026,
     "tags": [
       "PointCloud",
+      "3DGS",
       "Diffusion",
       "Text",
-      "Generation",
-      "Scene"
+      "Image"
     ],
     "citations": 0,
     "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.03819",
-    "project": "https://cggs-26.github.io/cggs26/",
-    "figure": "First text-to-3D framework that enhances ego-centric scene generation via consistency-augmented loss.",
-    "abstract": "CGGS addresses challenges in ego-centric 3D scene generation by proposing a framework that generates consistent, high-fidelity 2D content aligned with text descriptions and produces dense point clouds. It enhances 3D Gaussian reconstruction using a novel loss function and hierarchical optimization, outperforming previous methods in generating coherent text-driven 3D scenes."
+    "arxiv": "https://arxiv.org/abs/2607.11673",
+    "project": "",
+    "figure": "First universal multimodal 3D world model that generates explorable 3D spaces from text, image, and video inputs.",
+    "abstract": "ABot-3DWorld 0 is a universal multimodal 3D world model that transforms text, image, and video inputs into high-fidelity, explorable 3D worlds. It utilizes a Spatial Generative Primitive for efficient 3D space description and includes a pipeline for generating panoramic videos and photorealistic 3D Gaussian Splatting worlds, achieving state-of-the-art results in scene fidelity."
   },
   {
-    "id": "property-constrained-3d-porous-media-reconstruction",
-    "title": "Property-Constrained 3D Porous Media Reconstruction from 2D Images via Conditional Generative Adversarial Networks",
-    "short": "Property-Constrained 3D Porous Media Reconstruction",
+    "id": "lato-2",
+    "title": "LATO.2: Factorized 3D Mesh Generation with Vertex and Topology Flow",
+    "short": "LATO.2",
     "authors": [
-      "Sadeghkhani",
-      "Bennett",
-      "Rabbani"
+      "Long",
+      "Zhao",
+      "Lin",
+      "Zhang",
+      "Guo",
+      "Liang",
+      "Xu",
+      "Hladký",
+      "Nießner",
+      "Yang"
     ],
     "year": 2026,
     "month": 7,
     "venue": "arXiv",
     "venueYear": 2026,
     "tags": [
-      "Voxel",
-      "GAN",
-      "Image",
+      "Mesh",
+      "Flow",
       "Generation",
-      "Scene"
+      "Editing",
+      "Topology"
     ],
     "citations": 0,
     "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.02693",
+    "arxiv": "https://arxiv.org/abs/2607.10623",
     "project": "",
-    "figure": "First framework for generating 3D porous media volumes with controlled porosity via cGAN.",
-    "abstract": "This paper introduces a conditional GAN framework for generating 3D porous media from 2D images, allowing for controlled porosity without needing extensive 3D training data. The method combines property-conditioned generation with 2D-to-3D reconstruction, successfully producing realistic 3D volumes that capture important lithological features."
+    "figure": "First factorized flow matching framework for topology-aware mesh generation.",
+    "abstract": "LATO.2 introduces a factorized flow matching framework for generating 3D meshes, separating vertex and connectivity flows to improve geometric fidelity and connectivity quality. This approach allows for part-wise generation and topology-adaptive editing, resulting in higher-resolution meshes compared to traditional methods."
   },
   {
-    "id": "procedural-plant-modeling",
-    "title": "Procedural Volumetric Modeling of Plant Branching Structures for Finite Element Analysis",
-    "short": "Procedural Plant Modeling",
+    "id": "grassmannian-splatting",
+    "title": "Grassmannian Splatting I: Moving rank-2 Spacetime Surfels for Dynamic Scene Rendering",
+    "short": "Grassmannian-Splatting",
     "authors": [
-      "Moola",
-      "Gupta",
-      "Ganapathysubramanian",
-      "Pawar"
+      "Berman",
+      "Dave"
     ],
     "year": 2026,
-    "month": 6,
+    "month": 7,
     "venue": "arXiv",
     "venueYear": 2026,
     "tags": [
-      "Mesh",
-      "Procedural",
+      "Implicit",
       "Generation",
-      "Plant",
-      "3DGS"
+      "Scene",
+      "Dynamic"
     ],
     "citations": 0,
-    "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.05421",
-    "project": "",
-    "figure": "First automated volumetric modeling framework for plant branching structures via procedural generation",
-    "abstract": "This paper presents a procedural modeling framework that generates hexahedral meshes of plant branching structures from input skeletons or point clouds. It captures plant topology and supports dynamic modeling of plant growth, providing high-fidelity 3D representations suitable for simulations in precision agriculture."
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.10489",
+    "project": "https://github.com/PaulCelanCoding/grassmannian-splatting",
+    "figure": "First dynamic scene representation using Grassmannian splatting for rendering via Gaussian primitives.",
+    "abstract": "Grassmannian splatting introduces a novel dynamic scene representation using Gaussians on 3-planes in spacetime. It allows for efficient rendering of rank-2 surfels, achieving faster training times compared to existing methods while maintaining high quality. The approach integrates static and dynamic behaviors seamlessly, making it suitable for real-time applications."
   }
 ]
