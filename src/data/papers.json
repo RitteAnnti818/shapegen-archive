@@ -644,6 +644,183 @@
     "abstract": "Grassmannian splatting introduces a novel dynamic scene representation using Gaussians on 3-planes in spacetime. It allows for efficient rendering of rank-2 surfels, achieving faster training times compared to existing methods while maintaining high quality. The approach integrates static and dynamic behaviors seamlessly, making it suitable for real-time applications."
   },
   {
+    "id": "axolotl3d",
+    "title": "Axolotl3D: a Unified Framework for Faithful 3D Shape Completion",
+    "short": "Axolotl3D",
+    "authors": [
+      "Hu",
+      "Shugrina"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "PointCloud",
+      "Diffusion",
+      "Multi-view",
+      "Generation",
+      "Completion"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.20660",
+    "project": "",
+    "figure": "First unified framework for controllable 3D shape completion via multi-modal conditioning.",
+    "abstract": "Axolotl3D is a multi-modal 3D generation model that addresses the limitations of existing methods by enabling shape completion from diverse inputs, including images and partial point clouds. It promotes faithful geometry and consistent multi-view alignment, achieving state-of-the-art results in various scenarios."
+  },
+  {
+    "id": "latent-riemannian-flow-matching",
+    "title": "Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models",
+    "short": "Latent-Riemannian-Flow-Matching",
+    "authors": [
+      "Weijler",
+      "Ballester",
+      "Mei",
+      "Birdal",
+      "Hermosilla"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Flow",
+      "Unconditional",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.19120",
+    "project": "https://lisaweijler.github.io/geometry-grounded-rfm/",
+    "figure": "First flow matching method in latent space of geometric foundation models for 3D generation.",
+    "abstract": "This paper introduces a Riemannian Flow Matching framework that operates in the latent space of geometric foundation models, enabling the generation of coherent 3D scenes from sparse inputs. The method respects the latent geometry and outperforms existing scene generation baselines on multiple datasets, establishing a new paradigm for 3D generation."
+  },
+  {
+    "id": "text2villa",
+    "title": "Text2Villa: Hierarchical Generation of 3D Indoor Environments with Physics-Aware Analysis-by-Synthesis",
+    "short": "Text2Villa",
+    "authors": [
+      "Tang",
+      "Li",
+      "Fan"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Representation",
+      "Model",
+      "Conditioning",
+      "Capability"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.17145",
+    "project": "",
+    "figure": "First hierarchical framework for generating 3D indoor environments from text via autoregressive layout generation.",
+    "abstract": "Text2Villa introduces a hierarchical generative framework for creating 3D indoor scenes from natural language, addressing challenges in generating multi-room structures and ensuring physical realism. It utilizes an autoregressive layout generator and a physical-semantic scene graph to enforce geometric constraints, resulting in high-fidelity, physically plausible environments."
+  },
+  {
+    "id": "paracad",
+    "title": "Autoregressive B-Rep Shape Generation with Parametric Surfaces",
+    "short": "ParaCAD",
+    "authors": [
+      "Qin",
+      "Xu",
+      "Shen",
+      "Qiao",
+      "Lin",
+      "Zhang",
+      "Pi",
+      "Xu",
+      "Yu",
+      "Wang",
+      "Komura"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "BRep",
+      "PointCloud",
+      "Autoregressive",
+      "Generation",
+      "CAD"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.17093",
+    "project": "",
+    "figure": "First autoregressive framework for point-cloud-conditioned B-Rep generation via native parametric surfaces",
+    "abstract": "ParaCAD is an autoregressive framework that generates Boundary Representation (B-Rep) models directly from point clouds, using a surface-centric tokenization to maintain geometric fidelity. It constructs valid B-Reps by intersecting generated parametric surfaces, enhancing usability in CAD applications and outperforming existing methods in precision and robustness."
+  },
+  {
+    "id": "scene-sam3d",
+    "title": "Scene-SAM3D: Multi-View Scene Asset Generation Without Fine-Tuning",
+    "short": "Scene-SAM3D",
+    "authors": [
+      "Zhang",
+      "Luo",
+      "Sun",
+      "Zhang",
+      "Huang",
+      "Tan"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "PointCloud",
+      "Flow",
+      "Multi-view",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.16805",
+    "project": "https://github.com/xibi777/Scene-SAM3D",
+    "figure": "First training-free framework for multi-view scene asset generation without fine-tuning.",
+    "abstract": "Scene-SAM3D is a framework that enhances single-view object generation to multi-view scene asset generation, addressing challenges like occlusions and inconsistencies. It selects complementary views to reduce redundancy and integrates evidence for occluded regions, refining scene layout while preserving object geometry. Experiments show significant improvements in scene generation quality."
+  },
+  {
+    "id": "cns-edit",
+    "title": "CNS-Edit++: Category-Agnostic 3D Editing with Coupled Neural Shape Representation",
+    "short": "CNS-Edit++",
+    "authors": [
+      "Hu",
+      "Yan",
+      "Liu",
+      "Li",
+      "Hui",
+      "Zhang",
+      "Fu"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Feed-forward",
+      "Editing",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.16577",
+    "project": "",
+    "figure": "First category-agnostic 3D shape editing framework via Coupled Neural Shape representation",
+    "abstract": "CNS-Edit++ introduces a latent-space 3D shape editing framework that generalizes category-specific editing to a category-agnostic approach using Coupled Neural Shape representation. It combines a global latent code for high-level semantics with a 3D neural feature volume for local manipulation, enabling various editing operations while preserving non-edited regions."
+  },
+  {
     "id": "flat",
     "title": "FLAT: Feedforward Latent Triangle Splatting for Geometrically Accurate Scene Generation",
     "short": "FLAT",
