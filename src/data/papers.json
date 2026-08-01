@@ -312,7 +312,7 @@
     ],
     "year": 2026,
     "month": 7,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Implicit",
@@ -351,12 +351,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2607.03819",
     "project": "https://cggs-26.github.io/cggs26/",
     "figure": "First text-to-3D framework that enhances ego-centric scene generation via consistency-augmented loss.",
     "abstract": "CGGS addresses challenges in ego-centric 3D scene generation by proposing a framework that generates consistent, high-fidelity 2D content aligned with text descriptions and produces dense point clouds. It enhances 3D Gaussian reconstruction using a novel loss function and hierarchical optimization, outperforming previous methods in generating coherent text-driven 3D scenes.",
-    "figureUrl": "https://cggs-26.github.io/cggs26/static/images/teaser.png"
+    "figureUrl": "https://cggs-26.github.io/cggs26/static/images/teaser.png",
+    "codeUrl": "https://github.com/CGGS-26/CGGS"
   },
   {
     "id": "property-constrained-3d-porous-media-reconstruction",
@@ -423,7 +424,7 @@
     ],
     "year": 2026,
     "month": 7,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "PointCloud",
@@ -437,7 +438,8 @@
     "project": "https://github.com/siw00-lim/TanGO",
     "figure": "First training-free 3D editing framework that enables adaptive per-token steering via tangent-space guidance.",
     "abstract": "TanGO is a training-free framework for 3D editing that improves upon existing generative models by allowing adaptive control of tokens in tangent space, reducing artifacts and enhancing performance in 3D editing tasks. The method employs a one-step optimal control rule to manage token control signals effectively.",
-    "figureUrl": "https://opengraph.githubassets.com/863fc7abf63b50d53461b33facdc5b43f2a05fe8b69f077c7ed6e04fd09301b8/siw00-lim/TanGO"
+    "figureUrl": "https://opengraph.githubassets.com/863fc7abf63b50d53461b33facdc5b43f2a05fe8b69f077c7ed6e04fd09301b8/siw00-lim/TanGO",
+    "codeUrl": "https://github.com/siw00-lim/TanGO"
   },
   {
     "id": "nexus",
@@ -645,7 +647,8 @@
     "project": "https://github.com/PaulCelanCoding/grassmannian-splatting",
     "figure": "First dynamic scene representation using Grassmannian splatting for rendering via Gaussian primitives.",
     "abstract": "Grassmannian splatting introduces a novel dynamic scene representation using Gaussians on 3-planes in spacetime. It allows for efficient rendering of rank-2 surfels, achieving faster training times compared to existing methods while maintaining high quality. The approach integrates static and dynamic behaviors seamlessly, making it suitable for real-time applications.",
-    "figureUrl": "https://opengraph.githubassets.com/ebfd35b93733eba9b53f64a55b024946c7f7fab85316e388358a1f9c168d0735/PaulCelanCoding/grassmannian-splatting"
+    "figureUrl": "https://opengraph.githubassets.com/ebfd35b93733eba9b53f64a55b024946c7f7fab85316e388358a1f9c168d0735/PaulCelanCoding/grassmannian-splatting",
+    "codeUrl": "https://github.com/PaulCelanCoding/grassmannian-splatting"
   },
   {
     "id": "axolotl3d",
@@ -793,7 +796,8 @@
     "project": "https://github.com/xibi777/Scene-SAM3D",
     "figure": "First training-free framework for multi-view scene asset generation without fine-tuning.",
     "abstract": "Scene-SAM3D is a framework that enhances single-view object generation to multi-view scene asset generation, addressing challenges like occlusions and inconsistencies. It selects complementary views to reduce redundancy and integrates evidence for occluded regions, refining scene layout while preserving object geometry. Experiments show significant improvements in scene generation quality.",
-    "figureUrl": "https://opengraph.githubassets.com/623fa696fa2c7689dea53575ec596c27869d74498f82e241075338af6ebab268/xibi777/Scene-SAM3D"
+    "figureUrl": "https://opengraph.githubassets.com/623fa696fa2c7689dea53575ec596c27869d74498f82e241075338af6ebab268/xibi777/Scene-SAM3D",
+    "codeUrl": "https://github.com/xibi777/Scene-SAM3D"
   },
   {
     "id": "cns-edit",
@@ -2603,12 +2607,13 @@
       "Generation"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2605.21472",
     "project": "https://stream-3d.github.io/stream3d.github.io/",
     "figure": "First training-free streaming mechanism for view-conditioned 3D generation via evidential memory.",
     "abstract": "Stream3D introduces a novel approach to 3D generation from streaming monocular views, addressing temporal inconsistencies in generated outputs. By utilizing a compact evidential memory to cache informative historical frames, it maintains performance without retraining the underlying generator. Evaluations show it surpasses existing methods in both photometric and geometric metrics.",
-    "figureUrl": "https://stream-3d.github.io/stream3d.github.io/assets/media/frames/vintage-car/frame-05.webp?v=20260726-white-01"
+    "figureUrl": "https://stream-3d.github.io/stream3d.github.io/assets/media/frames/vintage-car/frame-05.webp?v=20260726-white-01",
+    "codeUrl": "https://github.com/kaichen-z/STREAM3D"
   },
   {
     "id": "roar-3d",
@@ -7348,8 +7353,8 @@
     ],
     "year": 2025,
     "month": 11,
-    "venue": "arXiv",
-    "venueYear": 2025,
+    "venue": "ECCV",
+    "venueYear": 2026,
     "tags": [
       "3DGS",
       "Feed-forward",
@@ -7363,7 +7368,8 @@
     "project": "https://peaes.github.io/GeoWorld/",
     "figure": "First method that generates high-fidelity 3D scenes from a single image using geometry models.",
     "abstract": "GeoWorld enhances image-to-3D scene generation by generating consecutive video frames and utilizing geometry models for richer geometric features. It introduces a geometry alignment loss and adaptation module to improve geometric consistency, resulting in high-fidelity 3D scenes from single images and camera trajectories, outperforming previous methods.",
-    "figureUrl": "https://peaes.github.io/GeoWorld/static/method/overview.png"
+    "figureUrl": "https://peaes.github.io/GeoWorld/static/method/overview.png",
+    "codeUrl": "https://github.com/peaes/GeoWorld"
   },
   {
     "id": "fast3dcache",
