@@ -831,6 +831,218 @@
     "abstract": "CNS-Edit++ introduces a latent-space 3D shape editing framework that generalizes category-specific editing to a category-agnostic approach using Coupled Neural Shape representation. It combines a global latent code for high-level semantics with a 3D neural feature volume for local manipulation, enabling various editing operations while preserving non-edited regions."
   },
   {
+    "id": "road",
+    "title": "ROAD: Reciprocal-Objective Alignment of Discriminative Semantics for 3D Shape Generation",
+    "short": "ROAD",
+    "authors": [
+      "Luo",
+      "Du",
+      "Zhou",
+      "Feng",
+      "Chen",
+      "Li",
+      "Zhang",
+      "Liang"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "SDF",
+      "Diffusion",
+      "Unconditional",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.28581",
+    "project": "https://github.com/H-EmbodVis/ROAD",
+    "figure": "First framework that reduces training cost of 3D generation by transferring discriminative priors via diffusion transformers",
+    "abstract": "ROAD proposes a method to enhance 3D shape generation by leveraging discriminative 3D foundation models, significantly reducing training costs while maintaining high fidelity. It introduces a reciprocal-objective alignment strategy to align generative and discriminative latents, achieving competitive performance with minimal training data. Code is available at the provided GitHub link."
+  },
+  {
+    "id": "meshy-t2",
+    "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
+    "short": "Meshy T2",
+    "authors": [
+      "Xu",
+      "Liang",
+      "Long",
+      "Shen",
+      "Xian",
+      "Xu",
+      "Hu"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Flow",
+      "Image",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.28675",
+    "project": "https://github.com/meshy-dev/meshy-t2",
+    "figure": "First fast native mesh generation framework using flow matching.",
+    "abstract": "Meshy T2 is a fast framework for generating high-quality polygonal meshes, essential for 3D applications. It utilizes a vertex-set mesh VAE and a cascade of flow-matching models for efficient image-conditioned mesh generation. The method achieves state-of-the-art geometric fidelity and significantly reduces generation time compared to autoregressive methods."
+  },
+  {
+    "id": "dreamstyle3d",
+    "title": "DreamStyle3D: Efficient 3D Stylized Asset Generation via Dual-Attention Disentanglement",
+    "short": "DreamStyle3D",
+    "authors": [
+      "Wang",
+      "Ouyang",
+      "Zhang",
+      "Cheng",
+      "Hou"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Feed-forward",
+      "Generation",
+      "Style"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.24721",
+    "project": "https://github.com/HVision-NKU/DreamStyle3D",
+    "figure": "First efficient framework for stylized 3D asset generation via dual-attention disentanglement",
+    "abstract": "DreamStyle3D is a framework designed for efficient generation of stylized 3D assets, addressing challenges in style fidelity and geometric consistency. It utilizes a Decoupled Dual Cross-Attention mechanism to separate geometric and stylistic features, enhancing efficiency and model generalization. The method can generate high-fidelity stylized 3D assets quickly, with a dataset of 15K triplets for"
+  },
+  {
+    "id": "msvs-vae",
+    "title": "MSVS-VAE: Multi-Scale Anchored VecSet for High-Fidelity 3D Reconstruction",
+    "short": "MSVS-VAE",
+    "authors": [
+      "Hao",
+      "Zhang",
+      "Jia",
+      "Gao",
+      "Yan",
+      "Chen",
+      "Hu",
+      "Zhu",
+      "Yin",
+      "Zhang",
+      "Yuan",
+      "Wang",
+      "Quan"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "VAE",
+      "PointCloud",
+      "Generation",
+      "Completion",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.24436",
+    "project": "",
+    "figure": "First hierarchical set-based VAE that improves 3D reconstruction fidelity via multi-scale densification.",
+    "abstract": "MSVS-VAE introduces a hierarchical set-based VAE that enhances 3D generative modeling by addressing fidelity issues in existing methods. It employs a novel point-shuffle upsampling technique and geometry-aware local aggregation to improve decoding efficiency and spatial capacity for detailed geometry. Experiments show significant improvements in performance and compactness over previous models."
+  },
+  {
+    "id": "umi3d",
+    "title": "UMI3D: Robust 3D Generation on Unconstrained Multi-Image Inputs via Simultaneous Focus Cross-Attention Routing",
+    "short": "UMI3D",
+    "authors": [
+      "Qu",
+      "Wang",
+      "Hancke",
+      "Lau"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Voxel",
+      "Feed-forward",
+      "Multi-view",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.24298",
+    "project": "UMI3D-Project.github.io",
+    "figure": "First framework for robust 3D generation from unconstrained multi-image inputs via simultaneous focus cross-attention routing",
+    "abstract": "UMI3D addresses the challenges of generating high-quality 3D assets from multiple images by introducing a framework that allows each voxel to focus on the most informative image during the denoising process. This approach enhances performance on inconsistent multi-image inputs without requiring extensive training or external models."
+  },
+  {
+    "id": "meshless-dr",
+    "title": "Meshless Domain Randomization via Explicit Parameter Perturbation of 3D Gaussian Splatting",
+    "short": "Meshless-DR",
+    "authors": [
+      "Carvalho",
+      "Souza",
+      "Aguiar",
+      "Santos",
+      "Gois"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "3DGS",
+      "Generation",
+      "Domain Randomization",
+      "Meshless",
+      "Procedural"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2607.22890",
+    "project": "",
+    "figure": "First meshless domain randomization framework using 3D Gaussian Splatting for complex geometries",
+    "abstract": "This paper presents a meshless domain randomization framework that utilizes 3D Gaussian Splatting to generate randomized training datasets for complex organic subjects. It employs two perturbation pipelines to manipulate illumination and geometric shape, providing a robust alternative to traditional mesh-based methods."
+  },
+  {
+    "id": "nova3d",
+    "title": "Nova3D: Code-Native Generation of Programmable 3D Assets",
+    "short": "Nova3D",
+    "authors": [
+      "Noor",
+      "Bilal",
+      "Hussain",
+      "Baig"
+    ],
+    "year": 2026,
+    "month": 7,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Mesh",
+      "Feed-forward",
+      "Text",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2607.22738",
+    "project": "",
+    "figure": "First code-native generation of programmable 3D assets via Blender source code.",
+    "abstract": "Nova3D generates 3D assets as executable Blender source code, allowing for interactive 3D worlds with named parts and assembly hierarchies. It evaluates against various baselines and demonstrates superior performance in generating valid artifacts and satisfying constraints, while also enabling local edits and articulation of joints."
+  },
+  {
     "id": "flat",
     "title": "FLAT: Feedforward Latent Triangle Splatting for Geometrically Accurate Scene Generation",
     "short": "FLAT",
