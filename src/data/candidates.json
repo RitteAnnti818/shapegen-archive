@@ -1,214 +1,252 @@
 [
   {
-    "id": "road",
-    "title": "ROAD: Reciprocal-Objective Alignment of Discriminative Semantics for 3D Shape Generation",
-    "short": "ROAD",
+    "id": "flow-corrected-shape-optimization",
+    "title": "Flow-Corrected Shape Optimization: Taming Manifold Drift in High-Dimensional 3D Models",
+    "short": "Flow-Corrected Shape Optimization",
     "authors": [
-      "Luo",
-      "Du",
-      "Zhou",
-      "Feng",
-      "Chen",
-      "Li",
-      "Zhang",
-      "Liang"
+      "Seiler",
+      "Talabot",
+      "You",
+      "Stella",
+      "Fua"
     ],
     "year": 2026,
-    "month": 7,
+    "month": 8,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Flow",
+      "Generation",
+      "Editing",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2608.07199",
+    "project": "",
+    "figure": "First optimizer-corrector framework that mitigates manifold drift in high-dimensional 3D shape models via flow matching.",
+    "abstract": "This paper addresses the issue of manifold drift in optimizing 3D shapes within deep generative models. It presents a novel optimizer-corrector framework that alternates between objective minimization and guided flow matching, ensuring geometric validity while maintaining expressiveness. The method is shown to be effective across various generative priors and optimization tasks."
+  },
+  {
+    "id": "flare",
+    "title": "Floating Radiance Networks",
+    "short": "FlaRe",
+    "authors": [
+      "Byrski",
+      "Tobiasz",
+      "Wilczyński",
+      "Zieliński",
+      "Baran",
+      "Belter",
+      "Tabor",
+      "Spurek"
+    ],
+    "year": 2026,
+    "month": 8,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Implicit",
+      "Diffusion",
+      "Generation",
+      "Scene",
+      "Editing"
+    ],
+    "citations": 0,
+    "code": true,
+    "arxiv": "https://arxiv.org/abs/2608.05920",
+    "project": "https://github.com/KByrski/FlaRe",
+    "figure": "First neural scene representation combining explicit geometry with continuous radiance functions via floating planar primitives",
+    "abstract": "Floating Radiance Networks (FlaRe) introduces a neural scene representation that integrates explicit ray-traceable geometry with continuous neural radiance functions. It utilizes floating planar generalized Gaussian primitives for efficient rendering and manipulation, supporting high-fidelity neural rendering and geometric editing. The method demonstrates competitive quality in standard benchmarks"
+  },
+  {
+    "id": "holoworld",
+    "title": "To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation",
+    "short": "HoloWorld",
+    "authors": [
+      "Huang",
+      "Huang",
+      "Luo",
+      "Fan",
+      "Chen",
+      "Han"
+    ],
+    "year": 2026,
+    "month": 8,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "Representation",
+      "3DGS",
+      "Autoregressive",
+      "Generation",
+      "Scene"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2608.05879",
+    "project": "",
+    "figure": "First framework to unify indoor and outdoor generation within a coherent 3D urban world via autoregressive modeling",
+    "abstract": "HoloWorld is a framework for unified indoor-outdoor urban world generation, allowing for coherent spatial organization and visual identity across blocks. It generates urban exteriors and corresponding interiors based on user descriptions, maintaining building-specific characteristics. The method shows significant performance improvements over existing approaches."
+  },
+  {
+    "id": "hierarchical-flow-matching",
+    "title": "Hierarchical Flow Matching for 3D Point Cloud Generation",
+    "short": "Hierarchical Flow Matching",
+    "authors": [
+      "Wang",
+      "Zhang",
+      "Su",
+      "Wang"
+    ],
+    "year": 2026,
+    "month": 8,
+    "venue": "arXiv",
+    "venueYear": 2026,
+    "tags": [
+      "PointCloud",
+      "Flow",
+      "Unconditional",
+      "Generation"
+    ],
+    "citations": 0,
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2608.05557",
+    "project": "",
+    "figure": "First hierarchical flow matching method for unconditional 3D point cloud generation.",
+    "abstract": "The paper introduces Hierarchical Flow Matching (HFM), a method for generating high-quality 3D point clouds by capturing both global shape topology and local geometric details. HFM employs a bilevel structure for efficient sampling and supports downstream tasks, achieving competitive performance on ShapeNet and ModelNet benchmarks."
+  },
+  {
+    "id": "hunyuan3d-buffalo-1-0",
+    "title": "Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing",
+    "short": "Hunyuan3D-Buffalo 1.0",
+    "authors": [
+      "Ye",
+      "Liu",
+      "Wang",
+      "Li",
+      "Qu",
+      "Wang",
+      "Xu",
+      "Yang",
+      "Zhao",
+      "Xu",
+      "Yu",
+      "Wang",
+      "Liang",
+      "Chen",
+      "Guo"
+    ],
+    "year": 2026,
+    "month": 8,
     "venue": "arXiv",
     "venueYear": 2026,
     "tags": [
       "SDF",
       "Diffusion",
-      "Unconditional",
+      "Text",
       "Generation",
-      "Scene"
+      "Editing"
     ],
     "citations": 0,
     "code": true,
-    "arxiv": "https://arxiv.org/abs/2607.28581",
-    "project": "https://github.com/H-EmbodVis/ROAD",
-    "figure": "First framework that reduces training cost of 3D generation by transferring discriminative priors via diffusion transformers",
-    "abstract": "ROAD proposes a method to enhance 3D shape generation by leveraging discriminative 3D foundation models, significantly reducing training costs while maintaining high fidelity. It introduces a reciprocal-objective alignment strategy to align generative and discriminative latents, achieving competitive performance with minimal training data. Code is available at the provided GitHub link."
+    "arxiv": "https://arxiv.org/abs/2608.02711",
+    "project": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/",
+    "figure": "First unified multimodal model for scalable 3D generation, understanding, and editing via a single architecture",
+    "abstract": "Hunyuan3D-Buffalo 1.0 is a unified framework that integrates 3D understanding, text-to-3D generation, and instruction-guided editing. It utilizes a large-scale multimodal corpus for training and combines different models for high-fidelity 3D synthesis. The framework shows state-of-the-art performance in 3D generation and editing tasks, highlighting the benefits of unified training."
   },
   {
-    "id": "meshy-t2",
-    "title": "Meshy T2: Fast Native Mesh Generation with Flow Matching",
-    "short": "Meshy T2",
+    "id": "pointrsp",
+    "title": "Learning to Tessellate: Point Cloud Generation via Recursive Spectral Partitioning",
+    "short": "PointRSP",
     "authors": [
-      "Xu",
-      "Liang",
-      "Long",
-      "Shen",
-      "Xian",
-      "Xu",
-      "Hu"
+      "Sun",
+      "Liu",
+      "Zhang",
+      "He"
     ],
     "year": 2026,
-    "month": 7,
+    "month": 8,
     "venue": "arXiv",
     "venueYear": 2026,
     "tags": [
-      "Mesh",
-      "Flow",
-      "Image",
-      "Generation",
-      "Scene"
-    ],
-    "citations": 0,
-    "code": true,
-    "arxiv": "https://arxiv.org/abs/2607.28675",
-    "project": "https://github.com/meshy-dev/meshy-t2",
-    "figure": "First fast native mesh generation framework using flow matching.",
-    "abstract": "Meshy T2 is a fast framework for generating high-quality polygonal meshes, essential for 3D applications. It utilizes a vertex-set mesh VAE and a cascade of flow-matching models for efficient image-conditioned mesh generation. The method achieves state-of-the-art geometric fidelity and significantly reduces generation time compared to autoregressive methods."
-  },
-  {
-    "id": "dreamstyle3d",
-    "title": "DreamStyle3D: Efficient 3D Stylized Asset Generation via Dual-Attention Disentanglement",
-    "short": "DreamStyle3D",
-    "authors": [
-      "Wang",
-      "Ouyang",
-      "Zhang",
-      "Cheng",
-      "Hou"
-    ],
-    "year": 2026,
-    "month": 7,
-    "venue": "arXiv",
-    "venueYear": 2026,
-    "tags": [
-      "Mesh",
-      "Feed-forward",
-      "Generation",
-      "Style"
-    ],
-    "citations": 0,
-    "code": true,
-    "arxiv": "https://arxiv.org/abs/2607.24721",
-    "project": "https://github.com/HVision-NKU/DreamStyle3D",
-    "figure": "First efficient framework for stylized 3D asset generation via dual-attention disentanglement",
-    "abstract": "DreamStyle3D is a framework designed for efficient generation of stylized 3D assets, addressing challenges in style fidelity and geometric consistency. It utilizes a Decoupled Dual Cross-Attention mechanism to separate geometric and stylistic features, enhancing efficiency and model generalization. The method can generate high-fidelity stylized 3D assets quickly, with a dataset of 15K triplets for"
-  },
-  {
-    "id": "msvs-vae",
-    "title": "MSVS-VAE: Multi-Scale Anchored VecSet for High-Fidelity 3D Reconstruction",
-    "short": "MSVS-VAE",
-    "authors": [
-      "Hao",
-      "Zhang",
-      "Jia",
-      "Gao",
-      "Yan",
-      "Chen",
-      "Hu",
-      "Zhu",
-      "Yin",
-      "Zhang",
-      "Yuan",
-      "Wang",
-      "Quan"
-    ],
-    "year": 2026,
-    "month": 7,
-    "venue": "arXiv",
-    "venueYear": 2026,
-    "tags": [
-      "VAE",
       "PointCloud",
+      "Autoregressive",
       "Generation",
-      "Completion",
-      "Scene"
+      "Topology-preserving",
+      "Structural"
     ],
     "citations": 0,
     "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.24436",
+    "arxiv": "https://arxiv.org/abs/2608.02432",
     "project": "",
-    "figure": "First hierarchical set-based VAE that improves 3D reconstruction fidelity via multi-scale densification.",
-    "abstract": "MSVS-VAE introduces a hierarchical set-based VAE that enhances 3D generative modeling by addressing fidelity issues in existing methods. It employs a novel point-shuffle upsampling technique and geometry-aware local aggregation to improve decoding efficiency and spatial capacity for detailed geometry. Experiments show significant improvements in performance and compactness over previous models."
+    "figure": "First autoregressive point cloud generator that preserves topology via recursive spectral partitioning.",
+    "abstract": "PointRSP introduces an autoregressive framework for point cloud generation that maintains topological coherence through a topology-aware partitioning autoencoder. It reformulates generation as a tessellation process, utilizing a dual-stream cascaded generator for structural evolution and feature synthesis. The method achieves state-of-the-art performance in quality and diversity across complex 3D "
   },
   {
-    "id": "umi3d",
-    "title": "UMI3D: Robust 3D Generation on Unconstrained Multi-Image Inputs via Simultaneous Focus Cross-Attention Routing",
-    "short": "UMI3D",
+    "id": "chunkvae",
+    "title": "Beyond Global Latents: Chunk-Based Sparse Grid VAE for Scalable 3D Modeling",
+    "short": "ChunkVAE",
     "authors": [
-      "Qu",
-      "Wang",
-      "Hancke",
-      "Lau"
+      "Zhang",
+      "Liang",
+      "Liu",
+      "Lin",
+      "Lai",
+      "Zhao",
+      "Zhang",
+      "Yang",
+      "Zhao",
+      "Guo",
+      "Quan"
     ],
     "year": 2026,
-    "month": 7,
+    "month": 8,
     "venue": "arXiv",
     "venueYear": 2026,
     "tags": [
       "Voxel",
-      "Feed-forward",
-      "Multi-view",
-      "Generation"
-    ],
-    "citations": 0,
-    "code": true,
-    "arxiv": "https://arxiv.org/abs/2607.24298",
-    "project": "UMI3D-Project.github.io",
-    "figure": "First framework for robust 3D generation from unconstrained multi-image inputs via simultaneous focus cross-attention routing",
-    "abstract": "UMI3D addresses the challenges of generating high-quality 3D assets from multiple images by introducing a framework that allows each voxel to focus on the most informative image during the denoising process. This approach enhances performance on inconsistent multi-image inputs without requiring extensive training or external models."
-  },
-  {
-    "id": "meshless-dr",
-    "title": "Meshless Domain Randomization via Explicit Parameter Perturbation of 3D Gaussian Splatting",
-    "short": "Meshless-DR",
-    "authors": [
-      "Carvalho",
-      "Souza",
-      "Aguiar",
-      "Santos",
-      "Gois"
-    ],
-    "year": 2026,
-    "month": 7,
-    "venue": "arXiv",
-    "venueYear": 2026,
-    "tags": [
-      "3DGS",
+      "VAE",
       "Generation",
-      "Domain Randomization",
-      "Meshless",
-      "Procedural"
+      "Scene",
+      "Unconditional"
     ],
     "citations": 0,
     "code": false,
-    "arxiv": "https://arxiv.org/abs/2607.22890",
+    "arxiv": "https://arxiv.org/abs/2608.02016",
     "project": "",
-    "figure": "First meshless domain randomization framework using 3D Gaussian Splatting for complex geometries",
-    "abstract": "This paper presents a meshless domain randomization framework that utilizes 3D Gaussian Splatting to generate randomized training datasets for complex organic subjects. It employs two perturbation pipelines to manipulate illumination and geometric shape, providing a robust alternative to traditional mesh-based methods."
+    "figure": "First sparse grid VAE that organizes around local chunks for scalable 3D modeling.",
+    "abstract": "ChunkVAE introduces a sparse grid variational autoencoder that focuses on local chunks instead of a global latent volume, allowing for flexible encoder and decoder partitions. This method improves memory efficiency and computation speed while maintaining reconstruction quality across various object benchmarks."
   },
   {
-    "id": "nova3d",
-    "title": "Nova3D: Code-Native Generation of Programmable 3D Assets",
-    "short": "Nova3D",
+    "id": "partmat",
+    "title": "PartMat: Material-Aware 3D Part Decomposition with a Single Global Latent",
+    "short": "PartMat",
     "authors": [
-      "Noor",
-      "Bilal",
-      "Hussain",
-      "Baig"
+      "Fu",
+      "Song",
+      "Fei",
+      "Li",
+      "Yang",
+      "Jiang"
     ],
     "year": 2026,
-    "month": 7,
+    "month": 8,
     "venue": "arXiv",
     "venueYear": 2026,
     "tags": [
-      "Mesh",
-      "Feed-forward",
-      "Text",
+      "Voxel",
+      "Diffusion",
+      "Image",
       "Generation",
-      "Scene"
+      "Part-aware"
     ],
     "citations": 0,
-    "code": true,
-    "arxiv": "https://arxiv.org/abs/2607.22738",
+    "code": false,
+    "arxiv": "https://arxiv.org/abs/2608.01825",
     "project": "",
-    "figure": "First code-native generation of programmable 3D assets via Blender source code.",
-    "abstract": "Nova3D generates 3D assets as executable Blender source code, allowing for interactive 3D worlds with named parts and assembly hierarchies. It evaluates against various baselines and demonstrates superior performance in generating valid artifacts and satisfying constraints, while also enabling local edits and articulation of joints."
+    "figure": "First material-aware 3D part decomposition that uses a single global latent via VAE and diffusion.",
+    "abstract": "PartMat introduces a material-aware 3D part decomposition method that efficiently generates structured 3D assets by focusing on material boundaries. It utilizes a unified representation to decode parts in a single pass and employs a diffusion model for part generation, achieving high accuracy and fine geometric details while reducing computational costs."
   }
 ]
