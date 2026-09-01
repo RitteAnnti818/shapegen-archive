@@ -184,7 +184,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2608.02432",
-    "project": "",
+    "project": "https://huggingface.co/Mo-nan/PointRSP",
     "figure": "First autoregressive point cloud generator that preserves topology via recursive spectral partitioning.",
     "abstract": "PointRSP introduces an autoregressive framework for point cloud generation that maintains topological coherence through a topology-aware partitioning autoencoder. It reformulates generation as a tessellation process, utilizing a dual-stream cascaded generator for structural evolution and feature synthesis. The method achieves state-of-the-art performance in quality and diversity across complex 3D "
   },
@@ -983,7 +983,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2607.17145",
-    "project": "",
+    "project": "https://xdlbw.github.io/Text2Villa/",
     "figure": "First hierarchical framework for generating 3D indoor environments from text via autoregressive layout generation.",
     "abstract": "Text2Villa introduces a hierarchical generative framework for creating 3D indoor scenes from natural language, addressing challenges in generating multi-room structures and ensuring physical realism. It utilizes an autoregressive layout generator and a physical-semantic scene graph to enforce geometric constraints, resulting in high-fidelity, physically plausible environments."
   },
@@ -2626,11 +2626,12 @@
       "Generation"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2606.29395",
-    "project": "",
+    "project": "https://adamcwan.github.io/NaLA/",
     "figure": "First native 3D LLM layout agent for high-quality 3D scene generation.",
-    "abstract": "NaLA is a native 3D LLM layout agent designed to enhance 3D scene generation by directly encoding 3D assets and boundaries, thus reducing information loss. It employs a coarse-to-fine prediction mechanism for asset positioning and orientation, achieving improved generation quality and efficiency compared to previous layout agents."
+    "abstract": "NaLA is a native 3D LLM layout agent designed to enhance 3D scene generation by directly encoding 3D assets and boundaries, thus reducing information loss. It employs a coarse-to-fine prediction mechanism for asset positioning and orientation, achieving improved generation quality and efficiency compared to previous layout agents.",
+    "codeUrl": "https://github.com/adamcwan/NaLA-code"
   },
   {
     "id": "polyflow",
@@ -2890,11 +2891,12 @@
       "Completion"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2605.26182",
     "project": "",
     "figure": "First geometry-conditioned framework for generating buildable brick structures via autoregressive modeling",
-    "abstract": "BrickAnything is an autoregressive framework that generates physically buildable brick structures from diverse 3D representations. It uses point clouds and a structure-aware tree tokenization to ensure the generated sequences adhere to assembly constraints, improving the consistency and validity of the output. The method enhances buildability objectives and demonstrates effective performance in pr"
+    "abstract": "BrickAnything is an autoregressive framework that generates physically buildable brick structures from diverse 3D representations. It uses point clouds and a structure-aware tree tokenization to ensure the generated sequences adhere to assembly constraints, improving the consistency and validity of the output. The method enhances buildability objectives and demonstrates effective performance in pr",
+    "codeUrl": "https://github.com/xjtunzy/BrickAnything"
   },
   {
     "id": "metric-phase-fields",
@@ -9059,7 +9061,7 @@
     ],
     "year": 2025,
     "month": 11,
-    "venue": "arXiv",
+    "venue": "3DV",
     "venueYear": 2025,
     "tags": [
       "PointCloud",
@@ -15346,7 +15348,7 @@
     ],
     "year": 2025,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "3DV",
     "venueYear": 2025,
     "tags": [
       "SDF",
@@ -19349,11 +19351,12 @@
       "3DGS"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2409.13418",
     "project": "",
     "figure": "First dual contouring method for occupancy functions achieving state-of-the-art performance.",
-    "abstract": "This paper presents a dual contouring method that enhances the conversion of occupancy functions to meshes, addressing issues like staircase artifacts from Marching Cubes. The method is designed for GPU parallelization and introduces auxiliary points for improved surface normal computation, demonstrating superior fidelity in 3D mesh generation compared to existing methods."
+    "abstract": "This paper presents a dual contouring method that enhances the conversion of occupancy functions to meshes, addressing issues like staircase artifacts from Marching Cubes. The method is designed for GPU parallelization and introduces auxiliary points for improved surface normal computation, demonstrating superior fidelity in 3D mesh generation compared to existing methods.",
+    "codeUrl": "https://github.com/KAIST-Visual-AI-Group/ODC"
   },
   {
     "id": "3dtopia-xl",
@@ -20603,7 +20606,7 @@
     ],
     "year": 2024,
     "month": 7,
-    "venue": "arXiv",
+    "venue": "3DV",
     "venueYear": 2024,
     "tags": [
       "Mesh",
@@ -28276,7 +28279,7 @@
     ],
     "year": 2023,
     "month": 7,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2023,
     "tags": [
       "PointCloud",
@@ -28347,7 +28350,7 @@
     ],
     "year": 2023,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2023,
     "tags": [
       "VAE",
