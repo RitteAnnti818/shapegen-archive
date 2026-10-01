@@ -2778,11 +2778,12 @@
       "Generation"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2605.29655",
-    "project": "",
+    "project": "https://lidan233.github.io/supervoxelgpt/",
     "figure": "First adaptive and ordered 3D tokenization for autoregressive shape generation via SuperVoxelVAE.",
-    "abstract": "SuperVoxelGPT introduces a novel framework for 3D shape generation that utilizes adaptive and ordered supervoxel tokenization to improve the efficiency and quality of autoregressive models. By predicting a geometric saliency distribution and employing centroidal Voronoi tessellation, it optimizes token sequences, achieving significant reductions in length and improvements in generation speed and q"
+    "abstract": "SuperVoxelGPT introduces a novel framework for 3D shape generation that utilizes adaptive and ordered supervoxel tokenization to improve the efficiency and quality of autoregressive models. By predicting a geometric saliency distribution and employing centroidal Voronoi tessellation, it optimizes token sequences, achieving significant reductions in length and improvements in generation speed and q",
+    "codeUrl": "https://github.com/lidan233/SuperVoxelGPT"
   },
   {
     "id": "gap3d",
@@ -11648,7 +11649,7 @@
     ],
     "year": 2025,
     "month": 7,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2025,
     "tags": [
       "Implicit",
@@ -17578,7 +17579,7 @@
     ],
     "year": 2024,
     "month": 12,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2024,
     "tags": [
       "Representation",
@@ -19416,7 +19417,7 @@
     ],
     "year": 2024,
     "month": 9,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH Asia",
     "venueYear": 2024,
     "tags": [
       "SDF",
@@ -28389,7 +28390,7 @@
     ],
     "year": 2023,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH Asia",
     "venueYear": 2023,
     "tags": [
       "Implicit",
