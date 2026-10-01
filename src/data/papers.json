@@ -391,7 +391,7 @@
     ],
     "year": 2026,
     "month": 7,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2026,
     "tags": [
       "Implicit",
@@ -584,7 +584,8 @@
     "project": "https://kookie12.github.io/InSpace-Project-Page/",
     "figure": "First structure-aware framework for 3D indoor scene generation from a single 360° image via flow matching",
     "abstract": "InSpace is a framework designed for generating 3D indoor scenes from a single 360° image. It addresses the challenge of structural layout in scene generation by estimating partial geometry, generating coarse structures, and producing detailed layouts and asset geometry with textures. The method shows strong performance in generating complete scenes and textured assets.",
-    "figureUrl": "https://kookie12.github.io/InSpace-Project-Page/static/figures/teaser.webp"
+    "figureUrl": "https://kookie12.github.io/InSpace-Project-Page/static/figures/teaser.webp",
+    "codeUrl": "https://github.com/naver/inspace"
   },
   {
     "id": "cggs",
@@ -1613,12 +1614,13 @@
       "Generation"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2606.20131",
     "project": "https://derkleineli.github.io/triflow/",
     "figure": "First generative model for producing artist-like 3D mesh topology via nearest-vertex vector fields.",
     "abstract": "TriFlow introduces a novel method for generating compact 3D meshes with artist-like topology from input geometry conditions like signed distance fields. It utilizes a nearest-vertex vector field to represent mesh topology and employs a latent flow-matching model for synthesis. The approach enhances topology quality and generalization, achieving significant improvements over existing methods.",
-    "figureUrl": "https://derkleineli.github.io/triflow/static/images/teaser.png?v=baked2"
+    "figureUrl": "https://derkleineli.github.io/triflow/static/images/teaser.png?v=baked2",
+    "codeUrl": "https://github.com/DerKleineLi/triflow"
   },
   {
     "id": "pointdiffusion",
@@ -1698,7 +1700,7 @@
     ],
     "year": 2026,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2026,
     "tags": [
       "PointCloud",
@@ -2620,7 +2622,7 @@
     ],
     "year": 2026,
     "month": 6,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Implicit",
