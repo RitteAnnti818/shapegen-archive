@@ -186,7 +186,8 @@
     "arxiv": "https://arxiv.org/abs/2608.02432",
     "project": "https://huggingface.co/Mo-nan/PointRSP",
     "figure": "First autoregressive point cloud generator that preserves topology via recursive spectral partitioning.",
-    "abstract": "PointRSP introduces an autoregressive framework for point cloud generation that maintains topological coherence through a topology-aware partitioning autoencoder. It reformulates generation as a tessellation process, utilizing a dual-stream cascaded generator for structural evolution and feature synthesis. The method achieves state-of-the-art performance in quality and diversity across complex 3D "
+    "abstract": "PointRSP introduces an autoregressive framework for point cloud generation that maintains topological coherence through a topology-aware partitioning autoencoder. It reformulates generation as a tessellation process, utilizing a dual-stream cascaded generator for structural evolution and feature synthesis. The method achieves state-of-the-art performance in quality and diversity across complex 3D ",
+    "figureUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Mo-nan/PointRSP.png"
   },
   {
     "id": "chunkvae",
@@ -404,7 +405,8 @@
     "arxiv": "https://arxiv.org/abs/2607.01202",
     "project": "https://research.nvidia.com/labs/amri/projects/world-from-motion/",
     "figure": "First method to generate dynamic 3D Gaussian representations from monocular video via a video model.",
-    "abstract": "World from Motion introduces a technique for generating dynamic 3D Gaussian representations from monocular videos. It utilizes pixel-aligned renderings to enhance appearance and geometry while correcting artifacts. The model is trained on a dataset of multiview video pairs and dynamic 3DGS representations, achieving state-of-the-art results in 4D reconstruction and adapting to various video condit"
+    "abstract": "World from Motion introduces a technique for generating dynamic 3D Gaussian representations from monocular videos. It utilizes pixel-aligned renderings to enhance appearance and geometry while correcting artifacts. The model is trained on a dataset of multiview video pairs and dynamic 3DGS representations, achieving state-of-the-art results in 4D reconstruction and adapting to various video condit",
+    "figureUrl": "https://research.nvidia.com/labs/amri/projects/world-from-motion/thumbnails/og_image.jpg"
   },
   {
     "id": "pano2world",
@@ -985,7 +987,8 @@
     "arxiv": "https://arxiv.org/abs/2607.17145",
     "project": "https://xdlbw.github.io/Text2Villa/",
     "figure": "First hierarchical framework for generating 3D indoor environments from text via autoregressive layout generation.",
-    "abstract": "Text2Villa introduces a hierarchical generative framework for creating 3D indoor scenes from natural language, addressing challenges in generating multi-room structures and ensuring physical realism. It utilizes an autoregressive layout generator and a physical-semantic scene graph to enforce geometric constraints, resulting in high-fidelity, physically plausible environments."
+    "abstract": "Text2Villa introduces a hierarchical generative framework for creating 3D indoor scenes from natural language, addressing challenges in generating multi-room structures and ensuring physical realism. It utilizes an autoregressive layout generator and a physical-semantic scene graph to enforce geometric constraints, resulting in high-fidelity, physically plausible environments.",
+    "figureUrl": "https://xdlbw.github.io/Text2Villa/static/images/figures/teaser.webp"
   },
   {
     "id": "paracad",
@@ -2631,7 +2634,8 @@
     "project": "https://adamcwan.github.io/NaLA/",
     "figure": "First native 3D LLM layout agent for high-quality 3D scene generation.",
     "abstract": "NaLA is a native 3D LLM layout agent designed to enhance 3D scene generation by directly encoding 3D assets and boundaries, thus reducing information loss. It employs a coarse-to-fine prediction mechanism for asset positioning and orientation, achieving improved generation quality and efficiency compared to previous layout agents.",
-    "codeUrl": "https://github.com/adamcwan/NaLA-code"
+    "codeUrl": "https://github.com/adamcwan/NaLA-code",
+    "figureUrl": "https://adamcwan.github.io/NaLA/assets/teaser.jpg"
   },
   {
     "id": "polyflow",
@@ -16452,7 +16456,8 @@
     "project": "https://www.infinitescript.com/project/city-dreamer-4d/",
     "figure": "First model that generates unbounded 4D cities using compositional generative techniques.",
     "abstract": "CityDreamer4D is a compositional generative model designed for generating unbounded 4D cities, addressing the complexities of dynamic and static objects. It separates dynamic elements like vehicles from static structures such as buildings, utilizing neural fields for various object types. The model supports instance editing and urban simulation, backed by comprehensive datasets for city generation",
-    "codeUrl": "https://github.com/hzxie/CityDreamer4D"
+    "codeUrl": "https://github.com/hzxie/CityDreamer4D",
+    "figureUrl": "https://www.infinitescript.com/projects/CityDreamer4D/CityDreamer4D-Thumbnail.webp"
   },
   {
     "id": "f3d-gaus",
@@ -21265,7 +21270,8 @@
     "project": "https://haozhexie.com/project/gaussian-city",
     "figure": "First efficient framework for unbounded 3D city generation via Gaussian Splatting",
     "abstract": "GaussianCity introduces a generative framework for efficiently synthesizing unbounded 3D cities using Gaussian Splatting. It employs a compact 3D scene representation and a spatial-aware decoder to manage VRAM usage, achieving state-of-the-art results in city generation with significant speed improvements over previous methods.",
-    "codeUrl": "https://github.com/hzxie/GaussianCity"
+    "codeUrl": "https://github.com/hzxie/GaussianCity",
+    "figureUrl": "https://www.infinitescript.com/projects/GaussianCity/GaussianCity-Thumbnail.webp"
   },
   {
     "id": "sym3d",
@@ -27848,7 +27854,8 @@
     "project": "https://haozhexie.com/project/city-dreamer",
     "figure": "First compositional generative model for unbounded 3D cities via neural fields",
     "abstract": "CityDreamer is a generative model for creating unbounded 3D cities, addressing the complexities of urban environments. It utilizes a composition of neural fields for building instances and background elements, employing a bird's eye view representation. The model achieves state-of-the-art results in generating realistic city layouts and allows for localized editing within the generated scenes.",
-    "codeUrl": "https://github.com/hzxie/City-Dreamer"
+    "codeUrl": "https://github.com/hzxie/City-Dreamer",
+    "figureUrl": "https://www.infinitescript.com/projects/CityDreamer/CityDreamer-Thumbnail.webp"
   },
   {
     "id": "buildiff",
