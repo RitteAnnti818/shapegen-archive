@@ -401,12 +401,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2607.01202",
     "project": "https://research.nvidia.com/labs/amri/projects/world-from-motion/",
     "figure": "First method to generate dynamic 3D Gaussian representations from monocular video via a video model.",
     "abstract": "World from Motion introduces a technique for generating dynamic 3D Gaussian representations from monocular videos. It utilizes pixel-aligned renderings to enhance appearance and geometry while correcting artifacts. The model is trained on a dataset of multiview video pairs and dynamic 3DGS representations, achieving state-of-the-art results in 4D reconstruction and adapting to various video condit",
-    "figureUrl": "https://research.nvidia.com/labs/amri/projects/world-from-motion/thumbnails/og_image.jpg"
+    "figureUrl": "https://research.nvidia.com/labs/amri/projects/world-from-motion/thumbnails/og_image.jpg",
+    "codeUrl": "https://github.com/GradientSpaces/World-from-Motion"
   },
   {
     "id": "pano2world",
@@ -2769,7 +2770,7 @@
     ],
     "year": 2026,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Voxel",
@@ -3307,7 +3308,7 @@
     ],
     "year": 2026,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2026,
     "tags": [
       "Mesh",
@@ -4355,7 +4356,7 @@
     ],
     "year": 2026,
     "month": 4,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "venueYear": 2026,
     "tags": [
       "Implicit",
@@ -5027,7 +5028,7 @@
     ],
     "year": 2026,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "SDF",
@@ -5134,12 +5135,13 @@
       "Scene"
     ],
     "citations": 0,
-    "code": false,
+    "code": true,
     "arxiv": "https://arxiv.org/abs/2603.21064",
     "project": "https://hwasikjeong.github.io/2Xplat",
     "figure": "First pose-free feed-forward 3D Gaussian Splatting framework using a two-expert design",
     "abstract": "2Xplat introduces a novel pose-free feed-forward framework for 3D Gaussian Splatting that separates geometry estimation from Gaussian generation using two experts. This approach enhances the quality of 3D modeling from uncalibrated multi-view images, outperforming previous methods and suggesting benefits of modular design in 3D geometric tasks.",
-    "figureUrl": "https://hwasikjeong.github.io/static/images/teaser_top.png"
+    "figureUrl": "https://hwasikjeong.github.io/static/images/teaser_top.png",
+    "codeUrl": "https://github.com/HwasikJeong/2Xplat"
   },
   {
     "id": "dreampartgen",
@@ -5308,7 +5310,7 @@
     ],
     "year": 2026,
     "month": 3,
-    "venue": "arXiv",
+    "venue": "ECCV",
     "venueYear": 2026,
     "tags": [
       "Implicit",
@@ -8084,8 +8086,8 @@
     ],
     "year": 2025,
     "month": 11,
-    "venue": "arXiv",
-    "venueYear": 2025,
+    "venue": "ECCV",
+    "venueYear": 2026,
     "tags": [
       "Mesh",
       "Diffusion",
