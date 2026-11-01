@@ -491,7 +491,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2607.06565",
-    "project": "",
+    "project": "https://plan-lab.github.io/elsa3D",
     "figure": "First unified 3D model that generates 3D assets and reasons about them using elastic semantic anchoring.",
     "abstract": "ELSA3D is a unified 3D model that enhances text-3D interaction by structuring language and geometric reasoning along matched abstraction scales. It utilizes a scale-aware octree tokenizer and Anchor Tokens to improve the generation of 3D assets from text and images, achieving state-of-the-art performance while reducing computational costs."
   },
@@ -3254,7 +3254,7 @@
     "citations": 0,
     "code": false,
     "arxiv": "https://arxiv.org/abs/2605.16813",
-    "project": "",
+    "project": "https://graphic-kiliani.github.io/QuadLink-homepage/",
     "figure": "First quad-dominant mesh generator that links points into structured faces via a hybrid model",
     "abstract": "QuadLink is a framework for generating quad-dominant meshes from point clouds, addressing the limitations of existing methods that produce only triangular or isotropic meshes. It employs a centroid-conditioned vertex linking model to create sparse and anisotropic meshes with coherent edge flow, supporting hybrid polygonal topology. The method shows improved geometric fidelity and topological quali"
   },
@@ -13450,7 +13450,7 @@
     ],
     "year": 2025,
     "month": 5,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2025,
     "tags": [
       "PointCloud",
@@ -18137,7 +18137,7 @@
     ],
     "year": 2024,
     "month": 11,
-    "venue": "arXiv",
+    "venue": "SIGGRAPH Asia",
     "venueYear": 2024,
     "tags": [
       "Mesh",
@@ -22467,7 +22467,7 @@
     ],
     "year": 2024,
     "month": 4,
-    "venue": "arXiv",
+    "venue": "3DV",
     "venueYear": 2024,
     "tags": [
       "Implicit",
@@ -27875,7 +27875,7 @@
     ],
     "year": 2023,
     "month": 8,
-    "venue": "arXiv",
+    "venue": "ICCV",
     "venueYear": 2023,
     "tags": [
       "PointCloud",
@@ -28932,7 +28932,7 @@
     ],
     "year": 2023,
     "month": 4,
-    "venue": "arXiv",
+    "venue": "CVPR",
     "venueYear": 2023,
     "tags": [
       "Voxel",
@@ -28992,7 +28992,7 @@
     ],
     "year": 2023,
     "month": 4,
-    "venue": "arXiv",
+    "venue": "CVPR",
     "venueYear": 2023,
     "tags": [
       "Implicit",
