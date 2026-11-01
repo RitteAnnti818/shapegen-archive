@@ -2783,7 +2783,8 @@
     "project": "https://lidan233.github.io/supervoxelgpt/",
     "figure": "First adaptive and ordered 3D tokenization for autoregressive shape generation via SuperVoxelVAE.",
     "abstract": "SuperVoxelGPT introduces a novel framework for 3D shape generation that utilizes adaptive and ordered supervoxel tokenization to improve the efficiency and quality of autoregressive models. By predicting a geometric saliency distribution and employing centroidal Voronoi tessellation, it optimizes token sequences, achieving significant reductions in length and improvements in generation speed and q",
-    "codeUrl": "https://github.com/lidan233/SuperVoxelGPT"
+    "codeUrl": "https://github.com/lidan233/SuperVoxelGPT",
+    "figureUrl": "https://lidan233.github.io/supervoxelgpt/assets/pipeline_figure.png"
   },
   {
     "id": "gap3d",
@@ -5137,7 +5138,8 @@
     "arxiv": "https://arxiv.org/abs/2603.21064",
     "project": "https://hwasikjeong.github.io/2Xplat",
     "figure": "First pose-free feed-forward 3D Gaussian Splatting framework using a two-expert design",
-    "abstract": "2Xplat introduces a novel pose-free feed-forward framework for 3D Gaussian Splatting that separates geometry estimation from Gaussian generation using two experts. This approach enhances the quality of 3D modeling from uncalibrated multi-view images, outperforming previous methods and suggesting benefits of modular design in 3D geometric tasks."
+    "abstract": "2Xplat introduces a novel pose-free feed-forward framework for 3D Gaussian Splatting that separates geometry estimation from Gaussian generation using two experts. This approach enhances the quality of 3D modeling from uncalibrated multi-view images, outperforming previous methods and suggesting benefits of modular design in 3D geometric tasks.",
+    "figureUrl": "https://hwasikjeong.github.io/static/images/teaser_top.png"
   },
   {
     "id": "dreampartgen",
